@@ -1,0 +1,2001 @@
+﻿Date,Employee_Name,Department,item_code,product_name,Số lượng
+2024-05-18,Bảo Thế Nguyễn,phòng kinh doanh,BEMYA0,đèn LED tròn,35
+2024-05-19,Cô Nhật Mai,phòng nhân sự,T1L0SM,đèn bàn học,33
+2024-03-19,Quang Bảo Dương,phòng kinh doanh,UVOBI,đèn LED tròn,21
+2024-08-12,Tùng Trí Trần,phòng R&D,8XWYH,đèn LED tròn,95
+2024-01-15,Hưng Văn Hoàng,phòng R&D,1GSMF,đèn LED âm trần,88
+2024-05-07,Phúc Hoàng,phòng kinh doanh,K2VOB,đèn cảm ứng,36
+2025-02-14,Tùng Lê,phòng R&D,1W1MPM,đèn bàn học,18
+2024-06-26,Anh Huy Trần,phòng kỹ thuật,KUKR7,đèn bàn học,60
+2024-07-15,Chị Nhật Trần,phòng R&D,5BK3MX,đèn LED âm trần,12
+2024-01-11,Tú Mai Bảo Bùi,phòng kỹ thuật,1KA6M9,đèn LED âm trần,24
+2024-02-20,Kim Hoàng,phòng kinh doanh,TNHNYB,đèn LED tròn,42
+2024-08-05,Phúc Quang Phạm,phòng nhân sự,4ES1XW,đèn cảm ứng,32
+2024-12-27,Khoa Hoàng Đặng,phòng kỹ thuật,71SK5,đèn LED âm trần,91
+2025-02-17,Ông Trung Đặng,phòng R&D,U2PCI,đèn LED tròn,3
+2024-07-25,Anh Minh Vũ,phòng R&D,M2FTGQ,đèn LED âm trần,25
+2024-10-09,Dũng Tấn Phạm,phòng kinh doanh,5ORV2J,đèn LED âm trần,32
+2025-02-06,Hà Hải Đặng,phòng kinh doanh,MGNPNY,đèn cảm ứng,4
+2024-12-22,Nhật Phạm,phòng kinh doanh,ITMBGO,đèn LED tròn,62
+2024-05-04,Ông Hưng Hoàng,phòng kỹ thuật,5Y208,đèn LED âm trần,41
+2024-05-03,Trọng Quang Lê,phòng nhân sự,AYIU75,đèn LED âm trần,89
+2025-01-21,Trung Vũ,phòng kinh doanh,AODCM,đèn bàn học,88
+2024-04-19,Bà Thành Nguyễn,phòng R&D,ID94X,đèn LED âm trần,11
+2024-10-08,Ông Minh Vũ,phòng nhân sự,I6CB7,đèn LED tròn,60
+2024-11-26,Quang Bùi,phòng kỹ thuật,9J2A7,đèn LED tròn,69
+2024-06-10,Trung Hoàng Vũ,phòng nhân sự,U3PW4N,đèn bàn học,63
+2024-11-07,Anh Châu Đặng,phòng kinh doanh,Z60VX,đèn LED âm trần,23
+2024-11-11,Quý cô Hải Mai,phòng kỹ thuật,6GFJRH,đèn LED âm trần,75
+2024-09-21,Ngọc Dương,phòng R&D,FM9H7E,đèn cảm ứng,40
+2024-09-01,Anh Khoa Đặng,phòng R&D,67W3W,đèn cảm ứng,94
+2024-02-14,Anh Nam Dương,phòng nhân sự,CXXHD3,đèn bàn học,72
+2024-06-29,Quý cô Nhật Dương,phòng kỹ thuật,8UE6T,đèn cảm ứng,42
+2024-07-15,Tùng Bùi,phòng kỹ thuật,I8L5G9,đèn bàn học,48
+2024-05-27,Quý ông Khoa Bùi,phòng kinh doanh,YB5KU0,đèn cảm ứng,98
+2024-11-01,Nam Phú Vũ,phòng kỹ thuật,QIOWM,đèn cảm ứng,57
+2025-02-08,Nhật Đặng,phòng kỹ thuật,GR17PL,đèn LED âm trần,12
+2025-02-17,Minh Dương,phòng kinh doanh,QXHDX,đèn LED tròn,49
+2024-04-27,Vân Trần,phòng R&D,CPSJEI,đèn cảm ứng,1
+2024-09-04,Kim Văn Phạm,phòng R&D,COQA9R,đèn LED tròn,25
+2024-10-16,Chị Ánh Hoàng,phòng R&D,T0GVAH,đèn bàn học,66
+2024-12-09,Cô Lan Vũ,phòng kinh doanh,TM4VX8,đèn LED tròn,5
+2024-12-01,Nhật Hoàng,phòng R&D,VL575,đèn cảm ứng,60
+2024-05-24,Hưng Nguyễn,phòng R&D,PB2KZ,đèn LED tròn,76
+2024-06-14,Hải Mai Vũ,phòng kỹ thuật,KJEIF,đèn LED tròn,9
+2025-01-12,Mai Mai,phòng kinh doanh,EALM58,đèn LED âm trần,85
+2024-07-24,Lâm Mai,phòng R&D,ZDG5Z,đèn LED âm trần,27
+2024-03-17,Chị Kim Đặng,phòng nhân sự,77U1V,đèn LED tròn,51
+2024-02-25,Trung Quang Nguyễn,phòng R&D,WHHE8,đèn LED tròn,94
+2024-02-03,Quý cô Xuân Nguyễn,phòng kỹ thuật,38P6B5,đèn LED âm trần,71
+2024-02-18,Quý cô Linh Vũ,phòng kỹ thuật,VXIKX1,đèn LED tròn,62
+2024-05-16,Hạnh Đặng,phòng nhân sự,3O6OM,đèn cảm ứng,39
+2024-10-10,Chị Thảo Đặng,phòng kinh doanh,1QTUD,đèn LED tròn,85
+2025-03-06,Chi Dương,phòng nhân sự,TOQUO,đèn LED âm trần,19
+2024-01-26,Quý ông Quang Dương,phòng nhân sự,NL1BVE,đèn LED tròn,54
+2024-12-18,Bác Minh Lê,phòng kỹ thuật,NCYJN,đèn cảm ứng,66
+2025-03-14,Phương Hoàng,phòng kinh doanh,ZLXJZ5,đèn bàn học,1
+2025-01-06,Hoàng Hoàng,phòng kinh doanh,X6C7WZ,đèn LED tròn,68
+2024-11-23,Phương Mai Dương,phòng kỹ thuật,4V23T8,đèn bàn học,91
+2024-01-21,Chị Lâm Phạm,phòng kinh doanh,FZJXH,đèn LED tròn,28
+2024-02-06,Lâm Lê,phòng kinh doanh,TIM8G,đèn LED tròn,53
+2024-05-18,Huy Bùi,phòng nhân sự,STFUF,đèn bàn học,26
+2025-01-07,Chị Hồng Nguyễn,phòng R&D,L693VZ,đèn LED âm trần,18
+2024-11-16,Chị Mai Phạm,phòng kinh doanh,K0DKS3,đèn LED tròn,100
+2024-08-24,Chị Hải Phạm,phòng R&D,H6UKA,đèn bàn học,18
+2024-08-06,Anh Nhiên Phạm,phòng nhân sự,JEPNUR,đèn LED tròn,1
+2024-11-24,Nhật Hoàng,phòng kỹ thuật,GJGZ04,đèn bàn học,14
+2024-08-30,Thành Lê,phòng nhân sự,MK109F,đèn cảm ứng,90
+2024-02-15,Khoa Lê,phòng kỹ thuật,ULN9FH,đèn cảm ứng,44
+2024-06-25,An Thị Mai,phòng nhân sự,JHNX8,đèn LED âm trần,79
+2024-11-25,Chị Hải Lê,phòng kỹ thuật,50GBEY,đèn LED âm trần,96
+2024-06-07,Bà Hạnh Hoàng,phòng R&D,F0I9VW,đèn LED tròn,21
+2024-12-08,Quý cô Hải Mai,phòng kỹ thuật,ZKBGL,đèn bàn học,52
+2024-10-29,Bác Huy Hoàng,phòng kỹ thuật,IH7IHG,đèn LED tròn,91
+2025-02-15,Mai Đặng,phòng kỹ thuật,1HN7Y0,đèn bàn học,74
+2024-03-01,Anh Phú Mai,phòng R&D,B5XFPL,đèn LED tròn,41
+2024-01-21,Cô Bảo Trần,phòng nhân sự,2D7C4Z,đèn cảm ứng,36
+2025-03-31,Chị Chi Nguyễn,phòng nhân sự,A3LZ0,đèn LED âm trần,98
+2024-05-18,Hà Xuân Hoàng,phòng kinh doanh,BFCUDH,đèn LED âm trần,90
+2024-02-22,Nam Hoàng,phòng R&D,0O3R5,đèn bàn học,14
+2024-10-03,Phương Hữu Hoàng,phòng nhân sự,300WOH,đèn cảm ứng,39
+2024-01-06,Nhật Thị Bùi,phòng R&D,DG4ST,đèn LED âm trần,41
+2024-06-21,Cô Lâm Hoàng,phòng nhân sự,W9LPL,đèn bàn học,44
+2024-12-02,Dũng Mai Bảo Nguyễn,phòng R&D,8VQ6M,đèn LED tròn,53
+2024-09-10,Khoa Mai Phạm,phòng kinh doanh,KSH32L,đèn bàn học,18
+2024-10-01,Nam Quang Đặng,phòng kỹ thuật,ZFQTO,đèn cảm ứng,87
+2025-01-15,Cô Lâm Trần,phòng nhân sự,G7AH0,đèn LED tròn,97
+2025-03-27,Hưng Lê,phòng kỹ thuật,7GGL0I,đèn cảm ứng,41
+2025-02-06,Bác Nam Hoàng,phòng R&D,7FME9P,đèn LED tròn,18
+2024-01-27,Khoa Bảo Phạm,phòng kỹ thuật,SBL0D,đèn bàn học,14
+2025-01-30,Bác Hoàng Trần,phòng nhân sự,AHL4O,đèn bàn học,71
+2024-12-09,Chị An Mai,phòng kỹ thuật,DOC5H8,đèn LED âm trần,93
+2025-02-21,Hạnh Thế Vũ,phòng nhân sự,F16MV,đèn cảm ứng,65
+2024-09-15,Hải Lê,phòng kỹ thuật,NXVJG,đèn cảm ứng,8
+2025-04-08,Quý cô Chi Dương,phòng kinh doanh,0K1CY,đèn LED tròn,3
+2025-01-06,Tú Vũ,phòng kỹ thuật,1KHL3N,đèn bàn học,92
+2024-02-15,Huy Nguyễn,phòng kỹ thuật,W24SQ9,đèn cảm ứng,50
+2024-05-10,Phương Hoàng,phòng R&D,EMNVJ,đèn bàn học,75
+2024-04-29,Dũng Hoàng,phòng nhân sự,GD8R3G,đèn LED tròn,40
+2024-03-02,Quý cô Xuân Lê,phòng kinh doanh,EAHC6C,đèn bàn học,83
+2024-05-12,Yến Trần,phòng kỹ thuật,X5QFK0,đèn LED âm trần,76
+2024-02-08,Linh Vũ,phòng kinh doanh,Y2JIM,đèn LED tròn,7
+2024-03-20,Khoa Vũ,phòng kỹ thuật,70IFVI,đèn bàn học,65
+2024-03-30,An Văn Nguyễn,phòng kỹ thuật,ES6YF,đèn cảm ứng,70
+2024-10-23,Bà Yến Bùi,phòng R&D,NJCTS,đèn cảm ứng,51
+2024-02-20,Ông Quang Nguyễn,phòng R&D,X2485,đèn LED tròn,31
+2024-06-06,Hạnh Thị Dương,phòng kỹ thuật,QOXWPA,đèn bàn học,67
+2024-04-20,Duyên Mai,phòng nhân sự,BZTYJ,đèn LED âm trần,79
+2024-02-20,Lâm Hoàng Nguyễn,phòng kỹ thuật,CB4OJX,đèn LED tròn,80
+2024-04-16,Trung Lê,phòng kỹ thuật,905CO,đèn LED tròn,20
+2024-11-03,Vi Trần,phòng kinh doanh,3UOCW0,đèn LED âm trần,32
+2024-04-17,Yến Vũ,phòng kỹ thuật,IAR5Q,đèn LED tròn,19
+2024-05-01,Chị Hồng Lê,phòng R&D,SMDT2,đèn LED âm trần,76
+2024-11-20,Thảo Mai,phòng R&D,9DU9T1,đèn bàn học,70
+2024-08-28,Thành Đức Mai,phòng kinh doanh,WV0C5,đèn bàn học,74
+2024-06-24,Cô Linh Hoàng,phòng nhân sự,78A6ZN,đèn LED âm trần,27
+2024-04-13,Yến Bùi,phòng kinh doanh,370LZ,đèn bàn học,52
+2025-03-05,Bác Dũng Bùi,phòng kinh doanh,BVMBRQ,đèn LED tròn,8
+2024-06-28,Anh Khoa Lê,phòng kinh doanh,7KW21Z,đèn bàn học,98
+2024-09-01,Nhật Vũ,phòng kỹ thuật,73F34,đèn LED tròn,79
+2025-02-14,Anh Mai,phòng kinh doanh,5ZX9B,đèn LED âm trần,21
+2024-02-21,Hà Thị Trần,phòng R&D,8EWG0,đèn cảm ứng,98
+2024-03-12,Quý cô Nhật Mai,phòng R&D,Z39Z4S,đèn cảm ứng,12
+2024-03-30,Quang Đức Hoàng,phòng kinh doanh,GCHYS,đèn bàn học,37
+2024-05-16,Vân Bùi,phòng nhân sự,JJI7H,đèn LED âm trần,61
+2025-04-03,Quý ông Phúc Bùi,phòng kinh doanh,56O2I,đèn LED âm trần,5
+2024-06-10,Quang Quang Nguyễn,phòng kinh doanh,QOYSXY,đèn LED tròn,1
+2024-12-21,Hạnh Mai,phòng R&D,RLAUD,đèn LED âm trần,25
+2024-09-15,Anh Bùi,phòng R&D,L6M3Z,đèn LED tròn,94
+2025-01-18,Dương Vũ,phòng kỹ thuật,XL5JUH,đèn bàn học,22
+2024-11-01,Chị Dương Nguyễn,phòng kinh doanh,WCAWUB,đèn bàn học,56
+2024-08-20,Ông Bảo Phạm,phòng nhân sự,79M7NB,đèn cảm ứng,18
+2024-10-20,Anh Trung Phạm,phòng kỹ thuật,COZR2,đèn cảm ứng,84
+2025-02-18,Dương Nguyễn,phòng nhân sự,OCCPHA,đèn LED âm trần,31
+2024-06-27,Hải Vũ,phòng nhân sự,WOESO,đèn bàn học,44
+2024-04-12,Dũng Lê,phòng kinh doanh,L9QKR6,đèn LED tròn,64
+2025-01-11,Lâm Phú Lê,phòng kinh doanh,BYOGO2,đèn LED âm trần,6
+2025-03-12,Trọng Thị Mai,phòng R&D,96K3ZG,đèn cảm ứng,100
+2024-11-10,Hải Vũ,phòng kinh doanh,LZ3AZ,đèn LED âm trần,41
+2024-05-28,Quý cô Vân Nguyễn,phòng kỹ thuật,44JM76,đèn LED tròn,99
+2025-03-12,An Dương,phòng kinh doanh,HJFOT,đèn LED tròn,97
+2024-07-20,Minh Thế Phạm,phòng kỹ thuật,MUVJLN,đèn LED tròn,66
+2025-02-10,Vân Hoàng,phòng kinh doanh,BLUMZ,đèn LED tròn,23
+2024-05-19,Trung Phạm,phòng kỹ thuật,NW3DN,đèn cảm ứng,73
+2024-06-29,Trọng Văn Mai,phòng R&D,TZ4PM,đèn bàn học,8
+2025-04-08,Chị Nhật Trần,phòng R&D,XJBMU,đèn LED âm trần,79
+2024-01-23,Kim Dương,phòng R&D,7IFC38,đèn LED âm trần,64
+2024-05-08,Khoa Mai,phòng kỹ thuật,NHX4KH,đèn bàn học,10
+2024-10-21,Kim Lê,phòng kỹ thuật,NZ7PGZ,đèn cảm ứng,47
+2024-07-17,Chị Hải Nguyễn,phòng nhân sự,BID6S7,đèn LED âm trần,43
+2024-11-22,Bà Hà Mai,phòng R&D,4B2DMN,đèn LED tròn,40
+2025-02-09,Ông Trung Lê,phòng R&D,X8LBB,đèn LED âm trần,89
+2024-10-08,Bảo Đức Dương,phòng kinh doanh,VSPED,đèn bàn học,80
+2024-09-09,Bà Vi Dương,phòng R&D,KA31Y,đèn bàn học,95
+2024-10-25,Ông Huy Nguyễn,phòng kỹ thuật,FTGS8,đèn LED tròn,80
+2025-01-26,Thành Đặng,phòng R&D,X72O64,đèn cảm ứng,59
+2024-08-31,Anh Trần,phòng R&D,6DEO08,đèn bàn học,59
+2024-11-28,Chị Bảo Bùi,phòng nhân sự,W4T7WA,đèn bàn học,13
+2024-07-07,Bác Châu Đặng,phòng kỹ thuật,L43ZY,đèn cảm ứng,8
+2024-03-05,Nhật Dương,phòng kinh doanh,VMJMJZ,đèn LED tròn,1
+2024-08-16,Quý cô Lan Dương,phòng nhân sự,8SRYB,đèn cảm ứng,34
+2024-05-05,Yến Nguyễn,phòng kỹ thuật,BEXFV,đèn bàn học,40
+2024-07-02,Anh Trần,phòng kỹ thuật,WZQKH,đèn cảm ứng,26
+2024-06-17,Tùng Dương,phòng kinh doanh,NJJZ9,đèn LED âm trần,86
+2024-05-25,Kim Lê,phòng kỹ thuật,ZVMTV,đèn cảm ứng,82
+2025-03-04,Quý ông Hoàng Nguyễn,phòng kỹ thuật,HOCDJ4,đèn cảm ứng,18
+2024-09-29,Quý cô Xuân Trần,phòng R&D,5LFU9,đèn LED tròn,47
+2025-02-10,Bà Nhật Bùi,phòng nhân sự,QS2C13,đèn LED tròn,75
+2024-08-28,Ông Dũng Phạm,phòng kinh doanh,XAJWI,đèn LED âm trần,10
+2024-12-20,Hương Vũ,phòng R&D,MK6RD,đèn LED tròn,64
+2024-11-11,Chị An Bùi,phòng kỹ thuật,QTS5X,đèn cảm ứng,74
+2024-04-04,Bảo Đặng,phòng kỹ thuật,130RJ,đèn bàn học,73
+2024-07-03,Hạnh Bảo Hoàng,phòng kỹ thuật,V70MR0,đèn bàn học,67
+2024-01-17,Cô Duyên Dương,phòng kinh doanh,50M0V,đèn LED tròn,47
+2024-11-30,Hương Hoàng,phòng R&D,5Y5S5,đèn cảm ứng,95
+2024-02-18,Bà Vi Lê,phòng kinh doanh,A2U8I,đèn LED âm trần,78
+2025-02-17,Khoa Phạm,phòng R&D,Z7IK1,đèn LED âm trần,78
+2025-02-10,Dũng Thế Lê,phòng kinh doanh,DW5JG4,đèn LED âm trần,46
+2024-10-01,Trung Đức Mai,phòng kỹ thuật,1V3PU8,đèn cảm ứng,33
+2024-07-07,Quý cô Ánh Lê,phòng nhân sự,OF1IPU,đèn LED tròn,89
+2024-04-14,Huy Dương,phòng kỹ thuật,0QCX0,đèn LED tròn,22
+2024-09-12,Bác Dũng Đặng,phòng kỹ thuật,5X6QER,đèn LED âm trần,99
+2024-09-26,Vi Nguyễn,phòng kỹ thuật,MGTUAB,đèn bàn học,53
+2024-01-27,Dương Hoàng,phòng nhân sự,XM426,đèn LED âm trần,84
+2024-07-26,Nhiên Hoàng,phòng kỹ thuật,KYQI3,đèn cảm ứng,5
+2024-02-13,Quý ông Trung Lê,phòng R&D,P5MH2,đèn bàn học,77
+2024-01-23,Bà Khoa Mai,phòng R&D,3N5GW6,đèn cảm ứng,83
+2024-03-07,Quý ông Anh Đặng,phòng kinh doanh,M0P83L,đèn LED tròn,42
+2024-11-12,Khoa Đức Đặng,phòng nhân sự,XQFEAA,đèn cảm ứng,19
+2024-10-08,Chị Phương Bùi,phòng kinh doanh,7WERWP,đèn cảm ứng,26
+2025-02-16,Chị Thành Hoàng,phòng kinh doanh,S6BZQU,đèn bàn học,16
+2024-09-29,Ông Huy Hoàng,phòng kinh doanh,RHG1A,đèn bàn học,76
+2025-02-07,Chị Kim Nguyễn,phòng kỹ thuật,9Y1UA,đèn LED tròn,6
+2024-08-07,Bảo Thị Bùi,phòng nhân sự,DLK5W,đèn bàn học,16
+2024-10-17,Dương Bùi,phòng kinh doanh,MSSQI,đèn bàn học,4
+2024-11-11,An Thế Lê,phòng kỹ thuật,IK1GP,đèn LED tròn,56
+2024-04-15,Dũng Thị Mai,phòng R&D,CDC8Y,đèn LED tròn,52
+2024-04-26,Hạnh Hải Trần,phòng nhân sự,Z6QB7,đèn LED âm trần,32
+2024-05-15,Huy Hải Lê,phòng kỹ thuật,FOIRWT,đèn LED âm trần,85
+2025-01-05,Vũ Hoàng,phòng kỹ thuật,NLK80,đèn cảm ứng,2
+2024-05-14,Hoàng Đặng,phòng kỹ thuật,JGH9Y,đèn cảm ứng,4
+2024-01-26,Bác Nam Nguyễn,phòng kỹ thuật,O5XHD,đèn LED âm trần,74
+2025-03-03,Minh Thị Hoàng,phòng kinh doanh,Y9IZL9,đèn bàn học,55
+2024-10-20,Thảo Dương,phòng kỹ thuật,QXWLJ,đèn LED âm trần,41
+2024-12-23,Phương Dương,phòng kinh doanh,PCWI4,đèn cảm ứng,39
+2025-01-25,Chi Dương,phòng nhân sự,LRX8S,đèn LED âm trần,66
+2024-06-18,Cô Nhật Đặng,phòng R&D,KFAQJO,đèn cảm ứng,25
+2024-11-05,Vi Lê,phòng kinh doanh,DQ78P,đèn LED tròn,74
+2025-02-21,Hà Dương,phòng kinh doanh,V2M70M,đèn LED tròn,53
+2024-09-02,Bác Nam Phạm,phòng kỹ thuật,U06X8X,đèn LED tròn,28
+2024-09-23,Anh Văn Vũ,phòng kinh doanh,FM28FL,đèn bàn học,9
+2025-03-21,Chị Chi Nguyễn,phòng R&D,PFGG0,đèn cảm ứng,9
+2024-02-23,Dương Vũ,phòng kỹ thuật,G2602A,đèn bàn học,6
+2025-02-18,Bà Hồng Nguyễn,phòng R&D,KF5P2,đèn LED tròn,17
+2024-09-29,Quý cô Dương Mai,phòng kinh doanh,REL07E,đèn LED âm trần,51
+2024-11-24,Nhật Mai,phòng nhân sự,FT6P9,đèn bàn học,77
+2024-09-11,Nhật Đức Lê,phòng nhân sự,QLRXN,đèn LED tròn,36
+2024-10-04,Cô Thảo Dương,phòng R&D,ZGXCS,đèn cảm ứng,76
+2024-08-15,Hà Hoàng,phòng kỹ thuật,FQPCV,đèn bàn học,74
+2024-06-01,Vân Nguyễn,phòng R&D,X24VEH,đèn LED âm trần,43
+2024-12-20,Bác Trọng Phạm,phòng kỹ thuật,8PUE2,đèn cảm ứng,49
+2024-11-14,Duyên Lê,phòng nhân sự,YXLRC,đèn cảm ứng,94
+2024-12-09,Hải Đặng,phòng nhân sự,O1LVZL,đèn cảm ứng,14
+2024-01-18,Bác Nam Dương,phòng nhân sự,32A8P,đèn LED tròn,39
+2025-02-13,Chị Ngọc Trần,phòng R&D,R66NC,đèn LED âm trần,36
+2025-03-06,Vân Mai,phòng kỹ thuật,N2DFW,đèn bàn học,52
+2025-03-08,Thành Mai Bùi,phòng kỹ thuật,LHVEO,đèn LED tròn,5
+2024-10-24,Nhật Mai Bảo Đặng,phòng kỹ thuật,QLGTV,đèn bàn học,36
+2024-02-12,Minh Tấn Phạm,phòng nhân sự,VEMXO,đèn LED âm trần,33
+2025-01-06,Hạnh Hoàng,phòng nhân sự,61ZF6,đèn bàn học,34
+2024-04-29,Quý cô Linh Đặng,phòng kỹ thuật,X5MLU3,đèn LED tròn,65
+2024-12-01,Hoàng Đặng,phòng kinh doanh,NM5WV,đèn LED tròn,47
+2024-12-17,Cô Chi Phạm,phòng nhân sự,NUGN09,đèn bàn học,29
+2024-11-23,Chị Bảo Mai,phòng kinh doanh,R70IVT,đèn bàn học,97
+2024-06-28,Phương Hoàng,phòng nhân sự,LGZTUH,đèn LED âm trần,32
+2024-10-09,An Mai,phòng kỹ thuật,XCCBA,đèn LED tròn,64
+2025-02-24,Anh Trần,phòng kỹ thuật,IFKUM,đèn LED tròn,23
+2024-06-06,Hải Dương,phòng nhân sự,546YYB,đèn LED tròn,15
+2024-05-05,Ngọc Bùi,phòng kỹ thuật,L0PJW,đèn bàn học,75
+2024-01-01,Dương Nguyễn,phòng R&D,8SX1X,đèn LED âm trần,60
+2025-03-09,Ông Tú Phạm,phòng nhân sự,9MCY6V,đèn LED tròn,38
+2025-03-18,Chị Khoa Hoàng,phòng R&D,VQC62K,đèn LED âm trần,46
+2025-01-10,Cô Duyên Nguyễn,phòng nhân sự,B6AMI,đèn cảm ứng,12
+2025-02-12,Tùng Nguyễn,phòng R&D,CN7KD,đèn bàn học,25
+2024-08-22,Phương Trần,phòng kinh doanh,7QCB9D,đèn LED âm trần,24
+2024-12-16,Tùng Hữu Đặng,phòng kỹ thuật,S1TTK,đèn LED tròn,33
+2024-06-21,Quang Mai Bảo Hoàng,phòng R&D,CK73U,đèn cảm ứng,90
+2025-03-22,Nhật Xuân Bùi,phòng kỹ thuật,4HT4O,đèn cảm ứng,72
+2024-09-02,Trung Trần,phòng kỹ thuật,SQBEI,đèn LED tròn,2
+2024-08-19,Hạnh Mai Đặng,phòng R&D,TGBFJ4,đèn LED âm trần,27
+2025-02-01,Lâm Trí Hoàng,phòng nhân sự,V6V2I,đèn bàn học,90
+2024-10-21,Hoàng Nguyễn,phòng kinh doanh,UN8SS,đèn cảm ứng,98
+2024-04-18,Quý ông Hoàng Hoàng,phòng kinh doanh,CROT0B,đèn bàn học,50
+2024-11-12,Chị Hương Mai,phòng kinh doanh,465VS,đèn LED âm trần,88
+2024-01-16,Chị Thành Dương,phòng nhân sự,DJ72NY,đèn cảm ứng,62
+2025-01-31,Tú Dương,phòng R&D,AEDHGD,đèn cảm ứng,13
+2025-01-01,Lâm Vũ,phòng kinh doanh,1LO5J,đèn bàn học,10
+2024-01-25,Ông Dũng Bùi,phòng nhân sự,W8SDW,đèn cảm ứng,25
+2024-07-24,Anh Dũng Trần,phòng kỹ thuật,OIEVH,đèn cảm ứng,88
+2024-08-27,Cô Chi Bùi,phòng R&D,MWIJF7,đèn LED âm trần,38
+2025-01-15,Quang Quang Lê,phòng kỹ thuật,62YML,đèn LED âm trần,44
+2024-04-16,Mai Hoàng,phòng kinh doanh,LVGGT,đèn bàn học,76
+2024-08-10,Quý ông Trọng Dương,phòng R&D,MGYXA,đèn LED âm trần,62
+2025-01-22,Bà Hồng Phạm,phòng nhân sự,NIEFU,đèn LED tròn,49
+2024-08-24,Cô Nhật Nguyễn,phòng R&D,BGL5P,đèn bàn học,69
+2025-01-02,Khoa Trần,phòng kỹ thuật,N62P1,đèn LED tròn,32
+2025-01-23,Bà Thành Hoàng,phòng kinh doanh,LMCHM,đèn LED âm trần,61
+2024-12-25,Hải Phú Phạm,phòng nhân sự,MAHXP,đèn bàn học,95
+2025-02-11,Bà Hồng Vũ,phòng kinh doanh,NXOCA,đèn LED tròn,2
+2024-10-08,Hải Bùi,phòng R&D,Q9O9VD,đèn bàn học,29
+2024-10-02,Tùng Bảo Bùi,phòng nhân sự,ZT4G7V,đèn LED âm trần,87
+2024-11-16,Kim Mai,phòng R&D,30I1P0,đèn LED âm trần,97
+2024-09-02,Phương Bảo Lê,phòng kinh doanh,RAOU38,đèn bàn học,46
+2024-03-16,Hưng Xuân Hoàng,phòng kinh doanh,IX2NR,đèn LED tròn,15
+2025-03-20,Bà Xuân Lê,phòng kỹ thuật,AER2PC,đèn LED âm trần,63
+2024-01-07,Bà An Mai,phòng nhân sự,ZW8IU,đèn LED tròn,40
+2024-02-18,Bà Lan Trần,phòng kỹ thuật,Q0W7IM,đèn LED tròn,5
+2024-05-27,Cô Khoa Bùi,phòng nhân sự,78KNC,đèn LED âm trần,75
+2024-03-29,Quý ông Huy Bùi,phòng kinh doanh,Y53YUN,đèn LED tròn,2
+2024-07-23,Bà Thảo Đặng,phòng nhân sự,2IQKI9,đèn LED âm trần,6
+2024-09-24,Thành Hoàng,phòng nhân sự,EM538,đèn cảm ứng,36
+2024-12-31,An Nguyễn,phòng kỹ thuật,YEC9O,đèn LED âm trần,25
+2024-09-14,Bác Hoàng Mai,phòng nhân sự,Y4JSCH,đèn LED tròn,45
+2024-03-29,Nhiên Vũ,phòng kinh doanh,8KH9G,đèn LED tròn,68
+2024-09-14,Trọng Dương,phòng nhân sự,4L3TI,đèn LED tròn,80
+2025-02-18,Vi Nguyễn,phòng R&D,SQ6QBX,đèn LED tròn,42
+2025-02-25,Bà Hải Hoàng,phòng kỹ thuật,0OYLW,đèn cảm ứng,25
+2024-09-25,Linh Dương,phòng kinh doanh,W46EMN,đèn cảm ứng,31
+2024-12-24,Khoa Vũ,phòng R&D,IFI92K,đèn bàn học,56
+2024-02-24,Lâm Hữu Vũ,phòng kỹ thuật,A86Q0,đèn LED tròn,81
+2024-08-08,Bà Thành Vũ,phòng nhân sự,2ED9XB,đèn bàn học,67
+2024-01-29,Lâm Phạm,phòng kinh doanh,AX0B6,đèn LED tròn,44
+2024-08-12,Phúc Phạm,phòng R&D,N8YD8,đèn cảm ứng,45
+2024-12-27,Lâm Hải Bùi,phòng kỹ thuật,WCFAC,đèn LED tròn,49
+2024-02-19,Chị Hương Mai,phòng R&D,YNW172,đèn bàn học,43
+2024-10-23,Lâm Hoàng,phòng kỹ thuật,GSH9GR,đèn cảm ứng,94
+2024-12-28,Anh Thị Mai,phòng R&D,WVPANQ,đèn LED âm trần,83
+2024-07-01,Lan Bùi,phòng kỹ thuật,0YPMKF,đèn bàn học,35
+2024-10-18,Hải Mai,phòng kỹ thuật,5RFM6F,đèn LED tròn,71
+2024-05-10,Khoa Quang Dương,phòng kỹ thuật,92Z03,đèn cảm ứng,15
+2024-05-09,Quý cô Duyên Lê,phòng kỹ thuật,AHJM7,đèn LED tròn,68
+2024-05-27,Thành Đặng,phòng R&D,EY5VCH,đèn cảm ứng,83
+2024-09-18,Anh Thị Lê,phòng kỹ thuật,YB50L6,đèn bàn học,24
+2024-11-28,Quang Văn Nguyễn,phòng kỹ thuật,G3ES44,đèn bàn học,88
+2024-04-08,Anh Khoa Hoàng,phòng R&D,HYAN2,đèn bàn học,69
+2024-07-13,Nhật Quang Hoàng,phòng nhân sự,2X1AE,đèn bàn học,1
+2024-04-11,Bảo Nguyễn,phòng kỹ thuật,JUXM7,đèn bàn học,24
+2024-12-26,Vũ Mai,phòng kinh doanh,C3BFRD,đèn LED âm trần,3
+2025-03-24,Hải Đặng,phòng kinh doanh,A412I,đèn LED âm trần,67
+2024-04-28,Ông Thành Mai,phòng kinh doanh,ZIAQF,đèn LED âm trần,40
+2024-05-16,Quang Trần,phòng nhân sự,M25W9,đèn bàn học,24
+2025-03-09,Bà Thành Phạm,phòng kinh doanh,E4JRD,đèn LED tròn,30
+2024-06-05,Hồng Mai,phòng nhân sự,VJ7DW,đèn LED âm trần,2
+2024-11-26,Quý cô Bảo Lê,phòng kinh doanh,W1OX7M,đèn cảm ứng,20
+2024-11-10,Vũ Vũ,phòng kỹ thuật,8THSAX,đèn LED tròn,88
+2024-05-12,An Đặng,phòng R&D,7UT3X8,đèn bàn học,52
+2024-03-10,Trọng Đức Mai,phòng kinh doanh,8131E,đèn bàn học,39
+2025-03-16,Tùng Mai Dương,phòng R&D,YZST6,đèn LED âm trần,56
+2024-04-25,Anh Thế Bùi,phòng nhân sự,9TKE1A,đèn LED âm trần,29
+2024-04-02,Hạnh Văn Lê,phòng nhân sự,F6QLM,đèn bàn học,7
+2025-02-09,Kim Hoàng,phòng kinh doanh,RX1EWP,đèn bàn học,42
+2024-08-20,Chị Phương Hoàng,phòng kỹ thuật,SJ2V1E,đèn cảm ứng,30
+2025-02-11,Trọng Mai,phòng nhân sự,FHEZ9,đèn LED âm trần,2
+2024-08-02,Thành Hoàng,phòng nhân sự,IXIXDG,đèn LED tròn,89
+2024-03-21,Quý ông Trọng Nguyễn,phòng kỹ thuật,HV88M,đèn LED tròn,22
+2025-03-12,Anh Vũ,phòng R&D,R9L1NI,đèn bàn học,18
+2025-01-15,Chị Yến Lê,phòng kỹ thuật,94Q45,đèn cảm ứng,24
+2025-02-15,Quý ông Hoàng Vũ,phòng R&D,2ZW5I,đèn LED âm trần,89
+2025-03-16,Hưng Nguyễn,phòng kỹ thuật,U49ZW,đèn LED tròn,95
+2024-01-22,Quý cô Hạnh Phạm,phòng kinh doanh,ME6PFB,đèn bàn học,52
+2024-01-15,Thành Xuân Bùi,phòng R&D,B9TKH,đèn LED âm trần,52
+2024-04-04,Bảo Bảo Đặng,phòng kỹ thuật,TZFS3,đèn bàn học,63
+2024-06-02,Hồng Mai,phòng R&D,VUXDCA,đèn LED âm trần,14
+2024-04-15,Phương Đức Lê,phòng kinh doanh,5LU9QG,đèn cảm ứng,34
+2025-02-06,Khoa Thị Dương,phòng kỹ thuật,TKGP2,đèn LED âm trần,23
+2024-03-23,Khoa Văn Nguyễn,phòng kỹ thuật,6L250,đèn bàn học,10
+2025-04-06,Cô Ánh Dương,phòng R&D,S7GI0,đèn cảm ứng,91
+2024-09-15,Bà Ngọc Lê,phòng kỹ thuật,Z5DC4,đèn LED tròn,40
+2024-08-28,Nhật Đặng,phòng kỹ thuật,NUA5L2,đèn bàn học,50
+2024-10-09,Quý ông Phúc Lê,phòng nhân sự,6SAO1,đèn LED âm trần,7
+2024-02-05,Lâm Văn Bùi,phòng nhân sự,RCMLO,đèn cảm ứng,97
+2024-12-02,Quý cô Hạnh Trần,phòng kỹ thuật,N1BFR,đèn cảm ứng,83
+2024-03-24,Cô Yến Dương,phòng R&D,VE9R3,đèn LED tròn,14
+2025-03-02,Bà Nhật Phạm,phòng R&D,LKR19,đèn bàn học,10
+2024-03-25,Phương Bùi,phòng nhân sự,1RHR5H,đèn bàn học,76
+2024-03-27,Cô Yến Nguyễn,phòng kinh doanh,5U11MI,đèn LED âm trần,81
+2024-08-28,Quang Bùi,phòng R&D,C8WD0,đèn LED tròn,50
+2024-08-05,Chị An Phạm,phòng R&D,X2OQW,đèn cảm ứng,91
+2024-03-25,Bác Quang Nguyễn,phòng nhân sự,5LR2MV,đèn LED tròn,44
+2025-01-26,Cô Hương Vũ,phòng nhân sự,QBB9YG,đèn bàn học,32
+2024-05-20,Bà Yến Trần,phòng kỹ thuật,C62V3G,đèn bàn học,20
+2024-05-15,Quý ông Anh Lê,phòng nhân sự,NJZZW,đèn LED tròn,73
+2025-04-05,Anh Nam Trần,phòng kỹ thuật,4XWOU4,đèn cảm ứng,7
+2025-03-20,Bà Lan Phạm,phòng R&D,C874M4,đèn LED âm trần,25
+2024-01-22,Huy Mai Bảo Nguyễn,phòng nhân sự,L3AGTP,đèn cảm ứng,95
+2024-08-16,Nam Hữu Trần,phòng nhân sự,SMRP93,đèn bàn học,68
+2024-09-30,Ông Hưng Bùi,phòng kỹ thuật,PXCTO,đèn bàn học,27
+2024-08-07,Ngọc Trần,phòng kỹ thuật,62XQR,đèn bàn học,81
+2024-02-28,Hoàng Phú Hoàng,phòng nhân sự,J8NPQ,đèn LED âm trần,17
+2025-02-07,Xuân Lê,phòng R&D,QAYQEE,đèn bàn học,15
+2024-02-17,Bà An Trần,phòng nhân sự,P38QY5,đèn LED âm trần,22
+2024-12-21,Xuân Bùi,phòng nhân sự,7QMP44,đèn cảm ứng,85
+2024-11-29,Minh Mai,phòng kỹ thuật,Z3166O,đèn LED âm trần,1
+2024-01-03,Khoa Bùi,phòng nhân sự,M4Q4R,đèn bàn học,68
+2025-01-13,Quý cô Mai Mai,phòng kinh doanh,YKG6I,đèn cảm ứng,56
+2025-01-25,Trọng Mai Nguyễn,phòng R&D,BBH6UX,đèn LED tròn,21
+2024-02-11,Vũ Đức Đặng,phòng kinh doanh,B46LQO,đèn cảm ứng,58
+2025-02-25,Thành Vũ,phòng nhân sự,K9HUXC,đèn cảm ứng,28
+2025-01-17,Anh Anh Dương,phòng kỹ thuật,UE4ZL,đèn bàn học,83
+2024-04-28,Châu Lê,phòng kỹ thuật,TTF0QJ,đèn LED tròn,55
+2024-04-25,Khoa Hoàng Dương,phòng nhân sự,YKW67,đèn bàn học,12
+2024-04-23,Bảo Mai,phòng R&D,GR93O,đèn bàn học,89
+2024-09-18,Quý ông Hưng Vũ,phòng R&D,05RKQB,đèn LED âm trần,9
+2024-09-04,Châu Bảo Vũ,phòng kỹ thuật,3VNAO,đèn LED tròn,42
+2024-11-16,Lâm Thị Dương,phòng kỹ thuật,HR77A,đèn bàn học,22
+2024-06-10,Hải Vũ,phòng nhân sự,7IDUM,đèn LED tròn,71
+2025-02-24,Tú Mai,phòng R&D,7YQL7,đèn LED âm trần,63
+2024-10-23,Vân Vũ,phòng kỹ thuật,324GC,đèn bàn học,55
+2024-01-16,Anh Phúc Nguyễn,phòng R&D,G4WNEJ,đèn LED âm trần,54
+2024-12-05,Ông Trung Đặng,phòng R&D,U0TB3S,đèn LED âm trần,13
+2024-05-26,Quý cô Hà Hoàng,phòng nhân sự,LGJAB6,đèn bàn học,29
+2024-02-06,Thành Phạm,phòng kỹ thuật,KWXTXM,đèn LED âm trần,67
+2024-03-09,Nhiên Văn Bùi,phòng R&D,0BBWCH,đèn LED âm trần,96
+2024-10-02,Ông Vũ Phạm,phòng nhân sự,0DNGOQ,đèn bàn học,26
+2025-01-08,Chi Bùi,phòng R&D,AI0C9C,đèn cảm ứng,97
+2025-03-01,Thành Xuân Nguyễn,phòng nhân sự,NT4BQ,đèn cảm ứng,47
+2024-01-05,Quý cô Vi Mai,phòng R&D,LAM3P,đèn cảm ứng,52
+2024-02-08,Khoa Đức Nguyễn,phòng kỹ thuật,QVG7TC,đèn LED âm trần,24
+2024-06-27,Quý cô Bảo Vũ,phòng kỹ thuật,ILTN6P,đèn LED âm trần,91
+2024-10-27,Anh Tùng Vũ,phòng nhân sự,EO11ZK,đèn LED âm trần,50
+2024-06-03,Nhật Đức Dương,phòng kinh doanh,1YEMR,đèn LED âm trần,61
+2024-11-09,Anh Trọng Dương,phòng R&D,GJVP2,đèn LED tròn,70
+2024-11-01,Hạnh Đức Lê,phòng kỹ thuật,3ZBGF4,đèn LED âm trần,42
+2024-08-07,Châu Dương,phòng kinh doanh,JPZZI,đèn LED âm trần,66
+2024-04-03,Ngọc Phạm,phòng kinh doanh,AXWHNI,đèn cảm ứng,42
+2024-02-29,Cô Bảo Bùi,phòng R&D,1PD7K,đèn LED tròn,64
+2024-10-14,Quang Phạm,phòng kinh doanh,9R8G0,đèn LED âm trần,53
+2024-11-03,Lâm Trí Phạm,phòng nhân sự,J5GIR1,đèn LED tròn,33
+2024-07-24,Cô Chi Vũ,phòng R&D,LMDQ6Z,đèn cảm ứng,38
+2025-03-28,Bà Mai Đặng,phòng R&D,KTP30P,đèn bàn học,49
+2025-01-29,Hải Vũ,phòng kinh doanh,YL3M91,đèn LED âm trần,29
+2024-07-15,Quý ông Huy Đặng,phòng R&D,4RWS9,đèn LED âm trần,36
+2025-03-18,Quý cô Khoa Vũ,phòng nhân sự,IDA0FD,đèn cảm ứng,91
+2024-11-30,Hà Bùi,phòng kỹ thuật,TTFIUQ,đèn cảm ứng,56
+2025-04-04,Bà Khoa Bùi,phòng R&D,QWLGLO,đèn LED âm trần,11
+2024-11-11,Bà Vân Mai,phòng R&D,M1KLAZ,đèn LED tròn,5
+2024-09-17,Nhật Phú Vũ,phòng kỹ thuật,8OISN5,đèn LED tròn,50
+2024-04-29,Thảo Hoàng,phòng kỹ thuật,J4NY7,đèn LED âm trần,73
+2024-07-20,Bảo Bùi,phòng kinh doanh,PFKSC,đèn LED âm trần,26
+2025-03-24,Phương Lê,phòng nhân sự,RME2T,đèn cảm ứng,85
+2025-03-03,Minh Đức Vũ,phòng nhân sự,VVQ115,đèn LED âm trần,70
+2024-06-23,Vi Lê,phòng R&D,OM8KP,đèn cảm ứng,84
+2024-12-17,Thành Phú Vũ,phòng kỹ thuật,TFU2J,đèn bàn học,56
+2024-06-28,Quý cô Mai Trần,phòng kỹ thuật,AOBQG,đèn cảm ứng,81
+2024-02-22,Bác Minh Vũ,phòng nhân sự,NXX78,đèn LED âm trần,69
+2024-06-18,Vũ Đức Phạm,phòng R&D,B357L,đèn cảm ứng,28
+2025-01-25,Thành Thế Hoàng,phòng R&D,8324B,đèn LED âm trần,23
+2024-05-23,Chị Bảo Dương,phòng nhân sự,V8IFE,đèn LED tròn,30
+2024-11-22,Phương Phạm,phòng kinh doanh,63KYD,đèn LED tròn,56
+2025-03-19,Quý cô Thảo Lê,phòng kỹ thuật,SBXUOR,đèn LED âm trần,17
+2024-05-22,An Hoàng,phòng kinh doanh,1XUG3,đèn bàn học,75
+2024-06-04,Hoàng Tấn Trần,phòng kinh doanh,EB54Q,đèn LED âm trần,22
+2024-01-04,Hải Vũ,phòng R&D,O99F5,đèn LED âm trần,43
+2024-11-27,Hạnh Phạm,phòng kinh doanh,ABVFX8,đèn LED tròn,64
+2025-02-18,An Trần,phòng kỹ thuật,E44NY8,đèn bàn học,51
+2024-09-03,Bà Lan Vũ,phòng R&D,H5KIQQ,đèn cảm ứng,82
+2024-10-05,Thành Đặng,phòng kỹ thuật,YDWRSA,đèn LED tròn,72
+2025-03-22,Bà Mai Phạm,phòng nhân sự,IBW3WR,đèn LED tròn,19
+2025-04-07,Vi Lê,phòng kỹ thuật,DAZ5XH,đèn LED âm trần,10
+2024-04-04,An Đặng,phòng kỹ thuật,TUYNH8,đèn cảm ứng,90
+2024-12-22,Kim Vũ,phòng nhân sự,BPVF9,đèn cảm ứng,3
+2024-04-15,Anh Trung Đặng,phòng kinh doanh,F6I1Z,đèn LED tròn,74
+2025-04-06,Hạnh Hoàng,phòng R&D,M73X8,đèn bàn học,18
+2024-09-28,Dương Dương,phòng kinh doanh,3P86ED,đèn cảm ứng,23
+2025-01-13,Thành Đức Vũ,phòng kỹ thuật,EGXCF3,đèn bàn học,88
+2024-07-31,Thành Mai,phòng kinh doanh,JBG011,đèn LED âm trần,80
+2024-06-14,Kim Hoàng,phòng kỹ thuật,XWH283,đèn LED tròn,53
+2024-09-01,Quý ông Minh Nguyễn,phòng nhân sự,FUZWIE,đèn bàn học,31
+2024-12-18,Hoàng Hải Lê,phòng R&D,OQG77U,đèn LED âm trần,46
+2025-02-21,Hạnh Phú Mai,phòng R&D,OCJKAC,đèn bàn học,70
+2025-01-02,Khoa Dương,phòng kinh doanh,T2FL9E,đèn bàn học,49
+2024-10-03,Vi Hoàng,phòng R&D,UGXP7,đèn LED âm trần,30
+2024-07-15,Châu Trần,phòng R&D,PFVCB,đèn bàn học,21
+2025-01-28,Chị Lâm Vũ,phòng kinh doanh,IFDQH,đèn bàn học,37
+2024-08-29,Hạnh Bùi,phòng nhân sự,AT5D15,đèn cảm ứng,74
+2024-06-11,Anh Huy Mai,phòng kỹ thuật,1IZVLO,đèn LED tròn,78
+2024-07-12,Thành Đức Đặng,phòng kinh doanh,5N2WYK,đèn bàn học,78
+2024-10-30,Hà Mai,phòng nhân sự,FEMK3,đèn LED âm trần,55
+2025-03-03,Lâm Bảo Vũ,phòng nhân sự,0C2YTX,đèn LED âm trần,96
+2024-10-07,Quang Đức Hoàng,phòng R&D,T28XXE,đèn LED tròn,96
+2024-03-23,Thành Mai Bảo Lê,phòng nhân sự,OZRTRA,đèn bàn học,23
+2024-02-19,Chị Hạnh Dương,phòng kỹ thuật,MIS9D,đèn LED tròn,37
+2025-02-02,Bà Mai Dương,phòng kinh doanh,MVKQD,đèn LED âm trần,45
+2024-08-15,Thành Đức Dương,phòng R&D,A62PKE,đèn bàn học,55
+2024-09-28,Chị Duyên Dương,phòng R&D,B7IWOG,đèn cảm ứng,61
+2024-09-18,Vi Phạm,phòng nhân sự,0J3KK,đèn LED âm trần,81
+2024-05-01,Dương Phạm,phòng kinh doanh,DUQDOK,đèn LED âm trần,45
+2025-02-22,Yến Mai,phòng nhân sự,BH406E,đèn cảm ứng,46
+2024-01-25,Thành Quang Hoàng,phòng nhân sự,HIXBKX,đèn LED âm trần,24
+2024-05-14,Hải Xuân Nguyễn,phòng nhân sự,V0H3I,đèn LED tròn,97
+2024-08-13,Trọng Hữu Đặng,phòng R&D,ENX8V,đèn cảm ứng,14
+2024-10-16,Tùng Phạm,phòng kinh doanh,IT9J4S,đèn LED tròn,16
+2024-07-19,Hương Trần,phòng kỹ thuật,UFLC6,đèn LED âm trần,37
+2025-02-06,Nhật Mai Bảo Trần,phòng R&D,UB64H,đèn cảm ứng,23
+2024-09-16,Thảo Lê,phòng kinh doanh,TUM0I,đèn LED âm trần,8
+2024-02-10,Hưng Mai Bùi,phòng kinh doanh,V2Y3F,đèn bàn học,85
+2024-11-14,Lan Nguyễn,phòng R&D,WAIYVU,đèn cảm ứng,40
+2024-03-25,Bác Vũ Dương,phòng R&D,8NZCG,đèn bàn học,95
+2025-03-02,Nhật Thế Lê,phòng R&D,YO1JV,đèn LED âm trần,91
+2024-10-16,Bác Anh Nguyễn,phòng nhân sự,2MQM9P,đèn bàn học,14
+2024-10-30,Chị Hải Trần,phòng R&D,32MA1N,đèn cảm ứng,16
+2024-06-17,Cô Thảo Phạm,phòng R&D,KXKJ9G,đèn cảm ứng,35
+2024-09-02,Lâm Thế Bùi,phòng R&D,TUC9J,đèn bàn học,65
+2024-10-27,Chị Ngọc Mai,phòng kinh doanh,ZVWMWP,đèn LED tròn,94
+2025-02-01,Trọng Phạm,phòng kỹ thuật,AD0ZK,đèn bàn học,99
+2024-12-11,Quý cô Hải Lê,phòng nhân sự,1QBXAX,đèn cảm ứng,60
+2025-03-24,Vũ Xuân Phạm,phòng R&D,KT064,đèn LED âm trần,68
+2024-12-23,Cô Nhật Phạm,phòng kỹ thuật,HCSECU,đèn cảm ứng,88
+2024-12-12,Tùng Đức Mai,phòng nhân sự,N673IJ,đèn LED âm trần,70
+2024-04-22,Ông Phúc Dương,phòng kỹ thuật,3A20BB,đèn cảm ứng,85
+2024-01-11,Ngọc Phạm,phòng nhân sự,LQJE7P,đèn LED tròn,19
+2024-05-27,Bà Hương Mai,phòng nhân sự,NECWF,đèn cảm ứng,56
+2024-08-30,Khoa Văn Hoàng,phòng kỹ thuật,6QN4EA,đèn LED tròn,39
+2024-11-12,Nam Mai,phòng nhân sự,RYV1P,đèn cảm ứng,43
+2024-02-25,Thành Phạm,phòng nhân sự,28O7M,đèn cảm ứng,25
+2024-01-14,Anh Quang Trần,phòng kinh doanh,BUZGNL,đèn LED tròn,90
+2024-12-31,Cô Lâm Mai,phòng R&D,6M1VKL,đèn cảm ứng,17
+2024-02-22,Huy Hải Đặng,phòng kinh doanh,G12RO,đèn cảm ứng,97
+2024-02-11,Bà Ngọc Vũ,phòng nhân sự,AMYV1,đèn bàn học,79
+2024-11-30,Phương Vũ,phòng nhân sự,IOC2S,đèn LED âm trần,26
+2024-05-15,Lan Lê,phòng kỹ thuật,QYUQO0,đèn LED tròn,34
+2024-08-21,Thành Mai Bảo Nguyễn,phòng kinh doanh,5F2U6B,đèn cảm ứng,91
+2025-01-18,Hải Đức Lê,phòng nhân sự,ZS1T6T,đèn cảm ứng,32
+2024-06-10,Kim Dương,phòng kỹ thuật,43XEN,đèn cảm ứng,90
+2024-02-24,Vi Lê,phòng kỹ thuật,ZEWJYO,đèn bàn học,89
+2024-07-28,Ông Dũng Mai,phòng nhân sự,FOWEF,đèn bàn học,71
+2024-02-17,Thành Văn Vũ,phòng nhân sự,HDJOE6,đèn bàn học,57
+2025-02-06,Quý cô Nhật Hoàng,phòng kỹ thuật,TWP5Q,đèn LED âm trần,3
+2024-12-16,Châu Nguyễn,phòng R&D,30FQY,đèn LED âm trần,36
+2024-08-31,Anh Trọng Trần,phòng kỹ thuật,PCADU,đèn cảm ứng,24
+2024-02-29,Thành Quang Hoàng,phòng nhân sự,W7LIW,đèn LED âm trần,65
+2024-03-07,An Vũ,phòng R&D,IT01V,đèn LED tròn,76
+2024-05-15,Quý cô Hương Bùi,phòng kinh doanh,R3998H,đèn bàn học,56
+2024-10-18,Quý cô Thảo Vũ,phòng kinh doanh,YM5S2T,đèn cảm ứng,39
+2024-08-25,Hạnh Nguyễn,phòng kỹ thuật,UP4K9,đèn bàn học,95
+2024-08-22,An Thị Trần,phòng kinh doanh,H5GQMI,đèn LED âm trần,55
+2024-01-29,Bác Minh Hoàng,phòng kỹ thuật,JERGKU,đèn LED âm trần,1
+2025-01-06,Mai Lê,phòng R&D,Y6U1BJ,đèn bàn học,97
+2024-12-12,Vi Vũ,phòng R&D,UYPM3Y,đèn LED âm trần,7
+2024-06-01,Quang Đặng,phòng R&D,OKL6C9,đèn bàn học,88
+2024-03-16,Phúc Văn Nguyễn,phòng nhân sự,NPAAI,đèn LED tròn,98
+2025-04-05,Thành Quang Phạm,phòng nhân sự,O4F51T,đèn bàn học,76
+2025-03-15,Lâm Trần,phòng nhân sự,Y0JSU,đèn cảm ứng,48
+2024-07-14,Chị Yến Vũ,phòng nhân sự,7BL8X5,đèn cảm ứng,7
+2024-03-19,Trọng Lê,phòng nhân sự,NM3A1,đèn LED âm trần,78
+2024-07-30,Cô Hải Nguyễn,phòng R&D,RWGWD,đèn bàn học,10
+2024-07-08,Dũng Mai,phòng R&D,ZHGFST,đèn LED tròn,10
+2024-07-08,Anh Tùng Bùi,phòng R&D,11U4XK,đèn LED tròn,7
+2024-03-08,Quý cô Linh Dương,phòng nhân sự,PY35HV,đèn LED âm trần,37
+2024-08-05,Ông Bảo Hoàng,phòng kỹ thuật,WYY15K,đèn LED tròn,71
+2024-04-07,Bà Linh Vũ,phòng R&D,81CC3R,đèn bàn học,27
+2024-12-20,Nhật Lê,phòng kỹ thuật,CYZ8LW,đèn LED tròn,63
+2024-05-20,Nam Mai Lê,phòng kỹ thuật,X436Q,đèn cảm ứng,74
+2025-03-15,Nhật Phạm,phòng kỹ thuật,OZKR5Z,đèn cảm ứng,30
+2025-01-21,Nhật Nguyễn,phòng kỹ thuật,HRLLWI,đèn LED âm trần,78
+2024-10-02,Dũng Thị Bùi,phòng kỹ thuật,HFZ8T1,đèn LED âm trần,81
+2024-02-28,Quý cô Mai Bùi,phòng nhân sự,WPNPW,đèn cảm ứng,81
+2024-08-03,Cô Chi Trần,phòng kinh doanh,HU6L4,đèn LED tròn,92
+2024-07-22,Cô Thành Bùi,phòng kinh doanh,G3KXPA,đèn bàn học,43
+2025-02-11,Anh Thế Nguyễn,phòng nhân sự,QLCO6,đèn bàn học,71
+2024-04-10,Nhật Bùi,phòng nhân sự,M4L25,đèn cảm ứng,27
+2024-09-23,Quý cô Mai Vũ,phòng kinh doanh,JLM2SY,đèn bàn học,89
+2025-02-11,Chị Duyên Phạm,phòng nhân sự,XPSY8M,đèn bàn học,96
+2024-04-27,Ông Trung Đặng,phòng R&D,LFEMEW,đèn LED âm trần,39
+2024-12-17,Bác Nhiên Nguyễn,phòng R&D,ACG2BC,đèn LED âm trần,73
+2024-01-08,Cô Ngọc Mai,phòng kỹ thuật,AKTXO,đèn LED âm trần,57
+2024-08-11,Hạnh Hoàng,phòng nhân sự,N5UY0,đèn LED âm trần,66
+2024-07-31,Nhật Vũ,phòng kỹ thuật,LDG4P,đèn bàn học,32
+2024-03-12,Chị Xuân Bùi,phòng kỹ thuật,7149DH,đèn LED tròn,97
+2024-07-09,Anh Quang Lê,phòng kỹ thuật,Y498G,đèn LED tròn,51
+2024-11-04,Hạnh Văn Vũ,phòng kỹ thuật,986TVX,đèn LED tròn,6
+2024-03-01,Ông Nam Dương,phòng nhân sự,AVJBI,đèn LED âm trần,7
+2025-02-22,Quý cô Ánh Dương,phòng kinh doanh,0U73F,đèn cảm ứng,86
+2024-01-09,Chị Chi Phạm,phòng R&D,B1GN74,đèn LED tròn,94
+2024-10-13,Hà Lê,phòng R&D,A7HNN,đèn LED tròn,88
+2024-08-12,Dương Mai,phòng R&D,R5T9WP,đèn bàn học,25
+2024-10-22,Phúc Hữu Trần,phòng nhân sự,P5VZVN,đèn LED tròn,39
+2024-03-09,Quý cô Hương Nguyễn,phòng R&D,J89D4S,đèn cảm ứng,4
+2025-02-17,Chị An Bùi,phòng nhân sự,8N3JS,đèn LED tròn,26
+2024-08-12,Ông Phúc Mai,phòng kỹ thuật,2KVP10,đèn LED âm trần,35
+2024-11-25,Kim Trí Hoàng,phòng kinh doanh,FTLI5J,đèn bàn học,61
+2025-03-11,Thành Xuân Mai,phòng kỹ thuật,A2SC2,đèn bàn học,4
+2024-02-01,Kim Hoàng,phòng kinh doanh,GPWV6T,đèn bàn học,55
+2024-08-17,Nhật Hoàng Bùi,phòng kinh doanh,NC6FC,đèn LED tròn,91
+2024-06-09,Bà Nhật Đặng,phòng R&D,2OM3RM,đèn cảm ứng,56
+2024-12-11,Chi Vũ,phòng kinh doanh,VGGAYF,đèn LED âm trần,51
+2024-08-24,Châu Vũ,phòng nhân sự,OAKDE3,đèn LED tròn,93
+2024-08-29,Bác Bảo Phạm,phòng kỹ thuật,ALSD9M,đèn LED tròn,94
+2024-01-24,Quý ông Châu Lê,phòng kinh doanh,5U6Y1,đèn LED tròn,53
+2024-03-29,Xuân Lê,phòng kinh doanh,LN15AD,đèn bàn học,77
+2024-11-15,Châu Trí Bùi,phòng nhân sự,M2WY8P,đèn LED tròn,20
+2024-03-03,Bà Yến Trần,phòng kinh doanh,PKQ96P,đèn bàn học,83
+2024-12-22,Cô An Phạm,phòng nhân sự,L3R4C,đèn LED tròn,5
+2024-03-05,Lan Vũ,phòng R&D,SJ4ZI,đèn bàn học,71
+2024-08-09,Quý cô Vi Lê,phòng kinh doanh,8I69FT,đèn LED tròn,33
+2024-06-10,Yến Hoàng,phòng kinh doanh,CWOJKR,đèn LED âm trần,24
+2024-12-21,Quý cô Vi Phạm,phòng nhân sự,YYCVVK,đèn cảm ứng,65
+2025-03-05,Chị Ánh Mai,phòng kỹ thuật,K14AP2,đèn cảm ứng,73
+2024-06-10,Bà Hải Hoàng,phòng kỹ thuật,5TGZ47,đèn cảm ứng,34
+2024-05-02,Huy Bùi,phòng kinh doanh,RK574M,đèn LED âm trần,58
+2024-05-07,Nam Mai Bảo Nguyễn,phòng kinh doanh,1HTL6,đèn LED tròn,8
+2024-10-18,Chị Khoa Mai,phòng kỹ thuật,OX3I9F,đèn bàn học,43
+2024-10-09,Phương Văn Hoàng,phòng kỹ thuật,Z9095R,đèn cảm ứng,92
+2024-10-20,Xuân Hoàng,phòng kinh doanh,UHOKPW,đèn bàn học,39
+2024-12-05,Anh Thành Mai,phòng nhân sự,T3PD4P,đèn LED tròn,69
+2024-07-03,Bảo Lê,phòng kỹ thuật,SVOU3,đèn LED tròn,55
+2024-11-30,Quý cô Hà Hoàng,phòng kinh doanh,WYG2N,đèn LED âm trần,8
+2024-06-17,Trung Vũ,phòng kinh doanh,8LQ3C,đèn LED tròn,70
+2025-03-11,Khoa Hoàng,phòng kỹ thuật,2IHQ6,đèn LED âm trần,3
+2024-09-23,Dương Trần,phòng R&D,2RQQJ,đèn cảm ứng,72
+2024-10-31,Trung Hoàng,phòng R&D,DDNS5,đèn cảm ứng,45
+2024-11-13,Thành Vũ,phòng nhân sự,IW1818,đèn LED âm trần,3
+2024-08-28,Bà Lan Nguyễn,phòng R&D,LNPYWF,đèn LED âm trần,22
+2024-08-20,Quang Phạm,phòng kinh doanh,HV6WM,đèn bàn học,52
+2024-03-16,Hưng Hoàng Vũ,phòng kỹ thuật,UL1BV,đèn LED âm trần,70
+2025-01-02,Lan Bùi,phòng kỹ thuật,K86USQ,đèn bàn học,22
+2024-01-26,Châu Tấn Đặng,phòng kỹ thuật,1KIHBV,đèn cảm ứng,87
+2024-03-09,Phương Đặng,phòng kỹ thuật,A9C12,đèn bàn học,38
+2025-01-30,Bà Hải Dương,phòng kỹ thuật,H54H9,đèn bàn học,6
+2025-03-08,Anh Minh Bùi,phòng R&D,D7WD12,đèn LED tròn,72
+2024-08-31,Huy Xuân Trần,phòng nhân sự,R359Y,đèn bàn học,35
+2024-08-30,Ông Châu Dương,phòng nhân sự,KQ5812,đèn LED âm trần,49
+2024-10-15,Thành Văn Phạm,phòng R&D,N5NMC5,đèn LED âm trần,72
+2024-03-03,Xuân Dương,phòng kinh doanh,8PZXX,đèn cảm ứng,47
+2025-03-17,Thảo Dương,phòng kinh doanh,89OSTL,đèn cảm ứng,47
+2024-12-31,Tú Văn Phạm,phòng kinh doanh,OC76X2,đèn bàn học,93
+2024-09-14,Quý ông Phúc Phạm,phòng kinh doanh,LHJ1VA,đèn LED âm trần,22
+2024-08-11,Cô Dương Trần,phòng R&D,YWFE7K,đèn cảm ứng,21
+2025-01-20,Ông Trọng Lê,phòng nhân sự,GQT1Y,đèn bàn học,36
+2024-04-19,Anh Anh Nguyễn,phòng kỹ thuật,91IIC,đèn bàn học,10
+2024-08-19,Cô Hương Vũ,phòng kinh doanh,GBWA5G,đèn LED tròn,8
+2024-12-07,Phúc Mai,phòng kinh doanh,XW7PI,đèn LED âm trần,5
+2024-07-24,Trung Bảo Lê,phòng R&D,HD6DI,đèn LED âm trần,11
+2025-04-04,Anh Quang Phạm,phòng R&D,9STK7,đèn bàn học,64
+2024-05-30,Yến Bùi,phòng nhân sự,BCZWS,đèn bàn học,27
+2024-08-26,Khoa Dương,phòng R&D,WYN03,đèn LED tròn,4
+2024-11-24,Phúc Tấn Mai,phòng nhân sự,2503L0,đèn cảm ứng,69
+2024-12-31,An Phú Mai,phòng nhân sự,FC4GM8,đèn LED âm trần,56
+2024-07-14,Ánh Trần,phòng kỹ thuật,WWWLEU,đèn cảm ứng,17
+2024-01-25,Bà Hà Phạm,phòng R&D,OJXLQ,đèn cảm ứng,8
+2024-12-23,Nhật Dương,phòng R&D,BSBTL,đèn LED tròn,32
+2025-01-30,Nhật Vũ,phòng R&D,GSUT1,đèn LED tròn,39
+2024-12-24,Chị Lâm Hoàng,phòng kỹ thuật,XFXX8,đèn LED tròn,23
+2024-05-30,Ngọc Đặng,phòng kỹ thuật,6VAWGA,đèn cảm ứng,72
+2024-05-02,Trọng Thị Phạm,phòng kinh doanh,JK4YOF,đèn LED tròn,46
+2024-12-16,Cô Nhật Phạm,phòng nhân sự,ZBTTB,đèn cảm ứng,35
+2024-01-29,Quang Đức Lê,phòng kinh doanh,8TG7D,đèn bàn học,25
+2024-11-03,Hạnh Mai Bảo Hoàng,phòng R&D,7XSMQG,đèn bàn học,13
+2024-03-27,Phương Hoàng Mai,phòng kinh doanh,RGHAYS,đèn cảm ứng,35
+2024-06-13,Xuân Hoàng,phòng R&D,KYOG1,đèn cảm ứng,19
+2024-05-10,An Mai Dương,phòng R&D,DZGXM,đèn LED tròn,12
+2024-01-20,Trung Hải Nguyễn,phòng kinh doanh,M4OIQ,đèn LED tròn,51
+2024-04-07,Quý ông Trung Trần,phòng nhân sự,XU3NVC,đèn LED âm trần,13
+2024-10-23,Hoàng Đức Lê,phòng kỹ thuật,BM5PW,đèn cảm ứng,38
+2024-06-06,Hồng Vũ,phòng R&D,GGW9N,đèn cảm ứng,73
+2025-01-27,Hải Hoàng,phòng kỹ thuật,0ORARN,đèn cảm ứng,22
+2024-01-20,Bà Hồng Hoàng,phòng kỹ thuật,LQQ8RK,đèn bàn học,15
+2024-06-12,Lâm Hải Lê,phòng nhân sự,QAHP1,đèn bàn học,22
+2024-04-11,Bảo Bùi,phòng nhân sự,MMXT80,đèn cảm ứng,78
+2024-05-07,Hoàng Hoàng Nguyễn,phòng kỹ thuật,8DE6R,đèn bàn học,23
+2024-09-09,Ông Hưng Vũ,phòng kỹ thuật,VQIYFY,đèn LED tròn,99
+2024-07-30,Nam Thế Lê,phòng nhân sự,0Z65V,đèn bàn học,56
+2024-07-25,Yến Dương,phòng R&D,UCESJ,đèn bàn học,93
+2024-01-22,Hưng Đức Nguyễn,phòng kinh doanh,9ZNY3,đèn cảm ứng,69
+2024-03-12,Cô Chi Vũ,phòng kinh doanh,GW5NW,đèn cảm ứng,55
+2025-03-28,Ánh Mai,phòng nhân sự,HIO99J,đèn bàn học,79
+2025-02-02,Quý ông Tú Phạm,phòng kỹ thuật,6UT64W,đèn bàn học,52
+2024-11-15,Nhật Bùi,phòng kỹ thuật,XXAJKQ,đèn LED tròn,27
+2024-10-15,Trung Dương,phòng kinh doanh,VNKBFK,đèn LED tròn,1
+2024-08-08,Châu Đức Hoàng,phòng nhân sự,WJ2D6,đèn bàn học,63
+2024-02-26,Cô Phương Vũ,phòng kỹ thuật,DRZHTD,đèn LED tròn,64
+2024-04-09,Bác Trọng Nguyễn,phòng R&D,9D1FE6,đèn LED tròn,23
+2024-04-03,Vi Lê,phòng nhân sự,HT4TTF,đèn bàn học,76
+2024-11-02,Bác Khoa Dương,phòng kỹ thuật,JCQZQB,đèn cảm ứng,63
+2024-09-10,Nhiên Hải Trần,phòng kinh doanh,DRWB9,đèn LED âm trần,62
+2025-01-19,Trung Phú Vũ,phòng R&D,VHJ2FC,đèn LED âm trần,51
+2025-01-17,Nhật Hải Dương,phòng nhân sự,NBWMBJ,đèn LED tròn,68
+2025-03-12,Bác Thành Phạm,phòng R&D,L8CSQ,đèn bàn học,68
+2024-02-13,Trung Thế Dương,phòng nhân sự,M1X0C,đèn LED tròn,23
+2024-07-16,Hải Bùi,phòng kinh doanh,E09HNI,đèn LED tròn,31
+2024-11-12,Hoàng Hữu Bùi,phòng nhân sự,1RMPY,đèn bàn học,11
+2024-07-26,Dũng Dương,phòng kỹ thuật,ZTGHY,đèn LED âm trần,78
+2024-09-15,Hải Đức Lê,phòng kỹ thuật,RG4HOI,đèn cảm ứng,8
+2024-12-10,Thành Văn Hoàng,phòng kinh doanh,Z1LBUL,đèn cảm ứng,10
+2025-01-12,An Hoàng,phòng kinh doanh,XB8BY,đèn LED âm trần,33
+2024-11-17,Quang Phú Phạm,phòng R&D,ZSXVD,đèn LED tròn,51
+2025-01-03,Phúc Dương,phòng nhân sự,SJZVUB,đèn LED âm trần,46
+2024-01-12,Anh Phúc Trần,phòng kinh doanh,MV4ST,đèn cảm ứng,8
+2024-09-20,Bà Bảo Hoàng,phòng nhân sự,S8EGKC,đèn LED âm trần,59
+2024-10-11,Tú Trần,phòng R&D,R1IS1C,đèn cảm ứng,12
+2024-03-24,Bà Nhật Lê,phòng R&D,W2XMMQ,đèn LED tròn,56
+2024-04-12,Ông Thành Nguyễn,phòng nhân sự,BJ4GQ,đèn bàn học,4
+2024-12-04,Nhật Hoàng,phòng R&D,G1UI29,đèn bàn học,58
+2025-01-24,Nam Trí Dương,phòng R&D,1CPN3,đèn LED âm trần,68
+2024-11-15,Khoa Vũ,phòng R&D,F8I58,đèn cảm ứng,22
+2024-07-25,Quang Bùi,phòng R&D,1W5P1,đèn LED âm trần,39
+2024-11-12,Hương Dương,phòng R&D,XHDWS,đèn LED âm trần,57
+2024-07-31,Trung Văn Đặng,phòng kỹ thuật,3ED1GW,đèn LED tròn,48
+2024-12-20,Bà Phương Lê,phòng kỹ thuật,Q7O07M,đèn bàn học,33
+2024-12-14,Xuân Phạm,phòng kỹ thuật,25K4M,đèn LED tròn,18
+2025-01-14,Chị Nhật Dương,phòng kinh doanh,71SCHX,đèn cảm ứng,49
+2024-12-14,Quý cô Phương Phạm,phòng nhân sự,1SHVZ,đèn bàn học,46
+2024-08-01,Hoàng Nguyễn,phòng kinh doanh,6WGL5X,đèn cảm ứng,38
+2024-11-22,Quang Tấn Vũ,phòng R&D,NJ7W8N,đèn LED âm trần,72
+2024-02-20,Chị Lan Hoàng,phòng R&D,YA87OM,đèn cảm ứng,1
+2024-11-02,Bác Thành Đặng,phòng nhân sự,M5WHF,đèn bàn học,37
+2024-02-27,Bà Linh Lê,phòng nhân sự,LOBDG4,đèn bàn học,98
+2025-03-19,Kim Hữu Phạm,phòng kỹ thuật,5P1NRA,đèn LED âm trần,59
+2025-02-27,Yến Đặng,phòng R&D,X518II,đèn bàn học,75
+2025-03-09,Tú Đức Phạm,phòng kinh doanh,2NZ9KU,đèn LED âm trần,26
+2025-03-08,Phương Quang Bùi,phòng R&D,QNR8A,đèn LED âm trần,68
+2024-10-28,Bà Nhật Đặng,phòng kỹ thuật,ZDR5BX,đèn LED âm trần,87
+2024-04-02,Nhật Dương,phòng nhân sự,JCJVHB,đèn LED tròn,5
+2024-07-27,Bà Linh Bùi,phòng R&D,VBCQJR,đèn LED âm trần,39
+2025-03-29,Chị Hạnh Đặng,phòng R&D,58M8XX,đèn LED tròn,50
+2024-10-08,Quang Trí Nguyễn,phòng kỹ thuật,G8IPW,đèn LED âm trần,84
+2024-07-02,Quý ông Khoa Mai,phòng kinh doanh,0WLLY0,đèn LED tròn,32
+2024-06-25,Hà Đặng,phòng kỹ thuật,IQD7G3,đèn bàn học,43
+2025-01-29,An Xuân Vũ,phòng nhân sự,J50MY6,đèn LED âm trần,50
+2025-03-28,Vi Mai,phòng nhân sự,C0WK9S,đèn bàn học,98
+2025-03-11,Bác Khoa Hoàng,phòng kinh doanh,IETWC,đèn LED âm trần,45
+2024-11-08,Dũng Quang Mai,phòng R&D,1UX9U,đèn cảm ứng,54
+2024-08-04,Thành Mai Phạm,phòng kỹ thuật,CQIPK,đèn LED tròn,15
+2024-03-09,Quý cô Ánh Đặng,phòng R&D,GVY2PX,đèn bàn học,75
+2024-08-30,Chi Dương,phòng R&D,AXV760,đèn LED tròn,90
+2024-02-28,Tùng Hoàng,phòng kỹ thuật,87X0NB,đèn cảm ứng,30
+2024-09-10,Anh Quang Trần,phòng kỹ thuật,BQCTFM,đèn bàn học,18
+2024-06-04,Vũ Trần,phòng R&D,I5CH6C,đèn LED tròn,6
+2025-02-15,Hương Trần,phòng kỹ thuật,TSNBK,đèn cảm ứng,79
+2024-10-27,Nhật Bùi,phòng kỹ thuật,S90NVN,đèn cảm ứng,50
+2024-06-20,Hương Đặng,phòng kỹ thuật,XG25WG,đèn cảm ứng,74
+2024-10-31,Hồng Lê,phòng kinh doanh,XZZAA,đèn LED tròn,58
+2024-09-04,Trọng Hải Đặng,phòng kỹ thuật,GFNY21,đèn LED âm trần,95
+2024-12-21,Minh Đặng,phòng kinh doanh,S8J6P,đèn LED tròn,24
+2024-11-11,Cô Lan Đặng,phòng kinh doanh,4ZA1K2,đèn bàn học,86
+2024-02-11,Khoa Mai,phòng nhân sự,FHMHGN,đèn LED âm trần,99
+2025-02-21,Tú Đặng,phòng kinh doanh,CWLN6,đèn cảm ứng,95
+2024-10-26,Quý ông Huy Trần,phòng R&D,6ABHX,đèn LED âm trần,35
+2024-01-06,Anh Dũng Phạm,phòng kinh doanh,I1PIG,đèn bàn học,95
+2024-09-06,Khoa Đặng,phòng kinh doanh,1JWZES,đèn bàn học,86
+2025-03-18,Xuân Vũ,phòng kỹ thuật,LDPPAI,đèn LED âm trần,15
+2025-02-19,Bà Khoa Mai,phòng R&D,B0IPZ9,đèn LED tròn,68
+2025-01-30,Bà Thảo Dương,phòng kỹ thuật,3ZL2I,đèn bàn học,24
+2024-05-26,Hoàng Phú Phạm,phòng nhân sự,QHXSSF,đèn LED âm trần,74
+2024-12-31,Nam Hoàng,phòng kỹ thuật,O53B0L,đèn LED tròn,54
+2024-01-17,Châu Thế Nguyễn,phòng kinh doanh,O261L,đèn bàn học,62
+2024-09-13,Chi Nguyễn,phòng R&D,XE4YD,đèn bàn học,56
+2024-07-18,Trung Trần,phòng kỹ thuật,F7F8N8,đèn bàn học,8
+2024-01-19,Anh Quang Vũ,phòng R&D,SHU0W,đèn LED âm trần,30
+2024-10-31,Dương Nguyễn,phòng R&D,9C48Y,đèn LED tròn,48
+2024-06-03,Chị Hà Dương,phòng kinh doanh,ITCAI,đèn bàn học,27
+2024-07-31,Nhật Hoàng Trần,phòng nhân sự,6O0DN,đèn cảm ứng,60
+2024-02-03,Tùng Bùi,phòng R&D,KBZ8OY,đèn LED âm trần,23
+2024-05-26,Chi Đặng,phòng R&D,1Y5YK,đèn LED tròn,7
+2025-03-26,Chi Đặng,phòng nhân sự,FMLJ59,đèn bàn học,73
+2025-02-19,An Mai,phòng nhân sự,N0AFKI,đèn bàn học,92
+2024-02-01,Hoàng Đặng,phòng kỹ thuật,TV6C9D,đèn bàn học,24
+2025-03-23,Phúc Hải Lê,phòng kỹ thuật,RV2X4B,đèn cảm ứng,3
+2024-03-21,Bảo Hoàng,phòng R&D,78UNG,đèn cảm ứng,32
+2024-10-21,Linh Vũ,phòng nhân sự,MBTHJ,đèn cảm ứng,21
+2024-02-04,Vũ Thị Vũ,phòng kinh doanh,FGU4YF,đèn LED tròn,73
+2025-02-10,Bác Quang Dương,phòng kỹ thuật,XYVIO,đèn LED tròn,23
+2024-07-10,Quang Hữu Vũ,phòng nhân sự,8VW50,đèn cảm ứng,30
+2025-03-24,Hoàng Hoàng Mai,phòng kinh doanh,3XDZZJ,đèn bàn học,95
+2024-03-16,Nhật Bảo Nguyễn,phòng nhân sự,33PO7,đèn LED âm trần,81
+2024-04-28,Lan Mai,phòng kinh doanh,KQ5NVQ,đèn bàn học,58
+2025-02-14,Nhật Đức Phạm,phòng kinh doanh,F988ZR,đèn bàn học,76
+2024-02-09,An Dương,phòng nhân sự,PV7G5,đèn cảm ứng,94
+2024-11-14,Bảo Quang Nguyễn,phòng kỹ thuật,5ZAPW8,đèn cảm ứng,13
+2024-01-21,Phúc Bùi,phòng kinh doanh,6E4D6,đèn cảm ứng,71
+2024-09-10,Khoa Nguyễn,phòng kỹ thuật,HINE84,đèn LED âm trần,76
+2024-01-01,Chị Bảo Phạm,phòng kỹ thuật,MVO1NS,đèn LED tròn,37
+2025-01-30,Hải Mai,phòng R&D,SO1GG,đèn LED âm trần,18
+2024-09-25,Hải Dương,phòng kinh doanh,SGGB3,đèn LED tròn,53
+2024-09-21,Dũng Trí Vũ,phòng kinh doanh,KQCB5H,đèn LED tròn,60
+2025-03-18,Chị Ngọc Mai,phòng nhân sự,9J3OX,đèn LED tròn,31
+2024-04-01,Hạnh Mai,phòng kỹ thuật,2VBDQ,đèn LED tròn,30
+2024-11-10,Chị Thành Trần,phòng kỹ thuật,87SWAF,đèn LED âm trần,100
+2024-08-09,Dương Đặng,phòng kinh doanh,VJSGW,đèn LED tròn,44
+2024-12-21,Quý ông Quang Đặng,phòng nhân sự,C5FHV0,đèn cảm ứng,10
+2024-05-02,Thành Hải Bùi,phòng kinh doanh,L07TKS,đèn LED âm trần,69
+2024-12-30,Dũng Đức Hoàng,phòng R&D,EMFYU,đèn bàn học,3
+2024-04-08,Trung Trí Lê,phòng kinh doanh,JFXDRP,đèn bàn học,12
+2024-10-29,Cô Hương Mai,phòng kinh doanh,SFLGPK,đèn LED âm trần,22
+2024-03-23,Quý cô Hương Nguyễn,phòng kinh doanh,Z6FEVG,đèn LED âm trần,40
+2024-09-12,Bác Hoàng Trần,phòng kỹ thuật,PY4HM,đèn LED tròn,88
+2024-03-24,Kim Lê,phòng kỹ thuật,PUOYFD,đèn LED âm trần,56
+2024-05-16,Hưng Đức Nguyễn,phòng kỹ thuật,CVS9IC,đèn bàn học,24
+2024-09-22,Thảo Phạm,phòng R&D,EOW21,đèn LED tròn,62
+2025-02-26,Chi Dương,phòng kinh doanh,JSV5C,đèn LED âm trần,65
+2024-12-21,Cô Hải Lê,phòng kinh doanh,QKKJ21,đèn LED tròn,64
+2024-06-11,Mai Bùi,phòng nhân sự,O82DPM,đèn bàn học,98
+2024-06-19,Khoa Trần,phòng kỹ thuật,BWD707,đèn bàn học,87
+2024-10-11,Yến Phạm,phòng kỹ thuật,3HFY9,đèn LED tròn,4
+2024-03-25,Quý ông Tùng Hoàng,phòng kỹ thuật,4X8KNW,đèn LED âm trần,25
+2024-10-31,Hà Xuân Lê,phòng R&D,WQSO5K,đèn cảm ứng,71
+2024-03-06,Anh Quang Mai,phòng R&D,C2A3E8,đèn cảm ứng,22
+2024-02-01,Hạnh Phạm,phòng nhân sự,8MPEYW,đèn cảm ứng,87
+2024-09-24,Vân Dương,phòng R&D,BEWEN,đèn LED tròn,70
+2024-12-28,Chị Xuân Bùi,phòng kỹ thuật,GKH38,đèn cảm ứng,77
+2024-03-23,Cô Ngọc Trần,phòng nhân sự,JFHJZC,đèn cảm ứng,100
+2024-04-23,Quý cô Hồng Trần,phòng R&D,K26HW,đèn LED tròn,11
+2024-10-23,Quang Đức Đặng,phòng kỹ thuật,8HHUAB,đèn cảm ứng,63
+2024-05-18,Nhiên Đức Dương,phòng kỹ thuật,QGZJNS,đèn LED tròn,73
+2024-06-19,Lan Lê,phòng R&D,0SZ3R9,đèn cảm ứng,38
+2025-02-09,Cô Linh Bùi,phòng R&D,TVAL5V,đèn cảm ứng,24
+2024-08-07,Bảo Bảo Bùi,phòng kinh doanh,KPM37,đèn LED âm trần,85
+2024-02-27,Dũng Hải Phạm,phòng nhân sự,JGB16,đèn LED tròn,49
+2024-05-14,Bảo Nguyễn,phòng nhân sự,ZRABWY,đèn LED âm trần,33
+2024-02-29,Cô Thành Bùi,phòng R&D,QT2MU,đèn LED âm trần,5
+2024-02-16,Hải Mai,phòng R&D,3CY3YU,đèn LED tròn,87
+2025-03-05,Trọng Bùi,phòng kinh doanh,V51JX,đèn LED âm trần,83
+2024-06-22,Ông Vũ Hoàng,phòng nhân sự,CXTFL,đèn bàn học,3
+2024-02-05,Quý cô Nhật Hoàng,phòng nhân sự,PCDVDU,đèn LED âm trần,7
+2024-04-18,Thành Thị Lê,phòng R&D,VZZDZ,đèn bàn học,35
+2025-04-04,An Bùi,phòng kỹ thuật,ZK39M,đèn LED tròn,16
+2025-03-21,Cô Kim Phạm,phòng kinh doanh,QXWM4,đèn bàn học,47
+2025-02-17,Bà Vân Dương,phòng kinh doanh,F63FIZ,đèn LED tròn,29
+2024-08-17,Hương Hoàng,phòng kinh doanh,CCN20,đèn cảm ứng,51
+2024-07-30,Lâm Lê,phòng nhân sự,3L0U4J,đèn LED âm trần,26
+2024-12-18,Duyên Phạm,phòng R&D,YCNO2K,đèn LED tròn,12
+2024-10-30,Anh Mai,phòng kinh doanh,PDHWHX,đèn cảm ứng,28
+2024-03-03,Tú Dương,phòng kinh doanh,L1CWZG,đèn cảm ứng,11
+2025-03-14,Quý cô Ánh Đặng,phòng nhân sự,BCEQ4R,đèn LED âm trần,65
+2024-08-08,Bác Trọng Vũ,phòng kỹ thuật,M5VWTI,đèn cảm ứng,16
+2024-08-11,Phương Hải Bùi,phòng kỹ thuật,S2GNB,đèn cảm ứng,52
+2024-01-12,Quý cô Hồng Bùi,phòng kinh doanh,W9J2HQ,đèn cảm ứng,14
+2024-06-06,Duyên Bùi,phòng kinh doanh,PRRNZ,đèn cảm ứng,78
+2024-08-17,Hải Hoàng,phòng R&D,23CIW,đèn LED tròn,18
+2024-06-30,Nhật Mai Hoàng,phòng kỹ thuật,YZHGF,đèn LED âm trần,74
+2025-03-31,Bà Linh Mai,phòng kinh doanh,O1YRQ,đèn LED âm trần,18
+2024-01-20,Phúc Mai Trần,phòng nhân sự,G2Y2U,đèn LED tròn,77
+2024-12-07,Hoàng Trần,phòng R&D,6O9V8,đèn cảm ứng,78
+2024-04-09,Ông Khoa Nguyễn,phòng kinh doanh,2SP35C,đèn bàn học,24
+2024-12-08,Chị Hải Bùi,phòng nhân sự,PA7AE6,đèn LED tròn,38
+2025-04-04,Cô Vân Vũ,phòng nhân sự,OCLRY,đèn LED tròn,85
+2024-12-23,Vân Vũ,phòng nhân sự,DZROZR,đèn LED âm trần,26
+2024-07-16,Lan Phạm,phòng R&D,JNIT2,đèn LED âm trần,59
+2025-02-22,Anh Mai,phòng kỹ thuật,JPNNT9,đèn cảm ứng,49
+2024-05-14,Cô Vi Vũ,phòng kỹ thuật,VXE0M,đèn LED tròn,23
+2024-12-10,Quý cô Kim Nguyễn,phòng kỹ thuật,B8DKND,đèn LED tròn,82
+2024-06-28,Khoa Hoàng,phòng kinh doanh,R33VM,đèn bàn học,16
+2024-01-07,Bảo Mai Hoàng,phòng R&D,XJNRQ,đèn cảm ứng,9
+2024-01-14,Xuân Vũ,phòng R&D,KDE31G,đèn LED âm trần,57
+2024-01-30,Cô Hạnh Lê,phòng kinh doanh,90477V,đèn LED tròn,9
+2024-04-21,Cô Duyên Nguyễn,phòng kinh doanh,472FE,đèn bàn học,100
+2025-04-05,Hoàng Quang Mai,phòng nhân sự,ZQOFCN,đèn bàn học,26
+2024-06-19,Ông Châu Mai,phòng kỹ thuật,L7SEP,đèn LED âm trần,20
+2024-01-06,Hạnh Đức Dương,phòng kinh doanh,B3L04,đèn bàn học,61
+2024-03-06,Chị Bảo Đặng,phòng R&D,TLORO2,đèn bàn học,26
+2024-09-08,Lâm Bảo Phạm,phòng kinh doanh,57AIA,đèn cảm ứng,36
+2024-02-20,Dũng Phạm,phòng kinh doanh,LXWL7Z,đèn LED âm trần,73
+2024-03-16,Khoa Đặng,phòng R&D,ATAPXD,đèn bàn học,54
+2024-09-18,Anh Nhiên Bùi,phòng kinh doanh,WK29VR,đèn bàn học,5
+2024-08-15,Trung Lê,phòng nhân sự,NOBMZI,đèn LED âm trần,42
+2025-01-14,Hà Đức Vũ,phòng kỹ thuật,SVWSS,đèn cảm ứng,59
+2024-10-21,Anh Hưng Hoàng,phòng kỹ thuật,1OQW0,đèn LED âm trần,18
+2024-03-19,Nhật Mai,phòng kỹ thuật,D1VIT,đèn cảm ứng,85
+2024-05-18,Nhiên Phạm,phòng kỹ thuật,FCQ4I,đèn LED tròn,67
+2025-02-13,Hưng Đức Vũ,phòng R&D,M1UR0J,đèn LED âm trần,38
+2024-02-02,Hạnh Trí Trần,phòng R&D,WTLLQ,đèn LED âm trần,8
+2024-12-17,Quang Bùi,phòng kinh doanh,VJUGOB,đèn cảm ứng,78
+2024-08-03,Thành Hoàng,phòng nhân sự,UNUBZH,đèn cảm ứng,65
+2025-01-09,Kim Phạm,phòng kinh doanh,FYXE69,đèn cảm ứng,3
+2024-07-10,Anh Trung Trần,phòng R&D,6PC5R1,đèn cảm ứng,85
+2024-06-22,Hoàng Đặng,phòng kinh doanh,W3PJY,đèn LED âm trần,6
+2024-09-30,Hạnh Lê,phòng kỹ thuật,G8OEB,đèn LED âm trần,17
+2024-06-10,Tùng Mai Lê,phòng R&D,PL2OI,đèn LED âm trần,45
+2025-01-07,Anh Nam Mai,phòng R&D,T0J4YQ,đèn bàn học,25
+2024-01-01,Quý cô Thảo Đặng,phòng R&D,EN70CR,đèn LED âm trần,19
+2024-10-18,Nhật Thị Trần,phòng kinh doanh,JVUYL,đèn cảm ứng,20
+2024-08-23,Bác Quang Vũ,phòng kinh doanh,NM8GK,đèn bàn học,49
+2024-09-01,Bà Vân Trần,phòng nhân sự,8XROP,đèn LED tròn,70
+2024-02-11,Hà Quang Hoàng,phòng nhân sự,UIXLUV,đèn bàn học,5
+2024-09-26,Quý ông Khoa Đặng,phòng kỹ thuật,CMQBE,đèn LED tròn,58
+2024-10-11,Phúc Lê,phòng kỹ thuật,YCQY1,đèn cảm ứng,69
+2025-02-03,Bà Xuân Bùi,phòng kinh doanh,BQ017W,đèn bàn học,3
+2024-07-30,Nhật Vũ,phòng kinh doanh,XZXJA,đèn cảm ứng,59
+2024-07-26,Hạnh Trần,phòng nhân sự,J9W4J,đèn LED âm trần,17
+2024-10-05,Thảo Mai,phòng kinh doanh,MUBRS,đèn LED âm trần,39
+2024-11-22,Bà Vi Dương,phòng kỹ thuật,Q6B63,đèn LED tròn,55
+2024-05-23,Cô Bảo Dương,phòng kỹ thuật,Y1NHP,đèn LED tròn,2
+2025-02-02,Quý cô Chi Mai,phòng nhân sự,B700S,đèn bàn học,47
+2024-08-03,Quý ông Hoàng Mai,phòng kinh doanh,APWMH,đèn LED tròn,72
+2024-01-09,Bà Dương Lê,phòng nhân sự,W9WFR,đèn bàn học,45
+2024-03-17,Cô Duyên Vũ,phòng nhân sự,C22PX,đèn bàn học,37
+2024-11-09,Quý cô Vân Hoàng,phòng R&D,97QZ7,đèn LED tròn,79
+2025-01-25,Quang Mai,phòng nhân sự,MT18Y,đèn LED âm trần,8
+2024-05-04,Dũng Mai Phạm,phòng kinh doanh,FHYF4B,đèn cảm ứng,69
+2025-03-31,Tùng Dương,phòng kỹ thuật,CH1SPP,đèn cảm ứng,91
+2025-02-07,Ông Minh Mai,phòng kinh doanh,UA0ML,đèn bàn học,4
+2024-02-15,Vũ Trần,phòng kinh doanh,FC7BXG,đèn bàn học,13
+2024-06-20,Bà An Lê,phòng kinh doanh,CXN7K5,đèn LED tròn,42
+2024-11-19,Vũ Hoàng,phòng kỹ thuật,AJ3ECK,đèn LED âm trần,46
+2024-01-30,Nhật Thị Lê,phòng kỹ thuật,6Q7SK2,đèn bàn học,97
+2024-02-17,Ông Vũ Vũ,phòng R&D,A13IZ,đèn LED âm trần,82
+2025-03-20,Nhật Trí Đặng,phòng kỹ thuật,RA7DUY,đèn LED âm trần,77
+2024-07-28,Quang Mai Bảo Đặng,phòng nhân sự,3ZUP4,đèn cảm ứng,92
+2024-07-07,Nhật Dương,phòng kinh doanh,MMZUE,đèn cảm ứng,64
+2024-03-17,Dương Bùi,phòng nhân sự,VPD5K9,đèn bàn học,27
+2024-04-24,Bảo Mai,phòng kỹ thuật,3OS7JR,đèn LED âm trần,75
+2025-01-27,Ánh Trần,phòng kinh doanh,4FZW0,đèn LED tròn,16
+2025-02-12,Linh Đặng,phòng kinh doanh,Y35YE,đèn cảm ứng,24
+2024-07-22,Lâm Vũ,phòng R&D,AD2O5W,đèn LED tròn,43
+2024-09-22,Trung Tấn Vũ,phòng kinh doanh,JV6DOG,đèn LED tròn,89
+2024-12-25,Bác Anh Đặng,phòng R&D,VLW7V,đèn LED tròn,55
+2024-06-12,Khoa Vũ,phòng kinh doanh,NSJGI6,đèn LED âm trần,76
+2024-10-14,Thành Phú Dương,phòng kỹ thuật,A6U3ST,đèn LED tròn,21
+2024-05-03,Châu Xuân Vũ,phòng kinh doanh,V7IS9X,đèn LED tròn,25
+2024-08-20,Bác Hưng Lê,phòng kinh doanh,A4T1NN,đèn LED tròn,47
+2024-06-02,Hạnh Mai,phòng R&D,QW3BC,đèn bàn học,94
+2024-04-18,Bà Lâm Trần,phòng R&D,8YBP9J,đèn cảm ứng,25
+2024-12-27,Khoa Nguyễn,phòng kỹ thuật,SZ7UDW,đèn LED tròn,100
+2024-02-03,Bảo Mai,phòng kỹ thuật,17973,đèn bàn học,32
+2025-02-21,Quý cô Chi Dương,phòng R&D,L04MTA,đèn cảm ứng,49
+2024-08-29,Cô Dương Phạm,phòng nhân sự,WGTX1,đèn LED âm trần,97
+2024-12-26,Hà Hoàng,phòng nhân sự,DM14PN,đèn LED tròn,47
+2024-07-30,Phương Bảo Đặng,phòng R&D,5RWSGX,đèn LED âm trần,90
+2024-08-10,Yến Lê,phòng nhân sự,90E36,đèn cảm ứng,9
+2024-07-05,Hoàng Phú Mai,phòng R&D,89S2Z8,đèn LED tròn,90
+2024-06-15,Bà Mai Bùi,phòng nhân sự,0756U,đèn LED âm trần,93
+2025-02-16,Lan Dương,phòng R&D,8O939,đèn LED tròn,14
+2024-02-03,Cô Linh Hoàng,phòng nhân sự,94KJL1,đèn bàn học,45
+2024-02-09,Kim Mai,phòng nhân sự,2XOBKP,đèn LED tròn,10
+2025-03-02,Anh Trung Dương,phòng kỹ thuật,YHCLA9,đèn LED tròn,100
+2025-02-09,Bác Phúc Dương,phòng kinh doanh,GZ8TJ,đèn bàn học,57
+2024-12-28,An Bùi,phòng kinh doanh,EMGP9L,đèn bàn học,73
+2025-02-22,Cô Ánh Vũ,phòng kinh doanh,M56GB2,đèn cảm ứng,83
+2024-02-15,Bảo Dương,phòng kỹ thuật,F8L19,đèn cảm ứng,78
+2024-12-31,Dũng Nguyễn,phòng kinh doanh,9N01U5,đèn LED âm trần,67
+2025-01-14,Bảo Bùi,phòng nhân sự,5SIKE,đèn LED tròn,47
+2024-07-24,Bảo Bùi,phòng R&D,DE29N,đèn LED âm trần,33
+2024-03-05,Anh Tấn Trần,phòng nhân sự,VPTBED,đèn LED âm trần,37
+2024-03-30,Trọng Phạm,phòng nhân sự,GWN9N9,đèn bàn học,80
+2024-09-19,Ông Trung Dương,phòng R&D,DZJPL5,đèn LED tròn,78
+2024-09-10,Thành Đức Hoàng,phòng nhân sự,AB0IA,đèn LED tròn,26
+2024-11-29,Châu Đặng,phòng R&D,47QIG,đèn cảm ứng,18
+2024-06-28,Quang Mai Bảo Phạm,phòng kinh doanh,8TY6K,đèn LED tròn,5
+2024-02-05,Cô Nhật Nguyễn,phòng R&D,522J4,đèn LED âm trần,26
+2024-01-11,Quý cô An Hoàng,phòng R&D,ZW37T,đèn cảm ứng,48
+2024-04-25,Nhật Lê,phòng nhân sự,U23WTN,đèn LED tròn,76
+2024-06-19,Cô Hạnh Mai,phòng R&D,K26EHF,đèn LED âm trần,55
+2024-11-30,Khoa Mai Hoàng,phòng kỹ thuật,FZN5JU,đèn LED tròn,98
+2024-07-09,Nhật Dương,phòng nhân sự,0SER9R,đèn LED tròn,44
+2024-08-14,Lâm Hữu Hoàng,phòng R&D,HMNFD,đèn LED âm trần,98
+2024-08-14,Lâm Đức Vũ,phòng kinh doanh,B303WA,đèn cảm ứng,31
+2024-10-15,Tú Trần,phòng kinh doanh,8GV9K,đèn bàn học,14
+2024-05-30,Linh Dương,phòng R&D,A90ED,đèn LED tròn,82
+2024-10-21,Bác Anh Lê,phòng nhân sự,5IY2Z,đèn LED tròn,83
+2025-04-04,Bà Yến Mai,phòng R&D,4ATQSR,đèn bàn học,6
+2024-09-14,Hạnh Xuân Bùi,phòng nhân sự,M0DF3,đèn cảm ứng,79
+2024-02-18,Vũ Đức Bùi,phòng nhân sự,EFQPXV,đèn bàn học,83
+2025-03-06,Thành Hoàng,phòng kỹ thuật,QOFW8U,đèn LED tròn,53
+2024-07-13,Hồng Bùi,phòng kỹ thuật,6VY0L,đèn bàn học,50
+2024-09-30,Cô Bảo Vũ,phòng nhân sự,ZLYAX,đèn LED tròn,30
+2024-10-31,Anh Tú Hoàng,phòng kỹ thuật,YI2W7B,đèn LED tròn,7
+2024-08-06,Thành Phạm,phòng R&D,MOTCNT,đèn LED tròn,3
+2024-06-11,Ông Trung Nguyễn,phòng kinh doanh,T0CMX,đèn LED tròn,30
+2025-01-28,Ông Huy Dương,phòng kỹ thuật,3XKP1,đèn bàn học,55
+2024-05-22,Quý ông Nhiên Nguyễn,phòng R&D,0GG91Z,đèn LED âm trần,28
+2025-02-14,Bà Nhật Mai,phòng nhân sự,O92VCS,đèn cảm ứng,8
+2025-03-11,Vi Đặng,phòng nhân sự,ABVB1,đèn LED tròn,84
+2024-02-05,Tú Đặng,phòng kinh doanh,F7O0X,đèn bàn học,13
+2024-09-11,Thành Bùi,phòng kinh doanh,UUXJ28,đèn LED tròn,93
+2024-12-28,Hải Hải Lê,phòng R&D,APA37G,đèn LED tròn,82
+2024-03-11,Ông Anh Vũ,phòng kinh doanh,I1KPDN,đèn bàn học,65
+2024-12-26,Quý ông Tú Phạm,phòng R&D,MJHEAX,đèn LED âm trần,50
+2025-03-23,Ánh Phạm,phòng R&D,X4TK7,đèn LED tròn,79
+2024-06-08,Bà Dương Hoàng,phòng kỹ thuật,A75JM,đèn LED âm trần,57
+2025-01-26,Bà Vân Phạm,phòng kinh doanh,HBAAR,đèn bàn học,61
+2024-05-03,Cô Lâm Mai,phòng R&D,A8GCN1,đèn bàn học,4
+2024-11-20,Ngọc Nguyễn,phòng kinh doanh,3KFYY3,đèn cảm ứng,32
+2024-04-03,Phương Hữu Dương,phòng kinh doanh,0GGDQ,đèn LED âm trần,3
+2024-05-27,Hải Vũ,phòng kinh doanh,ENMNG,đèn cảm ứng,74
+2024-12-02,Thành Phạm,phòng kinh doanh,K6HLK,đèn cảm ứng,38
+2024-02-21,Ngọc Bùi,phòng kinh doanh,DCFHQR,đèn cảm ứng,75
+2024-04-22,Chị Bảo Dương,phòng kinh doanh,1QUNH1,đèn LED âm trần,47
+2024-10-18,Hạnh Hải Lê,phòng R&D,UDC70S,đèn LED tròn,41
+2024-03-06,Hưng Hải Hoàng,phòng nhân sự,TQMI24,đèn cảm ứng,78
+2024-09-06,Chị Thành Bùi,phòng nhân sự,NL8C94,đèn cảm ứng,66
+2025-01-28,Thành Nguyễn,phòng kỹ thuật,1JNVG1,đèn bàn học,66
+2024-03-04,Bác Châu Đặng,phòng nhân sự,6P8B8,đèn cảm ứng,14
+2024-06-19,Cô Phương Vũ,phòng kinh doanh,5DTLS,đèn LED âm trần,37
+2024-08-23,Huy Dương,phòng R&D,KQ0HM,đèn LED tròn,82
+2024-08-08,Bà Vi Hoàng,phòng R&D,KRFTA,đèn cảm ứng,94
+2025-01-24,Lâm Trí Mai,phòng kinh doanh,GN2S3,đèn LED âm trần,37
+2024-06-05,Tú Trần,phòng nhân sự,73VSSN,đèn LED tròn,71
+2024-12-03,Anh Quang Trần,phòng R&D,V27K1,đèn LED tròn,44
+2024-04-19,Bà Ngọc Bùi,phòng nhân sự,ZMB1S,đèn LED tròn,36
+2024-12-31,Phương Đặng,phòng R&D,0SY9Q7,đèn LED âm trần,90
+2025-01-08,Bà Hạnh Dương,phòng R&D,KNMDB,đèn LED tròn,35
+2024-07-15,Lan Trần,phòng nhân sự,IM41U8,đèn LED âm trần,18
+2024-10-11,Cô Mai Đặng,phòng nhân sự,3UJK6,đèn LED tròn,18
+2025-04-07,Quý cô Duyên Vũ,phòng R&D,RHLMD,đèn cảm ứng,86
+2024-02-19,Trọng Thị Nguyễn,phòng nhân sự,H4QNC,đèn LED âm trần,36
+2024-06-10,Anh Châu Trần,phòng R&D,9TLX0,đèn LED tròn,17
+2024-02-02,Cô Vi Trần,phòng kỹ thuật,0K3YR7,đèn bàn học,10
+2024-04-23,Dương Bùi,phòng nhân sự,0HAG26,đèn LED tròn,61
+2024-06-14,Chị Phương Phạm,phòng nhân sự,W39NU2,đèn cảm ứng,19
+2024-05-17,Bác Huy Dương,phòng nhân sự,VX91U,đèn LED tròn,32
+2024-05-29,Chị Vi Mai,phòng kinh doanh,TD5LD,đèn LED tròn,2
+2024-02-19,Khoa Bùi,phòng R&D,65KN0X,đèn LED âm trần,59
+2024-12-04,Khoa Xuân Trần,phòng R&D,RA094,đèn LED âm trần,99
+2025-01-24,Trung Thị Dương,phòng nhân sự,TC3AMA,đèn cảm ứng,39
+2024-09-03,Hải Đặng,phòng R&D,334SWW,đèn LED tròn,82
+2024-06-12,Cô Khoa Phạm,phòng R&D,UO69VD,đèn bàn học,64
+2024-07-26,Chị Khoa Hoàng,phòng kỹ thuật,B768T,đèn cảm ứng,68
+2024-05-17,Thành Tấn Nguyễn,phòng nhân sự,ETXUEA,đèn LED âm trần,86
+2024-09-09,Hà Đặng,phòng kỹ thuật,GMN7P,đèn cảm ứng,57
+2024-10-28,Ông Trung Vũ,phòng nhân sự,0SBCHX,đèn cảm ứng,63
+2025-03-04,Quý cô Chi Phạm,phòng kỹ thuật,YQXUJ2,đèn cảm ứng,5
+2024-03-24,Nhật Bùi,phòng nhân sự,ML80P,đèn bàn học,84
+2024-02-03,Bà Yến Lê,phòng kỹ thuật,LFUO6,đèn cảm ứng,25
+2024-01-30,Bà Hạnh Mai,phòng kỹ thuật,X65B3,đèn LED tròn,30
+2024-02-29,Chị Nhật Nguyễn,phòng nhân sự,2H89FY,đèn LED âm trần,62
+2024-01-03,Trọng Mai,phòng kỹ thuật,DPBFB,đèn LED âm trần,58
+2025-04-05,Anh Quang Lê,phòng kinh doanh,KJLJV,đèn cảm ứng,67
+2025-03-24,Nhật Quang Mai,phòng kỹ thuật,4WX9B,đèn LED âm trần,81
+2024-04-30,Thành Thị Vũ,phòng kỹ thuật,7Y0HG1,đèn bàn học,49
+2024-11-03,Vân Lê,phòng kỹ thuật,4NUVD,đèn cảm ứng,90
+2024-10-30,Bà Phương Mai,phòng nhân sự,58RGXT,đèn LED tròn,5
+2024-08-18,Tùng Hoàng,phòng R&D,MUFXL,đèn LED tròn,6
+2025-04-09,Lâm Thế Hoàng,phòng kỹ thuật,G0684K,đèn cảm ứng,67
+2024-08-01,Trọng Mai Bảo Phạm,phòng kỹ thuật,LRB44T,đèn LED âm trần,30
+2024-08-27,Hà Vũ,phòng nhân sự,0Y2XO,đèn LED tròn,57
+2024-03-12,Quý ông Bảo Trần,phòng nhân sự,TE7NE,đèn bàn học,77
+2024-11-27,Phúc Dương,phòng R&D,809GA,đèn LED tròn,2
+2024-05-31,Lâm Đức Lê,phòng R&D,3JNR8X,đèn LED tròn,63
+2024-03-31,Quang Bùi,phòng nhân sự,UGOZJ,đèn LED âm trần,66
+2024-01-26,Trung Nguyễn,phòng kỹ thuật,OF5W0M,đèn LED âm trần,10
+2025-01-11,Huy Bùi,phòng kỹ thuật,C9BOW,đèn LED âm trần,35
+2025-02-06,Cô Yến Trần,phòng nhân sự,RGBPB3,đèn cảm ứng,89
+2024-07-05,Chị Thảo Lê,phòng kinh doanh,GRDAR,đèn bàn học,65
+2024-05-02,Anh Trần,phòng nhân sự,NS07VS,đèn bàn học,49
+2024-10-11,Chị Nhật Dương,phòng R&D,0GKX9,đèn LED âm trần,51
+2025-02-05,Cô Linh Đặng,phòng nhân sự,WXLAJH,đèn bàn học,70
+2024-06-04,Huy Nguyễn,phòng R&D,ME0KFG,đèn cảm ứng,29
+2025-04-07,Ánh Nguyễn,phòng kỹ thuật,FJGEU6,đèn LED âm trần,47
+2024-06-15,Lâm Hoàng,phòng nhân sự,VP5AM5,đèn LED tròn,54
+2024-10-09,Chị Bảo Lê,phòng nhân sự,PEZNH,đèn cảm ứng,32
+2024-08-02,Tùng Trần,phòng R&D,1QLT0B,đèn cảm ứng,20
+2025-03-30,Cô Hải Phạm,phòng nhân sự,QLYHL,đèn LED âm trần,20
+2024-01-11,Cô Xuân Nguyễn,phòng R&D,YKRN8,đèn cảm ứng,3
+2024-06-12,Khoa Hữu Lê,phòng nhân sự,N3WG9,đèn LED âm trần,86
+2024-07-06,Nhật Hoàng,phòng kỹ thuật,9IZQP,đèn bàn học,80
+2024-09-11,Ông Trung Hoàng,phòng kinh doanh,GD35C,đèn bàn học,62
+2024-10-04,Nhật Mai,phòng kỹ thuật,2CBC3,đèn bàn học,100
+2024-03-14,Hà Trần,phòng nhân sự,1080U,đèn cảm ứng,75
+2024-12-01,Khoa Bảo Phạm,phòng kinh doanh,6MDDXA,đèn LED tròn,31
+2024-08-30,Chi Nguyễn,phòng nhân sự,WCTHB,đèn bàn học,44
+2025-01-03,Quý ông Huy Vũ,phòng kinh doanh,QAWO9,đèn cảm ứng,26
+2024-07-27,Bác Anh Bùi,phòng nhân sự,UAOU5,đèn LED âm trần,61
+2025-01-16,Nhật Hoàng,phòng R&D,GF6UP,đèn LED âm trần,26
+2024-02-23,Huy Mai Bảo Mai,phòng R&D,ZRA4UX,đèn LED tròn,7
+2025-04-05,Hạnh Trần,phòng R&D,0DJMGY,đèn LED âm trần,79
+2024-05-18,Nam Đặng,phòng R&D,CETPG5,đèn LED âm trần,7
+2025-04-02,Bảo Dương,phòng kinh doanh,9YCQN,đèn cảm ứng,38
+2024-08-16,Yến Vũ,phòng nhân sự,571B84,đèn cảm ứng,74
+2024-08-20,Phương Phạm,phòng kinh doanh,OV7IO,đèn LED tròn,2
+2024-08-09,Quý cô Kim Dương,phòng kinh doanh,9OYBK,đèn LED tròn,44
+2024-09-30,Hạnh Đặng,phòng kỹ thuật,BQQV0,đèn LED tròn,92
+2024-01-18,Ông Châu Lê,phòng R&D,64SQ6,đèn LED âm trần,56
+2024-09-10,Quý ông Quang Trần,phòng kỹ thuật,0S4BQ,đèn cảm ứng,8
+2024-04-26,Anh Thế Vũ,phòng kỹ thuật,1V7PM,đèn bàn học,97
+2024-07-16,Quý cô Hà Phạm,phòng R&D,WAAXWG,đèn LED tròn,76
+2024-02-20,Vân Phạm,phòng R&D,9NSYSB,đèn cảm ứng,30
+2024-08-15,Lan Dương,phòng R&D,EXGEI,đèn cảm ứng,63
+2025-02-19,Mai Bùi,phòng R&D,7MCPRQ,đèn bàn học,77
+2025-01-17,Nhật Mai,phòng kỹ thuật,6JY13Y,đèn bàn học,68
+2024-10-02,Trọng Nguyễn,phòng nhân sự,9112I,đèn cảm ứng,46
+2024-12-29,Quý cô Hạnh Mai,phòng kỹ thuật,GA5A3K,đèn LED âm trần,72
+2024-09-08,Trung Mai,phòng kinh doanh,63RPU,đèn LED âm trần,93
+2025-03-29,Cô Vi Mai,phòng kỹ thuật,08FCK,đèn LED tròn,79
+2024-04-22,Minh Trần,phòng kinh doanh,PUD7F,đèn cảm ứng,25
+2024-12-08,Hải Đặng,phòng nhân sự,4RXHM,đèn LED âm trần,37
+2024-05-21,Anh Trung Vũ,phòng kỹ thuật,YCCRY,đèn bàn học,5
+2024-03-20,Kim Bùi,phòng kinh doanh,RYV8DW,đèn LED tròn,27
+2024-07-12,Trung Mai,phòng kỹ thuật,2YDHW2,đèn LED tròn,92
+2024-03-16,Quý cô Hồng Hoàng,phòng nhân sự,DH308,đèn cảm ứng,71
+2024-09-28,Bác Thành Nguyễn,phòng kinh doanh,YK19IF,đèn LED tròn,70
+2024-04-15,Vũ Đặng,phòng kinh doanh,YL66BQ,đèn LED tròn,97
+2025-01-11,Ông Khoa Bùi,phòng R&D,65OH4N,đèn LED tròn,50
+2025-01-20,Bảo Vũ,phòng R&D,CCS3M,đèn LED tròn,63
+2024-04-03,Bà Vi Trần,phòng nhân sự,G2D9P4,đèn LED âm trần,32
+2025-04-05,Nhiên Hoàng,phòng kinh doanh,LYRMPZ,đèn LED tròn,87
+2024-09-19,Tùng Vũ,phòng nhân sự,7DGD6,đèn LED tròn,63
+2024-10-22,Quý cô Duyên Trần,phòng kinh doanh,R84K3S,đèn cảm ứng,39
+2025-02-10,Lâm Vũ,phòng R&D,9NU9H,đèn LED âm trần,12
+2025-02-04,Anh Hưng Đặng,phòng kỹ thuật,C06IOK,đèn LED âm trần,52
+2024-12-13,Yến Hoàng,phòng kỹ thuật,TOL44L,đèn bàn học,64
+2024-06-12,Quý cô Chi Hoàng,phòng kinh doanh,FNK25,đèn LED tròn,61
+2025-01-03,Minh Đức Nguyễn,phòng kinh doanh,L0FNI8,đèn LED tròn,67
+2024-06-24,Quang Văn Lê,phòng R&D,G51O00,đèn LED tròn,63
+2024-03-02,Quý cô Hồng Hoàng,phòng R&D,JHXK7Y,đèn LED tròn,94
+2024-04-17,Bà Vân Phạm,phòng R&D,LYZ65,đèn LED tròn,43
+2024-01-28,Phương Phạm,phòng kỹ thuật,UF0SV,đèn LED tròn,21
+2025-02-16,Hải Tấn Lê,phòng R&D,AFB8WM,đèn cảm ứng,68
+2024-02-02,Lan Lê,phòng R&D,3S5Y6,đèn LED tròn,43
+2024-05-25,Lâm Mai Bảo Đặng,phòng nhân sự,W570J2,đèn bàn học,98
+2025-03-09,Nhật Vũ,phòng kinh doanh,9V3GH,đèn LED tròn,77
+2024-01-18,Duyên Mai,phòng R&D,G079F,đèn bàn học,79
+2024-10-23,Cô Vân Lê,phòng kinh doanh,ZKL6V8,đèn LED tròn,25
+2024-04-05,Ông Thành Lê,phòng kỹ thuật,BNEG4,đèn LED tròn,36
+2025-01-12,Bác Thành Đặng,phòng kỹ thuật,JAA7H3,đèn LED tròn,52
+2024-01-25,Nhiên Lê,phòng kinh doanh,XMB9Q,đèn cảm ứng,5
+2025-02-25,Anh Hoàng,phòng kỹ thuật,UT1UL,đèn bàn học,88
+2024-05-24,Quý ông Quang Trần,phòng kỹ thuật,DLD4O,đèn LED âm trần,46
+2024-05-04,Hưng Đức Phạm,phòng kỹ thuật,8RB9TX,đèn LED tròn,98
+2024-06-17,Bảo Đức Mai,phòng kỹ thuật,ZKFYQ,đèn LED âm trần,4
+2024-11-20,Xuân Phạm,phòng kỹ thuật,U1XW0,đèn LED âm trần,67
+2024-04-17,Hồng Nguyễn,phòng nhân sự,MSKGN,đèn LED tròn,73
+2025-02-19,Ông Châu Nguyễn,phòng kinh doanh,CX0I7,đèn bàn học,81
+2024-01-18,Anh Đặng,phòng R&D,JP6P7S,đèn LED tròn,80
+2024-12-11,Lâm Đức Vũ,phòng kỹ thuật,RZ1FU,đèn cảm ứng,83
+2024-03-26,Anh Vũ,phòng kỹ thuật,6NOGG,đèn cảm ứng,13
+2024-03-01,Trọng Bùi,phòng kỹ thuật,3H6B1N,đèn cảm ứng,56
+2024-02-02,Vân Dương,phòng kinh doanh,WT5LSV,đèn cảm ứng,61
+2024-03-13,Trọng Nguyễn,phòng kỹ thuật,9E87Q,đèn cảm ứng,31
+2024-04-09,Thành Văn Trần,phòng R&D,H2RB18,đèn LED âm trần,92
+2024-04-03,Tú Mai,phòng nhân sự,REQYPG,đèn LED âm trần,65
+2025-03-10,Quý ông Nhiên Hoàng,phòng kinh doanh,IU4FPP,đèn bàn học,92
+2024-01-19,Cô Hải Phạm,phòng R&D,13YRD6,đèn LED tròn,47
+2024-04-19,Anh Trung Trần,phòng kỹ thuật,XZDAH,đèn bàn học,31
+2025-01-10,Bà Ánh Mai,phòng nhân sự,WPAF8J,đèn bàn học,17
+2024-02-05,Trung Mai Bảo Hoàng,phòng kỹ thuật,92QT4,đèn bàn học,6
+2024-05-20,Linh Lê,phòng nhân sự,YFDSEU,đèn bàn học,49
+2024-01-29,Cô Hồng Vũ,phòng R&D,1C4OD,đèn bàn học,67
+2024-05-22,Phúc Mai Bảo Mai,phòng nhân sự,CI5JW7,đèn cảm ứng,10
+2025-04-02,Kim Phú Bùi,phòng kinh doanh,RA4PA,đèn LED tròn,16
+2024-06-18,Cô Mai Vũ,phòng kỹ thuật,0J1LWZ,đèn LED tròn,52
+2024-05-12,Anh Châu Dương,phòng kỹ thuật,ENVBF2,đèn LED âm trần,93
+2025-03-11,Chị Duyên Mai,phòng nhân sự,6ZHW5J,đèn LED tròn,75
+2025-02-09,Kim Dương,phòng R&D,9ESDO,đèn LED âm trần,46
+2024-05-25,Hồng Nguyễn,phòng kỹ thuật,SRNBY,đèn LED âm trần,72
+2024-02-05,Ông Trung Vũ,phòng nhân sự,70D9S9,đèn cảm ứng,70
+2024-06-19,Phương Bùi,phòng kỹ thuật,BXKZ2L,đèn bàn học,34
+2024-08-18,Thành Nguyễn,phòng nhân sự,YQ3DKI,đèn LED âm trần,32
+2024-06-04,Nhật Lê,phòng nhân sự,NEJIR7,đèn LED âm trần,76
+2025-01-15,Khoa Vũ,phòng R&D,H8T3C,đèn LED tròn,85
+2024-02-06,Cô Hồng Nguyễn,phòng R&D,HDPGT,đèn LED tròn,43
+2024-08-24,Nhiên Xuân Bùi,phòng kỹ thuật,J9JPSO,đèn LED âm trần,86
+2024-07-26,Quý cô Nhật Hoàng,phòng nhân sự,26SLH,đèn bàn học,77
+2024-01-02,Vi Hoàng,phòng kinh doanh,A87OPI,đèn bàn học,64
+2025-02-03,Quý cô Ngọc Bùi,phòng kinh doanh,2OZWC,đèn LED tròn,48
+2024-01-14,Ông Vũ Nguyễn,phòng kinh doanh,E3KBR8,đèn bàn học,33
+2024-02-21,Vũ Phạm,phòng kinh doanh,QZMK2,đèn cảm ứng,35
+2025-01-20,Ánh Hoàng,phòng nhân sự,SD4HU,đèn cảm ứng,66
+2024-03-05,Quý cô Hồng Lê,phòng nhân sự,ZYRPN,đèn cảm ứng,61
+2024-02-10,Mai Mai,phòng R&D,IYCP2,đèn LED tròn,73
+2024-02-26,Cô Lâm Hoàng,phòng nhân sự,BALAD,đèn LED tròn,53
+2024-02-05,Hải Mai,phòng nhân sự,M4YRCR,đèn cảm ứng,21
+2024-03-01,Bác Dũng Trần,phòng nhân sự,B52S0Z,đèn bàn học,37
+2024-02-21,Thành Đức Bùi,phòng kỹ thuật,C8E3Y,đèn LED tròn,84
+2024-09-15,Hà Văn Lê,phòng nhân sự,Z1XRZ,đèn bàn học,36
+2024-07-03,Bảo Hoàng Hoàng,phòng kinh doanh,EA5LQ,đèn LED âm trần,15
+2024-12-18,Chị Phương Vũ,phòng nhân sự,E2VOC,đèn LED tròn,16
+2024-11-20,Nhật Hữu Dương,phòng R&D,JXBLB,đèn bàn học,32
+2024-02-19,Cô Linh Vũ,phòng kinh doanh,F1Y9N,đèn LED âm trần,64
+2024-06-03,Hà Văn Phạm,phòng kỹ thuật,FUGAC,đèn cảm ứng,67
+2024-08-15,Bà Nhật Trần,phòng kinh doanh,J60REU,đèn bàn học,29
+2024-08-23,Nam Bùi,phòng kỹ thuật,77P5K,đèn bàn học,49
+2025-04-02,Thành Bùi,phòng kinh doanh,EEGNM,đèn LED tròn,58
+2024-05-31,Xuân Trần,phòng kỹ thuật,6HBEMB,đèn LED âm trần,73
+2025-02-08,Bác Tùng Lê,phòng nhân sự,85TBE,đèn cảm ứng,79
+2024-02-29,Vi Phạm,phòng R&D,8T1384,đèn LED tròn,69
+2024-01-26,Quý cô Thảo Dương,phòng nhân sự,A1D6W,đèn bàn học,40
+2024-11-22,Hà Phạm,phòng kỹ thuật,F7CVE,đèn cảm ứng,9
+2024-03-25,Lâm Hoàng,phòng kinh doanh,SSYLV,đèn LED tròn,31
+2024-08-20,Vân Trần,phòng kinh doanh,3M6WX,đèn bàn học,43
+2025-02-02,Anh Phúc Lê,phòng kinh doanh,LRH8L,đèn LED âm trần,33
+2024-09-25,Vi Mai,phòng kinh doanh,8X4DO,đèn LED tròn,57
+2024-11-16,Xuân Hoàng,phòng R&D,Z98VEN,đèn bàn học,82
+2024-10-01,Hạnh Phạm,phòng R&D,XOGKP,đèn bàn học,17
+2024-12-27,Bảo Đặng,phòng kỹ thuật,OMK7BP,đèn bàn học,54
+2025-01-17,Hạnh Phạm,phòng nhân sự,TASGOP,đèn LED âm trần,1
+2024-04-15,Thành Văn Nguyễn,phòng kinh doanh,C40XI,đèn LED tròn,82
+2025-04-09,Bà An Trần,phòng kinh doanh,B5APW7,đèn cảm ứng,39
+2025-02-09,An Dương,phòng R&D,I1L37,đèn LED âm trần,23
+2025-01-01,Yến Vũ,phòng kinh doanh,N2QWZ,đèn cảm ứng,11
+2025-01-31,Khoa Bùi,phòng R&D,JEG8K,đèn LED tròn,46
+2024-02-05,Nhiên Bùi,phòng kỹ thuật,8YU9R,đèn LED âm trần,64
+2024-07-22,Vi Lê,phòng nhân sự,3VBUGB,đèn LED tròn,81
+2025-01-14,Bác Hưng Mai,phòng kỹ thuật,8CZBW,đèn bàn học,73
+2024-03-10,Duyên Dương,phòng kinh doanh,LDYW2,đèn cảm ứng,93
+2024-11-11,Lâm Đức Mai,phòng kỹ thuật,ZTKLXO,đèn LED tròn,61
+2024-12-30,Trung Thị Phạm,phòng kinh doanh,NQLUDL,đèn cảm ứng,90
+2024-04-27,Lâm Quang Lê,phòng nhân sự,WW2V8R,đèn bàn học,29
+2024-06-08,Ông Dũng Bùi,phòng R&D,STFTY9,đèn LED âm trần,9
+2024-09-09,Hạnh Bùi,phòng kinh doanh,WOVFA,đèn LED tròn,28
+2024-08-14,Trung Trần,phòng kinh doanh,DAB93,đèn cảm ứng,100
+2025-01-29,Lâm Văn Dương,phòng R&D,GKC3X8,đèn LED âm trần,80
+2024-10-15,Bảo Đức Mai,phòng nhân sự,K298C8,đèn cảm ứng,54
+2024-01-15,Hoàng Văn Dương,phòng nhân sự,4QWAH,đèn LED âm trần,62
+2024-06-10,Hà Dương,phòng nhân sự,SMGY8C,đèn LED âm trần,84
+2024-08-20,Tùng Thị Dương,phòng nhân sự,8ECHS,đèn bàn học,73
+2025-02-16,Quang Thị Mai,phòng R&D,ZK2C8,đèn LED tròn,23
+2024-11-27,Ông Bảo Phạm,phòng kinh doanh,32WMIB,đèn cảm ứng,76
+2024-01-28,Lâm Trí Phạm,phòng nhân sự,J4FDDD,đèn bàn học,38
+2025-03-17,Tú Hữu Nguyễn,phòng kinh doanh,6EXK0,đèn LED âm trần,43
+2025-02-12,Khoa Đặng,phòng kỹ thuật,YFZ0K5,đèn bàn học,67
+2024-08-29,Vi Đặng,phòng nhân sự,XYG9L,đèn bàn học,80
+2024-05-15,Nhật Nguyễn,phòng kỹ thuật,JIK6LF,đèn bàn học,10
+2024-02-06,Cô Yến Vũ,phòng nhân sự,JLSN96,đèn LED âm trần,33
+2024-02-04,Chị Phương Bùi,phòng kinh doanh,UZG96,đèn cảm ứng,88
+2024-09-11,Trọng Nguyễn,phòng R&D,GOODHZ,đèn LED tròn,76
+2025-01-11,Bảo Dương,phòng kỹ thuật,ZWIV1,đèn LED âm trần,24
+2025-03-07,Cô Vân Nguyễn,phòng kỹ thuật,AYS9K,đèn LED tròn,57
+2024-04-13,Kim Tấn Nguyễn,phòng R&D,KAUC6G,đèn LED âm trần,62
+2025-03-06,Cô Hồng Bùi,phòng R&D,AQGJ2,đèn LED âm trần,95
+2024-12-10,Hoàng Hoàng,phòng kỹ thuật,YEHC6,đèn bàn học,57
+2024-01-15,Phúc Trần,phòng R&D,A2PW4,đèn cảm ứng,31
+2024-08-03,Bảo Nguyễn,phòng nhân sự,YI39JZ,đèn LED âm trần,65
+2024-01-19,Quý cô Lan Vũ,phòng kỹ thuật,TWZC5,đèn cảm ứng,61
+2025-01-25,Khoa Mai,phòng kỹ thuật,WHQV5,đèn LED âm trần,30
+2025-03-21,Bảo Văn Trần,phòng kỹ thuật,SUFG4,đèn LED âm trần,62
+2024-12-24,Bà An Mai,phòng R&D,TWTE34,đèn LED âm trần,20
+2025-04-09,Bác Thành Nguyễn,phòng R&D,4NM71,đèn LED tròn,95
+2024-05-12,Cô Vân Dương,phòng kinh doanh,HYBNP,đèn LED tròn,85
+2024-10-05,Hà Bùi,phòng kinh doanh,6S9I5L,đèn LED âm trần,34
+2024-02-12,Hồng Vũ,phòng R&D,PCWKJ,đèn bàn học,48
+2025-03-31,Cô Nhật Dương,phòng kinh doanh,F9YRQ,đèn LED tròn,100
+2025-03-17,Chị Vân Bùi,phòng R&D,NCJAO,đèn LED âm trần,84
+2024-01-14,Bà Kim Vũ,phòng kỹ thuật,CM8S6M,đèn LED tròn,34
+2024-04-03,Cô Chi Dương,phòng kinh doanh,N5PTG,đèn LED tròn,36
+2025-03-31,Trung Hoàng Mai,phòng nhân sự,CC2L41,đèn LED tròn,58
+2024-12-15,Chị Thành Vũ,phòng kinh doanh,1LJVI,đèn LED âm trần,81
+2025-02-26,Bà Lan Đặng,phòng kỹ thuật,XJUROF,đèn LED tròn,35
+2024-03-18,Phương Phạm,phòng kỹ thuật,70KMUM,đèn bàn học,33
+2025-01-22,Nhật Hoàng,phòng nhân sự,N1IWJ,đèn LED âm trần,81
+2024-02-13,Anh Hoàng Dương,phòng nhân sự,TXAMN,đèn LED tròn,87
+2024-06-20,Quý cô Linh Mai,phòng nhân sự,CBE0R,đèn LED tròn,97
+2024-12-17,Khoa Xuân Trần,phòng nhân sự,KZTH26,đèn bàn học,81
+2025-02-07,Chị Lan Đặng,phòng nhân sự,I7WIP,đèn LED âm trần,82
+2024-11-08,Nhật Dương,phòng kỹ thuật,GOR7A,đèn LED âm trần,46
+2024-02-27,Khoa Hải Đặng,phòng nhân sự,GKJ3YK,đèn LED âm trần,77
+2024-06-05,Bảo Mai,phòng R&D,XXR5K,đèn bàn học,8
+2024-03-01,Khoa Trí Mai,phòng nhân sự,XRSLA,đèn LED tròn,71
+2024-03-14,Nam Thế Đặng,phòng kỹ thuật,8Q8OW,đèn bàn học,59
+2024-06-27,Kim Mai,phòng kỹ thuật,YK14V,đèn bàn học,70
+2024-12-31,Vũ Tấn Trần,phòng R&D,OYUKJ,đèn bàn học,11
+2024-10-19,Hà Đức Nguyễn,phòng R&D,OCQGP,đèn bàn học,97
+2024-08-31,An Thị Bùi,phòng R&D,4Z2UD,đèn cảm ứng,42
+2024-04-02,Hạnh Lê,phòng R&D,B0V24,đèn cảm ứng,58
+2024-04-10,Khoa Tấn Lê,phòng R&D,KE8FIC,đèn LED tròn,16
+2024-05-01,Quý cô Lan Dương,phòng kinh doanh,L17MX,đèn cảm ứng,41
+2024-09-18,Cô Xuân Dương,phòng kỹ thuật,GYJBG,đèn LED tròn,15
+2024-07-07,Phúc Trần,phòng kinh doanh,JPSXE,đèn LED âm trần,42
+2024-10-19,Hưng Trần,phòng nhân sự,BI7VW,đèn cảm ứng,45
+2024-05-10,Nhật Hoàng Nguyễn,phòng nhân sự,2IUXP,đèn bàn học,64
+2024-05-02,Hương Dương,phòng kinh doanh,5B6G9C,đèn bàn học,70
+2024-05-28,Hải Trần,phòng nhân sự,CGP3AS,đèn cảm ứng,28
+2025-04-09,Chị Hương Vũ,phòng R&D,4Z82M,đèn bàn học,63
+2024-12-15,Vi Phạm,phòng R&D,7Y6TZ,đèn bàn học,12
+2024-03-13,Khoa Thế Vũ,phòng nhân sự,CFD58,đèn LED tròn,74
+2024-10-13,Anh Tú Hoàng,phòng kỹ thuật,KOMLT9,đèn LED âm trần,79
+2024-08-27,Quý cô Ánh Hoàng,phòng R&D,CI7Y3,đèn LED âm trần,83
+2025-02-27,Nhật Mai Phạm,phòng nhân sự,BWZLWF,đèn bàn học,85
+2024-06-28,Bà Yến Đặng,phòng R&D,H3BN3,đèn LED tròn,78
+2025-03-09,Nam Bùi,phòng R&D,9WJPF5,đèn bàn học,6
+2024-10-04,Bà Hà Trần,phòng nhân sự,2CCU5,đèn LED âm trần,51
+2024-12-23,Bác Trọng Đặng,phòng nhân sự,C8MT92,đèn LED âm trần,38
+2024-11-16,Trọng Quang Trần,phòng nhân sự,NLTUQ0,đèn cảm ứng,22
+2024-04-19,Bảo Hoàng,phòng nhân sự,3T7CMF,đèn bàn học,77
+2024-08-16,Yến Lê,phòng kinh doanh,RL1WP,đèn LED âm trần,99
+2024-01-26,Bảo Thế Dương,phòng kinh doanh,IJTAPS,đèn cảm ứng,91
+2024-01-29,Anh Trọng Dương,phòng R&D,CGUOO3,đèn LED âm trần,61
+2025-02-13,Hà Đặng,phòng kinh doanh,EK82NB,đèn LED âm trần,3
+2024-01-04,Anh Trung Nguyễn,phòng kỹ thuật,ZNPBQ6,đèn LED tròn,93
+2024-04-21,Phương Phú Bùi,phòng nhân sự,TWKKS,đèn LED âm trần,82
+2024-05-08,Hoàng Trí Đặng,phòng nhân sự,V3KL9X,đèn bàn học,4
+2025-01-24,Quý ông Hưng Dương,phòng kỹ thuật,JROVJQ,đèn LED tròn,35
+2024-07-28,Bảo Hữu Nguyễn,phòng kỹ thuật,KHOGY,đèn cảm ứng,51
+2024-05-10,Nhiên Trí Mai,phòng kỹ thuật,3J8XDU,đèn LED tròn,17
+2024-11-23,Chị Vân Lê,phòng kinh doanh,0MTY2,đèn bàn học,70
+2025-01-19,Chị Lâm Hoàng,phòng R&D,1VUGGG,đèn LED âm trần,83
+2025-01-28,Kim Hải Nguyễn,phòng kinh doanh,Y46D93,đèn bàn học,81
+2024-11-17,Thành Mai Bảo Trần,phòng nhân sự,UQJXRG,đèn LED tròn,60
+2024-06-09,Duyên Phạm,phòng kỹ thuật,N6LVKY,đèn LED tròn,14
+2025-03-24,Quý cô Hạnh Dương,phòng kinh doanh,JN17J,đèn LED âm trần,93
+2024-10-11,Khoa Trí Bùi,phòng nhân sự,Q9QJY,đèn cảm ứng,15
+2024-12-26,Tùng Trần,phòng kỹ thuật,8PTK0,đèn cảm ứng,62
+2024-09-29,Cô Lâm Lê,phòng kỹ thuật,LY416,đèn LED âm trần,34
+2025-03-17,Bác Huy Bùi,phòng kỹ thuật,OZB3L,đèn bàn học,76
+2024-04-10,Khoa Đặng,phòng kỹ thuật,15AYCI,đèn cảm ứng,24
+2024-02-25,Trọng Hoàng,phòng R&D,PAR01X,đèn cảm ứng,84
+2025-01-31,Hạnh Bùi,phòng R&D,42SYI,đèn bàn học,66
+2024-01-18,Trọng Hoàng,phòng kỹ thuật,O9GIY,đèn bàn học,55
+2024-05-25,Phương Nguyễn,phòng nhân sự,U2XDE,đèn cảm ứng,41
+2025-02-09,Vũ Hoàng,phòng R&D,KOJOJZ,đèn bàn học,96
+2024-08-24,Hà Dương,phòng R&D,TZHDNT,đèn LED tròn,90
+2024-05-15,Bảo Quang Lê,phòng nhân sự,A56M3N,đèn LED tròn,56
+2024-09-02,Chị Chi Bùi,phòng nhân sự,OWLMZR,đèn bàn học,42
+2024-12-15,Nhật Xuân Nguyễn,phòng kỹ thuật,VCHX4Q,đèn bàn học,21
+2025-02-26,Bảo Hoàng,phòng nhân sự,MZ5QHL,đèn bàn học,84
+2024-03-24,Duyên Nguyễn,phòng kỹ thuật,O8RM0,đèn bàn học,22
+2024-02-26,Bà Linh Trần,phòng kinh doanh,RRAAI,đèn cảm ứng,30
+2024-09-25,Bảo Văn Đặng,phòng R&D,HWAFGW,đèn bàn học,54
+2025-01-14,Chị Lâm Dương,phòng kỹ thuật,G9WE2,đèn LED tròn,48
+2024-10-12,Lâm Mai Bảo Mai,phòng nhân sự,2I33KP,đèn LED âm trần,88
+2024-08-17,Thành Hoàng,phòng kinh doanh,IQVBA,đèn bàn học,44
+2024-07-25,Hải Đức Phạm,phòng kỹ thuật,D5187,đèn LED tròn,63
+2024-12-06,Quang Đức Vũ,phòng kinh doanh,PEXCF,đèn LED tròn,99
+2024-02-29,Chi Hoàng,phòng kỹ thuật,VOOTJ,đèn cảm ứng,51
+2025-02-22,Kim Dương,phòng nhân sự,CH5V3,đèn cảm ứng,17
+2024-06-21,An Hoàng Đặng,phòng nhân sự,16SK7X,đèn LED tròn,5
+2024-02-13,Vũ Hữu Mai,phòng kinh doanh,XXX8G,đèn cảm ứng,69
+2024-10-01,Anh Thành Dương,phòng nhân sự,BZC16,đèn LED tròn,15
+2024-01-23,Quý cô Chi Đặng,phòng kinh doanh,9697NX,đèn LED âm trần,100
+2024-05-28,Dương Dương,phòng kinh doanh,CI6BPP,đèn bàn học,34
+2024-05-20,Xuân Nguyễn,phòng R&D,IMBFWO,đèn cảm ứng,61
+2024-06-29,Hà Thị Lê,phòng kinh doanh,WQY35,đèn bàn học,27
+2024-06-20,Nhật Mai Bảo Hoàng,phòng kỹ thuật,SRU0D,đèn bàn học,34
+2024-12-19,Quang Vũ,phòng kinh doanh,YY6OR6,đèn cảm ứng,2
+2024-03-03,Bác Trung Mai,phòng R&D,OQ88L7,đèn LED tròn,83
+2024-12-25,Lâm Bùi,phòng kinh doanh,IEQ7B,đèn LED tròn,27
+2025-01-20,Nhật Hải Vũ,phòng R&D,Y2JYMX,đèn cảm ứng,65
+2024-04-04,Bảo Đức Vũ,phòng kinh doanh,J7VGT,đèn cảm ứng,11
+2024-01-11,Cô Thành Hoàng,phòng R&D,AXTNUR,đèn LED âm trần,92
+2025-02-26,Hưng Hải Bùi,phòng kỹ thuật,MZCCU,đèn LED âm trần,52
+2025-02-17,Yến Vũ,phòng R&D,FEV4X,đèn bàn học,18
+2024-11-07,Bác Tú Nguyễn,phòng R&D,5XQTQF,đèn cảm ứng,19
+2024-11-03,Thảo Trần,phòng kinh doanh,HJHZNO,đèn cảm ứng,83
+2024-06-10,Khoa Đặng,phòng R&D,A3NYU,đèn LED âm trần,26
+2024-11-06,Quý ông Quang Hoàng,phòng kỹ thuật,M80DZ2,đèn bàn học,38
+2025-02-05,Nhật Đức Bùi,phòng nhân sự,C525MR,đèn LED âm trần,68
+2024-08-24,Cô Nhật Lê,phòng kỹ thuật,OPY41,đèn cảm ứng,64
+2024-03-09,Trung Văn Dương,phòng kỹ thuật,S0QHK,đèn cảm ứng,94
+2024-09-26,Trọng Mai,phòng kỹ thuật,HZXUX7,đèn LED tròn,83
+2024-02-18,Nhật Mai,phòng nhân sự,EC0Y34,đèn bàn học,61
+2024-04-17,Thành Đặng,phòng R&D,3POUWI,đèn bàn học,20
+2025-01-02,Bà Mai Nguyễn,phòng kinh doanh,J1EYF,đèn cảm ứng,82
+2024-06-30,Quý cô Phương Đặng,phòng kinh doanh,VYY0I,đèn bàn học,23
+2025-03-05,Chị Hồng Lê,phòng kinh doanh,E3KZN,đèn cảm ứng,23
+2025-03-12,Hoàng Văn Bùi,phòng R&D,P1QQV,đèn LED âm trần,29
+2024-08-03,Hưng Mai Bảo Đặng,phòng kinh doanh,FIOEQ5,đèn bàn học,66
+2024-01-16,Bảo Thế Bùi,phòng kỹ thuật,F92NK,đèn LED tròn,40
+2024-10-21,Quý cô Kim Hoàng,phòng kinh doanh,WZFT8O,đèn LED âm trần,46
+2024-11-22,Bà Dương Bùi,phòng kỹ thuật,R5U1R,đèn cảm ứng,58
+2025-01-05,Thảo Đặng,phòng R&D,8073R,đèn LED âm trần,14
+2024-06-29,Hải Vũ,phòng nhân sự,MQ176D,đèn LED âm trần,80
+2024-08-12,Vũ Nguyễn,phòng R&D,ZPOOSQ,đèn LED âm trần,2
+2025-03-01,Linh Đặng,phòng kỹ thuật,ZELP4,đèn cảm ứng,73
+2024-05-23,Bà Khoa Trần,phòng kỹ thuật,815ZU,đèn LED âm trần,71
+2025-01-11,Nam Quang Trần,phòng kỹ thuật,EMLCH,đèn LED âm trần,1
+2024-05-05,Hải Trần,phòng kinh doanh,J53B8V,đèn LED âm trần,36
+2024-07-27,An Lê,phòng kỹ thuật,I7O6UG,đèn cảm ứng,40
+2025-03-05,An Nguyễn,phòng R&D,IC4M9C,đèn LED âm trần,85
+2024-05-20,Tùng Đức Lê,phòng R&D,QAULAA,đèn LED tròn,77
+2024-05-23,Anh Trung Mai,phòng kinh doanh,WAPNX3,đèn cảm ứng,14
+2024-05-18,Xuân Mai,phòng nhân sự,CKOHR,đèn LED tròn,67
+2024-09-28,Bà Hồng Mai,phòng nhân sự,W9QDK7,đèn LED tròn,1
+2024-08-13,Quý cô Linh Đặng,phòng nhân sự,YI335,đèn cảm ứng,99
+2025-02-08,Dương Dương,phòng kỹ thuật,D93UUJ,đèn cảm ứng,32
+2024-12-04,Quý ông Minh Vũ,phòng R&D,V87GQ,đèn bàn học,80
+2025-01-23,Anh Dũng Hoàng,phòng nhân sự,X5C36X,đèn bàn học,63
+2024-09-08,Bà Vân Hoàng,phòng R&D,GMZ3J,đèn LED âm trần,55
+2024-04-25,Hà Bảo Bùi,phòng kỹ thuật,4P1QY,đèn bàn học,6
+2025-01-05,Dương Phạm,phòng R&D,KASFC,đèn cảm ứng,93
+2025-03-25,Thành Phạm,phòng kỹ thuật,938FY,đèn LED âm trần,62
+2024-09-25,Hải Xuân Phạm,phòng kỹ thuật,59Z7M,đèn LED tròn,22
+2024-04-18,Phương Mai Bùi,phòng R&D,P78XAD,đèn cảm ứng,32
+2024-05-24,Quý ông Trọng Phạm,phòng kỹ thuật,M4ZWBL,đèn LED tròn,72
+2024-06-05,Bác Quang Dương,phòng nhân sự,SWIY96,đèn bàn học,59
+2024-02-27,Phương Mai,phòng nhân sự,AV19K,đèn LED tròn,20
+2024-10-18,Vũ Đức Dương,phòng kinh doanh,O9CBJO,đèn cảm ứng,68
+2024-04-14,Tú Hoàng,phòng nhân sự,SZ4ZFD,đèn cảm ứng,96
+2025-03-04,Hải Phạm,phòng kỹ thuật,FYYW71,đèn LED tròn,36
+2024-06-04,Quý ông Tùng Hoàng,phòng nhân sự,VYUQK0,đèn LED tròn,61
+2024-04-03,Nhật Mai Bảo Hoàng,phòng nhân sự,X9LIW,đèn bàn học,6
+2024-02-24,Thành Dương,phòng R&D,GEACD,đèn LED âm trần,7
+2024-09-11,Lan Bùi,phòng nhân sự,1OV2F,đèn bàn học,22
+2024-03-03,Bà Khoa Mai,phòng kinh doanh,9O2S9,đèn LED tròn,11
+2025-01-24,Thành Văn Bùi,phòng nhân sự,854O3,đèn LED âm trần,18
+2024-01-31,Bảo Trần,phòng nhân sự,1I0VH6,đèn LED âm trần,65
+2024-09-16,Ông Châu Mai,phòng kinh doanh,ZPW0U,đèn bàn học,52
+2024-04-18,Quý cô Lan Đặng,phòng kỹ thuật,84I517,đèn bàn học,5
+2024-05-24,Bác Quang Dương,phòng nhân sự,NUKCZ2,đèn cảm ứng,40
+2024-05-30,Quý cô Nhật Vũ,phòng kinh doanh,45S87Q,đèn bàn học,76
+2024-12-24,Khoa Đức Phạm,phòng R&D,VBS4Z,đèn LED tròn,21
+2024-08-31,Cô Yến Lê,phòng kinh doanh,V8X7M,đèn LED tròn,7
+2024-11-08,Xuân Lê,phòng nhân sự,Y619C,đèn LED tròn,51
+2024-12-26,Hưng Hoàng,phòng kinh doanh,916FX,đèn LED âm trần,80
+2024-05-20,Thành Đức Dương,phòng nhân sự,BI277,đèn LED âm trần,90
+2025-01-10,Cô Kim Hoàng,phòng R&D,MARHZ,đèn cảm ứng,27
+2024-03-19,Thành Tấn Trần,phòng kỹ thuật,STB2IK,đèn LED tròn,52
+2025-03-10,Bác Hoàng Bùi,phòng nhân sự,PWE1P,đèn LED tròn,37
+2024-01-24,Quý ông Hoàng Vũ,phòng kỹ thuật,BPS1PM,đèn cảm ứng,58
+2024-03-12,Phương Hữu Bùi,phòng nhân sự,7O9TX,đèn cảm ứng,11
+2025-03-22,Vũ Trần,phòng kỹ thuật,D3S6Q3,đèn bàn học,18
+2024-08-14,Quý cô Dương Dương,phòng kinh doanh,JFXPZ2,đèn LED âm trần,48
+2025-02-17,Xuân Vũ,phòng kinh doanh,HC035,đèn LED tròn,47
+2024-01-18,Châu Trí Trần,phòng kinh doanh,4Z7KO1,đèn bàn học,97
+2025-04-10,Thành Quang Nguyễn,phòng nhân sự,TR2AO,đèn LED tròn,94
+2024-03-08,Hải Bùi,phòng kỹ thuật,BLWY6D,đèn LED tròn,19
+2025-03-03,Ánh Hoàng,phòng kinh doanh,XPU8M,đèn LED âm trần,84
+2024-09-26,Bà Khoa Trần,phòng kỹ thuật,IY85KW,đèn cảm ứng,36
+2024-10-19,Nhật Mai Bảo Trần,phòng kinh doanh,Q1P0TU,đèn bàn học,82
+2024-05-01,Hà Mai,phòng nhân sự,SZ5GEB,đèn LED tròn,82
+2025-03-29,Cô Hạnh Phạm,phòng nhân sự,UQTKP,đèn LED âm trần,43
+2024-09-13,Cô Hà Đặng,phòng kinh doanh,9E9QU,đèn LED tròn,88
+2024-05-29,Khoa Phú Hoàng,phòng kinh doanh,4SDNGD,đèn LED âm trần,8
+2024-01-11,Duyên Trần,phòng kỹ thuật,CHNP8T,đèn LED tròn,79
+2024-04-28,Mai Vũ,phòng R&D,0KV22,đèn bàn học,65
+2024-10-14,An Hoàng,phòng kinh doanh,E06ZD,đèn bàn học,66
+2025-01-04,Huy Hữu Lê,phòng kinh doanh,6FE8G,đèn LED âm trần,75
+2025-02-16,Bà Lâm Đặng,phòng R&D,U6QM9,đèn bàn học,70
+2025-03-29,Vân Bùi,phòng kinh doanh,MQFUI,đèn LED âm trần,91
+2025-01-05,Cô Chi Nguyễn,phòng kinh doanh,VMVSD,đèn cảm ứng,18
+2024-09-23,Trọng Nguyễn,phòng nhân sự,O2FV4N,đèn cảm ứng,20
+2024-12-23,Quý ông Huy Vũ,phòng kỹ thuật,UCEADF,đèn LED tròn,61
+2024-05-01,Minh Trí Mai,phòng R&D,4M6TEW,đèn LED âm trần,55
+2024-01-11,Hoàng Đức Mai,phòng kỹ thuật,BHXVDX,đèn bàn học,79
+2024-10-18,Bác Khoa Dương,phòng kinh doanh,CS5UD,đèn bàn học,72
+2024-05-14,Hồng Đặng,phòng kinh doanh,ZYUQKG,đèn LED âm trần,58
+2024-04-12,Thảo Lê,phòng R&D,24HYUT,đèn LED tròn,1
+2024-07-22,Chị Linh Vũ,phòng kinh doanh,BXDI2,đèn LED âm trần,97
+2024-07-22,Bảo Dương,phòng R&D,8T8CV,đèn LED tròn,58
+2025-04-03,Nhật Nguyễn,phòng kỹ thuật,VN7S8Y,đèn cảm ứng,59
+2024-02-01,Xuân Hoàng,phòng nhân sự,ZSFLGO,đèn bàn học,77
+2024-03-22,Nhiên Trí Dương,phòng kỹ thuật,RW2PQW,đèn LED tròn,73
+2025-02-24,Nhật Đặng,phòng kinh doanh,55169,đèn LED âm trần,72
+2024-08-19,Phương Dương,phòng R&D,20IV96,đèn LED âm trần,90
+2025-03-12,Bảo Phạm,phòng R&D,8W0LX,đèn LED âm trần,36
+2024-05-27,Ông Dũng Hoàng,phòng R&D,NP95Y,đèn LED âm trần,74
+2024-10-01,Quý cô Xuân Hoàng,phòng kỹ thuật,QKSG0,đèn LED âm trần,18
+2024-05-16,Bảo Đức Nguyễn,phòng kỹ thuật,KA6JS,đèn bàn học,32
+2024-09-26,Chị Bảo Dương,phòng nhân sự,J25QM,đèn LED tròn,13
+2024-10-05,Bà Thành Dương,phòng kỹ thuật,S5R05W,đèn bàn học,55
+2024-12-09,Lâm Hải Mai,phòng kinh doanh,NS38LV,đèn cảm ứng,78
+2024-06-14,Ngọc Vũ,phòng kỹ thuật,UG36M,đèn LED âm trần,70
+2024-03-15,Thành Trần,phòng kinh doanh,X66YNU,đèn LED tròn,41
+2024-12-13,Quý ông Bảo Bùi,phòng kỹ thuật,YCPRK5,đèn cảm ứng,11
+2024-08-03,Kim Đức Dương,phòng kỹ thuật,VQNRX,đèn LED âm trần,34
+2024-12-20,Cô Mai Dương,phòng nhân sự,GD4LRA,đèn bàn học,74
+2025-04-01,Anh Dũng Bùi,phòng R&D,IS2VD1,đèn LED tròn,78
+2024-09-06,Anh Khoa Vũ,phòng nhân sự,Q87IM,đèn bàn học,31
+2024-06-18,Minh Văn Lê,phòng kỹ thuật,76C1U,đèn bàn học,73
+2024-11-01,Ánh Đặng,phòng kỹ thuật,16SOGA,đèn bàn học,39
+2025-02-20,Trọng Đức Đặng,phòng kỹ thuật,17QDJV,đèn bàn học,90
+2024-09-08,Anh Anh Nguyễn,phòng nhân sự,UA7A4,đèn cảm ứng,7
+2024-08-13,Vi Lê,phòng nhân sự,W1WVQ2,đèn bàn học,59
+2025-03-15,Trọng Nguyễn,phòng R&D,2OCXB,đèn LED tròn,48
+2024-05-11,Khoa Thế Vũ,phòng kỹ thuật,0J0KNG,đèn cảm ứng,56
+2025-01-08,Huy Thế Lê,phòng kinh doanh,GFAPT,đèn LED tròn,2
+2025-01-21,An Hải Lê,phòng kinh doanh,XXXOYT,đèn LED tròn,80
+2024-06-28,Nhật Bảo Hoàng,phòng nhân sự,7ILVCT,đèn LED âm trần,50
+2024-01-14,Dương Vũ,phòng kinh doanh,BC0GR,đèn bàn học,8
+2024-06-14,Bác Nam Trần,phòng nhân sự,AURK9B,đèn LED âm trần,67
+2024-08-20,Thành Xuân Mai,phòng nhân sự,0KTTF2,đèn LED âm trần,37
+2024-03-19,Quý cô Yến Dương,phòng R&D,XJRY7,đèn LED tròn,27
+2024-11-11,Ngọc Trần,phòng kinh doanh,2EBGQP,đèn LED âm trần,89
+2024-04-24,Chị Ánh Nguyễn,phòng kinh doanh,KAPNF,đèn bàn học,7
+2025-02-22,Châu Đức Vũ,phòng kinh doanh,ZGH85S,đèn cảm ứng,8
+2024-10-29,Cô Dương Hoàng,phòng R&D,ZSA0N,đèn cảm ứng,15
+2024-08-14,Nhật Mai Bảo Đặng,phòng R&D,PH72MP,đèn bàn học,93
+2024-08-17,Quý cô Khoa Dương,phòng R&D,26N04,đèn LED tròn,51
+2024-07-08,Chị Vi Mai,phòng kỹ thuật,DOECQ4,đèn LED tròn,2
+2025-03-19,Bác Châu Dương,phòng kỹ thuật,98G6G1,đèn LED tròn,82
+2025-01-09,Ông Dũng Dương,phòng kỹ thuật,M6QKLQ,đèn LED tròn,97
+2024-12-20,Quý cô Hạnh Phạm,phòng kỹ thuật,6B7WS,đèn LED tròn,66
+2025-04-05,Khoa Hải Dương,phòng R&D,YPQH7,đèn LED âm trần,90
+2024-09-06,Nhật Phạm,phòng nhân sự,I3K3A,đèn LED âm trần,70
+2024-10-21,Quang Vũ,phòng kỹ thuật,EBZCHJ,đèn LED âm trần,50
+2024-12-16,Tùng Hoàng,phòng nhân sự,FFMQGL,đèn cảm ứng,87
+2025-03-21,Cô Thảo Phạm,phòng R&D,GPNMF3,đèn LED âm trần,35
+2025-02-26,Quý cô Linh Dương,phòng nhân sự,ZNGVJ9,đèn cảm ứng,75
+2024-03-08,Thành Bùi,phòng nhân sự,RYYQE,đèn bàn học,34
+2024-05-26,Trung Lê,phòng kỹ thuật,AUW8J0,đèn LED tròn,80
+2024-11-26,Kim Phú Dương,phòng kinh doanh,7U4QWZ,đèn LED âm trần,8
+2024-11-24,Hoàng Nguyễn,phòng R&D,UARZ0N,đèn bàn học,8
+2024-10-23,Nam Đặng,phòng kỹ thuật,66CJA,đèn bàn học,99
+2024-01-22,Tùng Bùi,phòng nhân sự,O769E,đèn LED âm trần,15
+2024-07-20,Anh Trung Mai,phòng R&D,JVVGWS,đèn bàn học,15
+2024-06-23,Cô Thành Lê,phòng kỹ thuật,D4MRE,đèn LED âm trần,88
+2024-09-23,Tùng Mai Bảo Dương,phòng R&D,EZERWI,đèn cảm ứng,61
+2024-04-23,Hà Mai Bảo Bùi,phòng kỹ thuật,BXM100,đèn bàn học,17
+2024-02-12,Chi Nguyễn,phòng kinh doanh,9XK784,đèn LED âm trần,85
+2024-10-18,Phương Phạm,phòng kỹ thuật,TYCUI2,đèn bàn học,5
+2024-03-13,Cô Kim Vũ,phòng kỹ thuật,5BJA3,đèn bàn học,55
+2025-02-15,Khoa Văn Mai,phòng kỹ thuật,P2ETB,đèn cảm ứng,38
+2025-01-05,Bảo Xuân Lê,phòng kinh doanh,XNT0W8,đèn cảm ứng,60
+2024-10-01,Cô Thảo Vũ,phòng kỹ thuật,78QQW,đèn LED âm trần,48
+2024-10-23,Khoa Hoàng Dương,phòng kinh doanh,9LR0H0,đèn cảm ứng,58
+2024-05-13,Ngọc Mai,phòng kỹ thuật,U2APH,đèn LED tròn,51
+2024-07-08,Châu Đặng,phòng R&D,KMZSGE,đèn cảm ứng,91
+2024-12-24,Chị Hà Hoàng,phòng kinh doanh,VJBKY,đèn cảm ứng,22
+2024-05-01,Nhiên Trần,phòng kỹ thuật,AX2RHZ,đèn bàn học,15
+2024-07-18,Minh Mai,phòng nhân sự,NGJTL,đèn LED âm trần,68
+2024-01-26,Anh Thị Vũ,phòng kỹ thuật,AD0E1,đèn LED âm trần,91
+2024-01-18,Phúc Vũ,phòng kinh doanh,4GL7C,đèn LED tròn,20
+2024-02-06,Dương Nguyễn,phòng kỹ thuật,6IA1CF,đèn cảm ứng,91
+2024-08-06,Quý cô Phương Dương,phòng kinh doanh,XFJX4Y,đèn bàn học,85
+2024-02-26,Khoa Quang Trần,phòng nhân sự,UGV3S,đèn LED tròn,34
+2024-07-21,Phương Thế Đặng,phòng nhân sự,SU34VL,đèn bàn học,73
+2025-02-20,Anh Vũ,phòng kinh doanh,924VBT,đèn LED tròn,78
+2024-09-18,Quang Hải Nguyễn,phòng kỹ thuật,AEBN4V,đèn LED tròn,76
+2025-01-11,Anh Nhiên Mai,phòng kỹ thuật,N0IL98,đèn LED tròn,90
+2024-05-20,Hà Tấn Bùi,phòng kinh doanh,K9L15S,đèn cảm ứng,33
+2024-09-20,Quang Đức Bùi,phòng kinh doanh,KH8C9G,đèn cảm ứng,90
+2024-08-15,Bà Nhật Đặng,phòng kinh doanh,JNYXVK,đèn bàn học,88
+2024-01-02,Thảo Bùi,phòng nhân sự,B1COH7,đèn cảm ứng,90
+2025-02-14,Quang Mai Bảo Đặng,phòng nhân sự,APVXP,đèn LED âm trần,51
+2025-01-12,Cô Khoa Hoàng,phòng kinh doanh,6X2YVP,đèn LED âm trần,83
+2024-11-13,Bác Nhiên Trần,phòng kỹ thuật,571R7U,đèn bàn học,73
+2024-04-23,Bà Hải Mai,phòng kinh doanh,QWB8S,đèn bàn học,99
+2024-01-02,Huy Trí Phạm,phòng R&D,PY7LTY,đèn bàn học,97
+2024-10-27,Duyên Mai,phòng nhân sự,772W3Z,đèn LED tròn,2
+2024-08-28,Kim Hoàng Trần,phòng kỹ thuật,P7QE5Y,đèn bàn học,78
+2024-04-05,Bảo Bảo Nguyễn,phòng kinh doanh,5L3DF,đèn LED âm trần,59
+2024-10-01,Khoa Văn Trần,phòng R&D,QNXT2,đèn cảm ứng,56
+2024-07-06,Hoàng Lê,phòng nhân sự,W803K0,đèn LED âm trần,41
+2024-06-06,Thành Lê,phòng kinh doanh,VAPB3,đèn LED âm trần,6
+2025-03-29,Vân Dương,phòng kinh doanh,W4Q3PP,đèn LED tròn,94
+2024-01-10,Ông Quang Bùi,phòng nhân sự,YZ2QLG,đèn cảm ứng,44
+2024-08-09,Vi Bùi,phòng nhân sự,X2NPC,đèn LED tròn,12
+2024-02-01,Dương Mai,phòng kinh doanh,YFVRD,đèn LED tròn,54
+2024-08-23,Hà Đặng,phòng kinh doanh,6PBDJ8,đèn LED tròn,5
+2024-05-09,Quý cô Chi Hoàng,phòng kỹ thuật,NTT4C,đèn cảm ứng,33
+2024-06-06,Chị Vi Bùi,phòng R&D,0F00RH,đèn LED tròn,95
+2024-04-02,Kim Đức Dương,phòng nhân sự,JR5OQ,đèn cảm ứng,54
+2024-06-02,Vũ Nguyễn,phòng R&D,3RLGX,đèn cảm ứng,42
+2025-03-28,Tú Đức Lê,phòng R&D,IYFF8A,đèn LED âm trần,50
+2025-01-14,Chị Lan Nguyễn,phòng kỹ thuật,ODT6DN,đèn cảm ứng,75
+2024-03-26,Bảo Mai,phòng R&D,PV99A7,đèn cảm ứng,97
+2024-12-10,Linh Nguyễn,phòng nhân sự,FGEC91,đèn LED tròn,35
+2024-05-09,Tú Bảo Lê,phòng nhân sự,DAVBB,đèn LED âm trần,41
+2024-10-30,Dũng Dương,phòng kỹ thuật,TDAE3,đèn bàn học,14
+2024-03-27,Tùng Hải Hoàng,phòng R&D,8ZH4X2,đèn bàn học,92
+2024-11-10,Thành Lê,phòng kỹ thuật,3Z6BE,đèn LED âm trần,33
+2024-06-13,Kim Hữu Đặng,phòng kỹ thuật,ASOV9,đèn bàn học,4
+2025-04-10,Hải Mai,phòng kinh doanh,N7ARXC,đèn LED âm trần,40
+2024-09-07,Bà Thảo Đặng,phòng R&D,8K6P5D,đèn cảm ứng,21
+2024-05-03,Bà Bảo Hoàng,phòng R&D,J3FD0,đèn bàn học,28
+2024-08-12,Vũ Hoàng,phòng kỹ thuật,5HB3A9,đèn LED âm trần,89
+2024-09-02,Quý ông Quang Phạm,phòng nhân sự,VN5YU,đèn LED âm trần,77
+2024-12-15,Quý cô Duyên Mai,phòng R&D,LEY5SZ,đèn cảm ứng,37
+2024-06-19,Châu Văn Phạm,phòng kinh doanh,8AOWL,đèn cảm ứng,67
+2024-09-23,Hạnh Thị Đặng,phòng R&D,O475O,đèn LED tròn,71
+2024-12-07,Bà Ngọc Bùi,phòng nhân sự,Q0RZ6,đèn LED tròn,10
+2024-05-23,Thành Đức Phạm,phòng kỹ thuật,U2LQS,đèn LED âm trần,73
+2024-01-03,Hưng Hoàng,phòng kinh doanh,TP9UM,đèn bàn học,81
+2024-03-15,Anh Châu Nguyễn,phòng kỹ thuật,1B2QP,đèn LED âm trần,28
+2024-02-16,Ông Nam Lê,phòng nhân sự,2CK04,đèn cảm ứng,98
+2024-10-15,Nam Mai Nguyễn,phòng R&D,OGISS,đèn LED âm trần,25
+2024-05-10,Chị Xuân Lê,phòng kinh doanh,MW3T69,đèn cảm ứng,34
+2024-03-08,Nhật Mai Trần,phòng kỹ thuật,L7MO9,đèn LED tròn,10
+2024-09-24,Thảo Đặng,phòng kỹ thuật,ULNYIB,đèn LED âm trần,20
+2024-10-29,Quý cô Xuân Nguyễn,phòng kỹ thuật,I9EKF,đèn bàn học,45
+2024-09-22,Khoa Quang Lê,phòng kinh doanh,L2524,đèn LED tròn,79
+2024-03-19,Hà Xuân Lê,phòng nhân sự,R9FEP,đèn cảm ứng,17
+2024-03-03,Quang Hoàng Đặng,phòng kinh doanh,104ZR,đèn bàn học,40
+2024-08-06,Anh Tú Hoàng,phòng kỹ thuật,G76XM1,đèn bàn học,20
+2024-06-24,An Quang Đặng,phòng R&D,V35TZS,đèn LED tròn,41
+2025-03-17,Ông Thành Trần,phòng kinh doanh,J6CKBX,đèn LED âm trần,17
+2024-03-31,Cô Phương Dương,phòng kỹ thuật,LD29YN,đèn cảm ứng,66
+2024-01-26,Anh Châu Dương,phòng R&D,NZE530,đèn LED tròn,15
+2024-08-04,Tú Thị Mai,phòng R&D,4FVVA,đèn LED âm trần,96
+2024-10-01,Tùng Nguyễn,phòng nhân sự,BKF9T,đèn bàn học,65
+2025-01-21,Cô An Vũ,phòng kỹ thuật,X4SLE,đèn bàn học,56
+2024-09-10,Vũ Đặng,phòng kỹ thuật,68JI9O,đèn LED âm trần,7
+2024-01-17,Bà Hạnh Nguyễn,phòng kỹ thuật,4ZJRU6,đèn bàn học,97
+2025-03-07,Bà Hương Mai,phòng R&D,2X7FE,đèn bàn học,35
+2024-05-27,Minh Đức Đặng,phòng R&D,3O1UN,đèn cảm ứng,71
+2024-04-28,Lan Bùi,phòng R&D,2T4MT,đèn LED âm trần,18
+2024-10-03,Bác Châu Nguyễn,phòng kỹ thuật,I85EF,đèn LED âm trần,29
+2025-04-04,Lâm Mai,phòng kỹ thuật,PV1P8,đèn LED âm trần,51
+2024-01-19,Yến Dương,phòng nhân sự,97I40,đèn LED tròn,2
+2024-02-10,Quý ông Tú Hoàng,phòng nhân sự,4FXRE9,đèn bàn học,12
+2025-02-03,Bác Phúc Trần,phòng kỹ thuật,62ZA1M,đèn bàn học,34
+2025-01-12,Hưng Hải Vũ,phòng nhân sự,ZA0ZX,đèn cảm ứng,99
+2024-11-28,Cô Yến Lê,phòng kỹ thuật,HC2BSL,đèn LED tròn,1
+2024-10-26,Chị Thành Đặng,phòng kỹ thuật,NJPYQK,đèn cảm ứng,13
+2025-01-19,Huy Bùi,phòng R&D,WGYG2,đèn cảm ứng,8
+2024-09-16,Cô Duyên Vũ,phòng nhân sự,DVAGX,đèn LED tròn,48
+2025-01-08,Vi Mai,phòng kinh doanh,OQ8SBJ,đèn cảm ứng,41
+2024-11-23,Bác Nam Phạm,phòng kinh doanh,V4MCNW,đèn bàn học,26
+2025-03-09,Bảo Trần,phòng kinh doanh,K22WN,đèn LED âm trần,36
+2024-10-18,Duyên Bùi,phòng nhân sự,ZUV91,đèn LED âm trần,60
+2025-01-22,Minh Hoàng,phòng nhân sự,UM63OS,đèn cảm ứng,64
+2024-01-11,Phúc Quang Đặng,phòng R&D,F7Q0Y1,đèn cảm ứng,17
+2024-04-17,Châu Nguyễn,phòng kinh doanh,85IBFH,đèn LED âm trần,93
+2024-08-04,Kim Thế Nguyễn,phòng R&D,QW1G0D,đèn cảm ứng,45
+2024-12-17,Hưng Bảo Lê,phòng R&D,K76VJE,đèn cảm ứng,62
+2024-03-27,Bà Hương Mai,phòng kinh doanh,3I8UUC,đèn cảm ứng,87
+2024-11-16,Tú Hữu Trần,phòng R&D,OOTQKK,đèn bàn học,1
+2025-03-16,Anh Nhiên Bùi,phòng R&D,SLD0B,đèn cảm ứng,47
+2024-01-22,Cô Linh Nguyễn,phòng kỹ thuật,JEVARM,đèn cảm ứng,84
+2024-05-05,Khoa Mai,phòng kinh doanh,H5A8O,đèn LED tròn,77
+2024-04-05,Minh Quang Trần,phòng kinh doanh,YAAWL,đèn LED tròn,4
+2024-12-12,An Mai Bảo Vũ,phòng kinh doanh,XUGRH,đèn bàn học,17
+2025-03-20,Quý cô Lâm Phạm,phòng R&D,2CGUED,đèn LED tròn,18
+2025-02-13,Chị Hà Trần,phòng nhân sự,C0N5QV,đèn bàn học,97
+2024-11-17,Bảo Lê,phòng kỹ thuật,1BIOP0,đèn LED tròn,93
+2025-02-06,Ông Hưng Vũ,phòng kinh doanh,AUL29A,đèn LED âm trần,55
+2024-04-25,Bảo Xuân Vũ,phòng R&D,6WYAS0,đèn cảm ứng,17
+2025-02-15,Chị Dương Nguyễn,phòng R&D,25AP67,đèn bàn học,89
+2025-01-22,Tú Bùi,phòng R&D,X5GQO,đèn LED tròn,29
+2024-10-06,Bà Vân Đặng,phòng nhân sự,8NCQ3,đèn LED âm trần,96
+2024-10-17,An Thế Lê,phòng R&D,U1TZET,đèn LED âm trần,14
+2024-12-12,Ông Vũ Vũ,phòng R&D,ZMQ5D7,đèn LED âm trần,21
+2024-03-26,Hưng Phạm,phòng nhân sự,WIU6K,đèn bàn học,17
+2024-03-01,Bà Nhật Hoàng,phòng nhân sự,1YUR2U,đèn cảm ứng,24
+2024-05-30,Nhật Phạm,phòng kỹ thuật,7KI43,đèn LED tròn,31
+2024-04-16,Hạnh Hải Nguyễn,phòng kinh doanh,C7SQDG,đèn LED âm trần,42
+2024-09-01,Bảo Trí Bùi,phòng kỹ thuật,VI3ZS,đèn bàn học,37
+2024-12-01,Bác Quang Hoàng,phòng kinh doanh,291EL,đèn cảm ứng,89
+2024-09-24,Ông Thành Nguyễn,phòng nhân sự,7U24D,đèn LED tròn,82
+2024-07-12,Châu Trần,phòng kỹ thuật,UC6QJS,đèn LED âm trần,40
+2024-10-04,Vi Dương,phòng nhân sự,ZHG57,đèn cảm ứng,7
+2024-12-14,Bác Nhiên Trần,phòng R&D,7YFMX,đèn bàn học,82
+2024-06-16,Bà Mai Hoàng,phòng R&D,QSL7S,đèn bàn học,2
+2025-03-21,Quý cô Linh Dương,phòng kỹ thuật,VXSAS,đèn bàn học,37
+2024-05-30,Bà Thảo Trần,phòng kỹ thuật,RK95S,đèn bàn học,46
+2025-03-18,Quý cô Hà Đặng,phòng kỹ thuật,G5LA2,đèn cảm ứng,53
+2024-08-22,Bác Trọng Nguyễn,phòng kỹ thuật,VKWCZ,đèn LED âm trần,72
+2024-05-26,Bà Nhật Vũ,phòng R&D,VI6NY,đèn cảm ứng,11
+2025-02-13,Yến Lê,phòng nhân sự,NFO2V,đèn LED âm trần,41
+2024-04-07,Ông Dũng Trần,phòng kinh doanh,Z3SU9,đèn cảm ứng,95
+2024-07-11,Cô Chi Nguyễn,phòng kỹ thuật,7IQ1T,đèn cảm ứng,63
+2025-04-03,Cô Phương Dương,phòng kinh doanh,2FDFXU,đèn cảm ứng,7
+2024-01-15,Cô Vi Nguyễn,phòng kinh doanh,G1IGST,đèn LED tròn,97
+2024-04-04,Kim Phạm,phòng kỹ thuật,3XY3IJ,đèn cảm ứng,63
+2024-02-26,Xuân Mai,phòng kỹ thuật,HIU7PG,đèn LED tròn,83
+2024-04-22,Nhật Đức Đặng,phòng kinh doanh,06HHB,đèn cảm ứng,84
+2024-10-09,Dũng Mai,phòng R&D,5SZIUZ,đèn cảm ứng,92
+2024-03-26,Hoàng Tấn Dương,phòng R&D,IUBSI,đèn cảm ứng,34
+2025-03-13,Bảo Vũ,phòng R&D,C7CWBS,đèn bàn học,1
+2024-09-24,Phúc Trần,phòng kỹ thuật,80BZX,đèn bàn học,64
+2025-02-09,Bà Kim Phạm,phòng R&D,73FXRG,đèn bàn học,6
+2024-10-15,Duyên Hoàng,phòng kinh doanh,VM4LM,đèn cảm ứng,67
+2024-10-30,Trọng Bùi,phòng kinh doanh,NQ6X9,đèn bàn học,99
+2024-09-21,Bảo Hoàng Bùi,phòng kỹ thuật,EJ5SF,đèn LED tròn,92
+2025-02-04,Phương Mai,phòng nhân sự,1TK3J,đèn bàn học,87
+2024-09-12,Chị Duyên Lê,phòng kỹ thuật,ZMEGNT,đèn bàn học,93
+2024-01-24,Anh Dũng Đặng,phòng nhân sự,BQLXF,đèn LED âm trần,75
+2024-04-10,Bà Lâm Đặng,phòng kỹ thuật,QD3F2,đèn cảm ứng,92
+2024-11-29,Vũ Đặng,phòng nhân sự,H4AASA,đèn LED âm trần,39
+2024-08-22,Thành Đức Lê,phòng kinh doanh,V4383,đèn bàn học,19
+2025-02-07,Quang Hữu Mai,phòng kỹ thuật,BXUR6,đèn LED tròn,17
+2024-03-24,Vũ Bảo Trần,phòng nhân sự,ISZC9,đèn bàn học,86
+2024-09-11,Dương Hoàng,phòng kỹ thuật,RH7J6T,đèn LED âm trần,17
+2024-07-27,Chị Lan Bùi,phòng nhân sự,LOJVK,đèn cảm ứng,47
+2024-12-25,Bác Thành Trần,phòng nhân sự,D1RG6,đèn bàn học,90
+2024-11-20,Ông Tùng Mai,phòng R&D,J8PQY6,đèn bàn học,13
+2024-07-25,Nhật Bùi,phòng kỹ thuật,Y06EE,đèn LED tròn,60
+2024-08-01,Tùng Mai,phòng nhân sự,MR8IK,đèn LED tròn,43
+2024-09-29,Quý cô Ánh Trần,phòng kinh doanh,LRY3UA,đèn bàn học,57
+2024-06-26,Nhiên Phạm,phòng kỹ thuật,VSO0T,đèn LED âm trần,69
+2024-02-03,Hải Quang Nguyễn,phòng kỹ thuật,IK4V4U,đèn LED tròn,97
+2025-01-20,Bà Duyên Bùi,phòng R&D,4RR3L,đèn bàn học,11
+2024-10-31,Thành Thị Vũ,phòng kỹ thuật,GZJ3QL,đèn LED tròn,20
+2024-06-22,Ông Khoa Phạm,phòng R&D,4T08Y,đèn cảm ứng,72
+2024-02-27,Quý ông Nhiên Hoàng,phòng nhân sự,I00UY,đèn cảm ứng,61
+2025-01-30,Duyên Bùi,phòng R&D,5HYZ1,đèn LED âm trần,74
+2024-04-07,Bác Quang Nguyễn,phòng R&D,45T87O,đèn bàn học,35
+2024-01-31,Quý ông Châu Bùi,phòng R&D,BKHFC,đèn LED tròn,64
+2024-02-18,Quý ông Bảo Đặng,phòng kinh doanh,9NAWI,đèn bàn học,29
+2024-08-16,Tú Bùi,phòng nhân sự,VD1A1J,đèn LED âm trần,58
+2024-03-22,Hương Dương,phòng kinh doanh,NNV04,đèn cảm ứng,14
+2024-06-07,Hương Phạm,phòng nhân sự,B90PF,đèn LED âm trần,15
+2024-06-19,Bảo Mai,phòng kinh doanh,8WWDWR,đèn cảm ứng,71
+2024-05-14,An Đặng,phòng nhân sự,VERQC,đèn LED tròn,23
+2024-03-29,Hoàng Đặng,phòng kỹ thuật,79ZLS,đèn LED tròn,54
+2024-02-13,Hồng Dương,phòng R&D,81G9FK,đèn LED tròn,26
+2024-09-12,Châu Dương,phòng kinh doanh,YAGG2T,đèn cảm ứng,11
+2024-02-01,Quý ông Hưng Hoàng,phòng kỹ thuật,L4GQX,đèn LED âm trần,71
+2024-06-21,Nhật Hải Đặng,phòng nhân sự,TLYWGG,đèn LED âm trần,34
+2025-02-09,Quý ông Huy Hoàng,phòng kinh doanh,IAJ5A5,đèn bàn học,20
+2024-11-30,Bảo Thế Phạm,phòng kỹ thuật,ETGLO,đèn bàn học,65
+2025-01-21,Quý ông Tùng Nguyễn,phòng R&D,7Q7I4,đèn LED âm trần,79
+2024-10-27,Lâm Thế Trần,phòng R&D,C5ZZ2,đèn bàn học,24
+2024-04-13,Bà Xuân Đặng,phòng kỹ thuật,A7XWNB,đèn bàn học,65
+2024-09-29,Chị Yến Nguyễn,phòng R&D,R2Z26W,đèn bàn học,72
+2024-09-10,Kim Quang Bùi,phòng R&D,O380V,đèn cảm ứng,58
+2024-02-14,Vi Phạm,phòng kinh doanh,9GA02,đèn LED tròn,72
+2025-03-28,Vân Đặng,phòng kinh doanh,R8V1IW,đèn cảm ứng,51
+2024-02-20,Quý ông Phúc Đặng,phòng nhân sự,ZI1SF,đèn cảm ứng,58
+2024-12-21,Nhật Xuân Hoàng,phòng kỹ thuật,FS4AE8,đèn cảm ứng,81
+2024-05-01,Châu Vũ,phòng R&D,E2X355,đèn bàn học,58
+2024-06-29,Anh Minh Phạm,phòng nhân sự,DIBURC,đèn LED âm trần,84
+2024-08-15,Mai Mai,phòng nhân sự,FBBDK,đèn bàn học,57
+2024-07-07,Quý ông Hoàng Hoàng,phòng kỹ thuật,L4VK5,đèn cảm ứng,93
+2024-02-22,Cô Xuân Mai,phòng nhân sự,7DM9B,đèn cảm ứng,57
+2024-07-22,Phúc Hoàng Nguyễn,phòng nhân sự,NCGWTN,đèn cảm ứng,89
+2024-08-21,An Vũ,phòng R&D,ON3PR8,đèn LED tròn,2
+2024-05-09,Hà Hoàng,phòng kinh doanh,WAD77Y,đèn cảm ứng,74
+2024-12-11,Hồng Phạm,phòng kinh doanh,20J73,đèn LED tròn,32
+2024-04-04,Hải Hữu Lê,phòng R&D,LCPKOT,đèn bàn học,61
+2024-01-08,Dũng Tấn Bùi,phòng kỹ thuật,IA22MS,đèn LED tròn,43
+2024-08-09,Hà Trần,phòng kinh doanh,9HSY2K,đèn cảm ứng,20
+2024-02-19,Lan Đặng,phòng kỹ thuật,5QLK4O,đèn cảm ứng,17
+2024-01-19,Bảo Vũ,phòng kỹ thuật,RHOSO,đèn LED tròn,31
+2024-01-27,Hoàng Đức Dương,phòng kỹ thuật,V3CBB,đèn bàn học,46
+2024-10-29,Hải Mai,phòng R&D,M1YO24,đèn cảm ứng,99
+2024-09-20,Hưng Dương,phòng nhân sự,F9NWB,đèn bàn học,71
+2024-05-04,Quý cô Khoa Phạm,phòng R&D,EWIOB,đèn LED tròn,81
+2024-12-17,Quý cô Hồng Dương,phòng kinh doanh,2YE4E,đèn LED âm trần,28
+2024-10-04,Khoa Trần,phòng nhân sự,NPHQ9,đèn cảm ứng,15
+2025-03-27,Hưng Phú Đặng,phòng kinh doanh,24F8W,đèn LED tròn,2
+2024-02-02,Trung Dương,phòng nhân sự,J6TNO,đèn cảm ứng,71
+2024-10-29,Hà Hữu Nguyễn,phòng kỹ thuật,OK3WC0,đèn bàn học,16
+2024-03-03,Yến Trần,phòng R&D,VFNUJ,đèn cảm ứng,79
+2024-02-10,Quang Nguyễn,phòng kỹ thuật,V8PAJN,đèn LED tròn,53
+2024-03-26,An Đức Hoàng,phòng nhân sự,14VMOM,đèn LED âm trần,9
+2024-08-19,Bảo Bảo Lê,phòng kỹ thuật,JPJXZ,đèn cảm ứng,76
+2025-04-10,Linh Vũ,phòng kinh doanh,G7KXU,đèn cảm ứng,11
+2024-06-02,Cô Lâm Lê,phòng R&D,PRITAS,đèn LED âm trần,21
+2024-07-30,Lâm Văn Phạm,phòng kỹ thuật,XK1Y3H,đèn cảm ứng,32
+2024-05-31,Bảo Nguyễn,phòng kinh doanh,DVX8U,đèn LED tròn,85
+2024-06-04,Tùng Văn Phạm,phòng R&D,3E64XE,đèn cảm ứng,21
+2025-02-27,Hồng Trần,phòng nhân sự,0DG28,đèn LED âm trần,64
+2025-01-14,Cô Nhật Mai,phòng kinh doanh,71Z4D,đèn cảm ứng,22
+2024-03-14,Trung Phạm,phòng kỹ thuật,OAUTO,đèn LED tròn,14
+2024-11-30,Cô Duyên Phạm,phòng nhân sự,1V8KS,đèn LED âm trần,56
+2024-05-21,Nhật Tấn Nguyễn,phòng kinh doanh,SMN0L7,đèn cảm ứng,100
+2025-02-08,Dũng Lê,phòng nhân sự,4FEIP,đèn LED âm trần,78
+2024-12-09,Quý cô Thành Phạm,phòng kỹ thuật,2PO3GD,đèn bàn học,84
+2024-08-21,Hà Mai Trần,phòng R&D,Y0ZB03,đèn LED tròn,31
+2024-09-13,Bà Nhật Đặng,phòng R&D,7L89U,đèn cảm ứng,3
+2025-03-07,Cô Hương Bùi,phòng R&D,8482S,đèn LED tròn,18
+2024-01-13,Hải Hải Trần,phòng kinh doanh,7EDYH,đèn cảm ứng,55
+2024-06-05,Nhiên Đặng,phòng nhân sự,OCQR3,đèn LED âm trần,93
+2024-01-27,Châu Tấn Nguyễn,phòng kinh doanh,0ZEZ6A,đèn LED âm trần,65
+2024-12-22,Hải Lê,phòng nhân sự,GF4CGG,đèn bàn học,24
+2024-01-20,Khoa Lê,phòng nhân sự,0W5ZDW,đèn bàn học,25
+2024-06-26,Quang Hoàng,phòng kinh doanh,8YS5PG,đèn cảm ứng,57
+2024-06-01,Yến Mai,phòng R&D,8CC32,đèn cảm ứng,11
+2024-02-24,Cô Hồng Lê,phòng R&D,K4Z7D,đèn LED tròn,71
+2025-03-08,Lan Trần,phòng kinh doanh,ZK3KU,đèn LED âm trần,82
+2024-10-06,Chị Hạnh Phạm,phòng kinh doanh,FUK89,đèn cảm ứng,56
+2024-02-08,Quang Xuân Trần,phòng kinh doanh,J92ONA,đèn cảm ứng,27
+2024-01-10,Bà Duyên Phạm,phòng kinh doanh,VCTWR,đèn LED tròn,62
+2024-08-18,Trung Vũ,phòng R&D,55H6X,đèn LED tròn,44
+2024-10-17,Bảo Lê,phòng R&D,Q0MZKU,đèn LED tròn,25
+2024-06-21,Quý cô Linh Hoàng,phòng R&D,X0HQZV,đèn bàn học,89
+2025-03-04,Nhật Vũ,phòng kỹ thuật,LQ4UN,đèn bàn học,56
+2024-04-04,Linh Dương,phòng kỹ thuật,QAZUFC,đèn bàn học,56
+2025-01-31,Xuân Bùi,phòng kỹ thuật,6JPCU,đèn LED tròn,100
+2024-04-06,Anh Huy Dương,phòng kỹ thuật,BKDORP,đèn cảm ứng,87
+2024-08-31,Ánh Lê,phòng R&D,8FB7W2,đèn cảm ứng,4
+2024-08-31,Chị Bảo Lê,phòng kinh doanh,EXA3OB,đèn LED âm trần,29
+2024-12-04,Phương Nguyễn,phòng R&D,8IM6C,đèn cảm ứng,66
+2024-11-06,Quang Thế Bùi,phòng kỹ thuật,6GR1M,đèn LED âm trần,37
+2024-12-03,Bà Vân Mai,phòng kỹ thuật,CXS3UT,đèn LED âm trần,26
+2024-01-16,Tú Thế Phạm,phòng kinh doanh,S1DA2,đèn cảm ứng,72
+2024-04-12,Ông Anh Phạm,phòng kỹ thuật,6Z1MCR,đèn bàn học,37
+2024-06-26,Hạnh Hoàng,phòng kỹ thuật,CNB798,đèn LED âm trần,13
+2024-06-03,Kim Mai Bảo Dương,phòng nhân sự,RXBIF,đèn LED âm trần,13
+2025-02-18,Lâm Hữu Lê,phòng nhân sự,TDN32,đèn LED tròn,31
+2024-10-05,Nhật Mai,phòng kỹ thuật,WLD57,đèn bàn học,14
+2024-03-07,Cô Vi Mai,phòng nhân sự,XTPL91,đèn LED âm trần,70
+2024-01-06,Ông Nhiên Đặng,phòng nhân sự,T67WM,đèn bàn học,63
+2025-01-19,Nam Phạm,phòng kinh doanh,HAU6U,đèn bàn học,22
+2024-07-14,Hạnh Hoàng Phạm,phòng kỹ thuật,15DENI,đèn LED tròn,46
+2024-07-06,Chị Khoa Bùi,phòng kỹ thuật,DZ8R15,đèn cảm ứng,11
+2024-01-04,Hưng Đức Vũ,phòng R&D,WD7DUZ,đèn cảm ứng,60
+2024-12-06,Quý cô Linh Mai,phòng R&D,1BZSY8,đèn LED âm trần,32
+2024-03-10,Ông Quang Hoàng,phòng nhân sự,W81N1,đèn LED âm trần,4
+2024-12-23,Anh Tùng Phạm,phòng kỹ thuật,RX5AN,đèn bàn học,13
+2024-11-19,Linh Nguyễn,phòng kinh doanh,2KQCHL,đèn LED tròn,23
+2024-07-08,Hồng Vũ,phòng R&D,4YHJD,đèn bàn học,70
+2024-08-26,Thành Vũ,phòng nhân sự,16RYQ,đèn LED tròn,72
+2025-03-13,Bà Hà Dương,phòng R&D,9D3HQS,đèn LED tròn,26
+2024-08-08,Minh Trần,phòng kinh doanh,G36CY6,đèn LED tròn,75
+2024-07-02,Quý ông Vũ Nguyễn,phòng kỹ thuật,IXO9C,đèn LED tròn,18
+2024-08-09,Châu Mai,phòng nhân sự,ECCZ9,đèn cảm ứng,99
+2024-06-15,Chị Chi Trần,phòng kỹ thuật,HVYY57,đèn bàn học,53
+2024-02-02,Minh Thế Vũ,phòng R&D,INPEE,đèn bàn học,17
+2025-02-06,Hương Lê,phòng nhân sự,WI6TO,đèn LED tròn,5
+2024-11-07,Chị Kim Bùi,phòng kỹ thuật,XBSS75,đèn LED âm trần,1
+2024-08-23,Cô Dương Bùi,phòng kỹ thuật,ILMAM7,đèn cảm ứng,68
+2024-12-20,Ông Bảo Mai,phòng R&D,YUFZOU,đèn cảm ứng,76
+2024-03-05,An Trần,phòng kỹ thuật,RRM62Z,đèn cảm ứng,99
+2025-03-08,Nhật Vũ,phòng kinh doanh,4UX4JQ,đèn LED âm trần,37
+2024-03-29,Bác Phúc Lê,phòng nhân sự,MQYA4,đèn LED tròn,66
+2024-04-19,Chị Lan Bùi,phòng kinh doanh,RIJ31,đèn LED tròn,75
+2024-08-19,Cô Bảo Hoàng,phòng kỹ thuật,MVZ2W,đèn LED tròn,21
+2024-04-24,Chị Vi Lê,phòng kỹ thuật,E1LHZ,đèn cảm ứng,49
+2024-01-21,Quý cô Nhật Đặng,phòng kỹ thuật,1E3X5W,đèn LED âm trần,47
+2024-02-02,An Phạm,phòng kỹ thuật,9HD4RX,đèn LED âm trần,57
+2025-01-04,Hạnh Xuân Trần,phòng kinh doanh,1AU64,đèn LED âm trần,79
+2025-02-10,Bà Lâm Trần,phòng kỹ thuật,WPCCV,đèn LED tròn,59
+2024-01-06,Bác Tú Nguyễn,phòng kỹ thuật,Y3W7SN,đèn bàn học,48
+2024-06-24,Hà Tấn Phạm,phòng kỹ thuật,MM5ZN2,đèn cảm ứng,44
+2025-02-23,Tú Đặng,phòng kinh doanh,J7I1XR,đèn LED âm trần,61
+2024-01-16,Chị Chi Đặng,phòng R&D,UGN0M,đèn LED âm trần,46
+2024-03-19,Huy Lê,phòng kỹ thuật,VZ0ZD,đèn LED tròn,23
+2024-01-31,Quý cô Nhật Phạm,phòng R&D,B7WHYO,đèn LED tròn,6
+2024-06-10,Chị Mai Hoàng,phòng nhân sự,YNIAJ,đèn LED tròn,44
+2024-01-22,Trọng Bùi,phòng R&D,CKQKV,đèn bàn học,36
+2024-09-05,Bác Bảo Nguyễn,phòng nhân sự,WD20B,đèn bàn học,99
+2025-04-09,Anh Châu Dương,phòng kỹ thuật,0J60J,đèn LED tròn,55
+2024-04-04,Hải Hữu Lê,phòng nhân sự,VPO1V,đèn bàn học,28
+2024-03-21,Quang Tấn Hoàng,phòng kinh doanh,EAIKDR,đèn LED âm trần,1
+2024-05-16,Khoa Tấn Mai,phòng R&D,9KH082,đèn cảm ứng,42
+2024-01-14,Anh Tùng Đặng,phòng kỹ thuật,VHW3F,đèn cảm ứng,55
+2024-08-02,Ngọc Trần,phòng R&D,TXNMG7,đèn LED âm trần,47
+2024-04-03,Thảo Hoàng,phòng kỹ thuật,8S88R,đèn cảm ứng,91
+2024-10-22,Ông Trung Vũ,phòng kỹ thuật,ORO1PQ,đèn LED tròn,29
+2025-03-20,Trọng Đức Đặng,phòng kỹ thuật,HSHE5,đèn LED tròn,6
+2024-08-08,Hồng Lê,phòng nhân sự,HY5UR2,đèn bàn học,88
+2024-08-07,Chị Yến Mai,phòng kỹ thuật,39S812,đèn LED âm trần,18
+2024-02-11,Châu Mai,phòng nhân sự,Y6VG0,đèn LED âm trần,22
+2024-05-23,Kim Phạm,phòng nhân sự,UAENH2,đèn LED tròn,29
+2024-04-24,Quý cô Duyên Dương,phòng kỹ thuật,P1TCIZ,đèn LED âm trần,63
+2024-02-27,Trọng Bảo Trần,phòng kỹ thuật,9UTLRE,đèn LED âm trần,95
+2024-03-13,Kim Đức Đặng,phòng R&D,32ZY6,đèn LED tròn,77
+2024-11-18,Lan Mai,phòng nhân sự,N9292,đèn cảm ứng,18
+2024-04-24,Duyên Trần,phòng nhân sự,0K8Z9W,đèn cảm ứng,86
+2024-09-26,Cô Bảo Trần,phòng kinh doanh,3H0U5N,đèn LED tròn,84
+2025-03-29,Phúc Đức Dương,phòng R&D,6KKTYL,đèn bàn học,31
+2024-05-29,Thành Mai,phòng kinh doanh,THUCYN,đèn bàn học,90
+2025-02-13,Quý cô Hải Bùi,phòng R&D,HK2TC,đèn bàn học,66
+2024-12-20,Huy Văn Trần,phòng nhân sự,4SHGV9,đèn bàn học,98
+2025-02-16,Quý cô Hà Bùi,phòng kỹ thuật,16QC11,đèn bàn học,97
+2024-08-08,Bà Hà Phạm,phòng kinh doanh,5G4T8Z,đèn bàn học,47
+2024-05-13,Nhiên Bùi,phòng kinh doanh,K8WNTY,đèn LED tròn,45
+2024-10-03,Anh Lê,phòng R&D,WLC52,đèn cảm ứng,43
+2024-02-24,Cô Hà Vũ,phòng nhân sự,XOIZJ,đèn LED tròn,75
+2024-04-12,Hương Hoàng,phòng R&D,HBXPC,đèn LED tròn,34
+2024-05-31,Kim Xuân Mai,phòng nhân sự,J9V4W5,đèn LED âm trần,22
+2024-11-05,Cô Linh Dương,phòng kỹ thuật,4GJNJG,đèn bàn học,78
+2024-05-20,Trung Mai Bảo Hoàng,phòng kỹ thuật,42IQZ,đèn bàn học,89
+2024-06-03,Phương Thế Bùi,phòng nhân sự,HA9XG8,đèn LED tròn,74
+2024-05-03,Thành Mai,phòng R&D,D6ONX,đèn bàn học,24
+2024-11-11,An Vũ,phòng R&D,47O9B,đèn LED tròn,58
+2024-02-13,Dũng Đặng,phòng kinh doanh,TLI8OR,đèn LED tròn,13
+2024-07-22,Anh Vũ Trần,phòng kinh doanh,3TA9Z,đèn LED âm trần,67
+2024-05-16,Anh Bùi,phòng kỹ thuật,2EQB6,đèn cảm ứng,39
+2024-02-22,Nhật Nguyễn,phòng kỹ thuật,XAXM45,đèn bàn học,72
+2024-03-04,Nhật Hoàng,phòng kỹ thuật,4NBRKH,đèn LED tròn,60
+2024-04-19,Ngọc Lê,phòng R&D,O9E3WZ,đèn bàn học,34
+2024-04-26,Lâm Tấn Mai,phòng nhân sự,NU3JDD,đèn LED tròn,57
+2024-03-13,Chị Phương Mai,phòng R&D,N32BC,đèn cảm ứng,13
+2024-11-23,Mai Bùi,phòng nhân sự,ZW1NB9,đèn LED âm trần,67
+2024-04-26,Dũng Văn Đặng,phòng kinh doanh,P8QCB,đèn LED âm trần,56
+2025-02-12,Bà Dương Trần,phòng R&D,KNBPV,đèn LED tròn,37
+2024-04-25,Dũng Mai Phạm,phòng kỹ thuật,JR4XLP,đèn cảm ứng,48
+2025-04-08,Yến Bùi,phòng R&D,A1C985,đèn LED âm trần,97
+2025-01-13,Khoa Dương,phòng kỹ thuật,75EIT,đèn LED tròn,3
+2024-11-11,Cô Yến Nguyễn,phòng nhân sự,8RL79,đèn LED tròn,73
+2024-07-10,Hồng Vũ,phòng R&D,W3SUL0,đèn LED tròn,53
+2024-05-03,Bác Bảo Đặng,phòng R&D,NKK91,đèn bàn học,86
+2024-06-08,Yến Đặng,phòng kinh doanh,2F7MYS,đèn cảm ứng,73
+2024-09-04,Thành Đức Dương,phòng kinh doanh,GFTDL,đèn bàn học,85
+2024-07-19,Vân Mai,phòng R&D,XT3IK,đèn bàn học,76
+2025-01-21,Thành Hữu Vũ,phòng kỹ thuật,NDBI3,đèn LED tròn,55
+2024-09-12,Khoa Trần,phòng kỹ thuật,V47QX2,đèn LED âm trần,92
+2024-04-06,Hạnh Nguyễn,phòng nhân sự,PR4YSO,đèn bàn học,36
+2024-03-31,Chị Hương Vũ,phòng nhân sự,VDRTT,đèn bàn học,59
+2024-04-30,Bác Nam Đặng,phòng nhân sự,S34WXE,đèn LED âm trần,61
+2024-01-23,Ánh Hoàng,phòng R&D,ZSJ0NI,đèn LED âm trần,34
+2024-05-22,Thành Đặng,phòng kinh doanh,VH7TU,đèn bàn học,2
+2024-06-13,Kim Mai,phòng nhân sự,2R95DJ,đèn LED tròn,32
+2025-01-28,Bảo Bùi,phòng kinh doanh,KZST2,đèn LED tròn,17
+2024-09-09,Bảo Hoàng Hoàng,phòng kinh doanh,RZF0L,đèn bàn học,15
+2024-09-23,Bà Thành Vũ,phòng kinh doanh,TZIXYI,đèn LED tròn,17
+2024-12-31,Quý ông Tùng Lê,phòng nhân sự,L1IN9,đèn bàn học,23
+2024-12-08,Thảo Đặng,phòng nhân sự,CZN8C,đèn cảm ứng,12
+2024-10-09,Thành Mai Bảo Mai,phòng kinh doanh,BRG6CP,đèn LED âm trần,95
+2024-09-23,Bác Hoàng Nguyễn,phòng kỹ thuật,75JA6,đèn LED âm trần,54
+2024-06-08,Dũng Mai,phòng R&D,7ACHL,đèn LED tròn,42
+2025-03-09,Thảo Nguyễn,phòng kinh doanh,I9J5E,đèn cảm ứng,87
+2024-12-11,Hải Bảo Trần,phòng nhân sự,82EBS,đèn cảm ứng,49
+2024-04-09,Bà Bảo Hoàng,phòng kỹ thuật,0ZUBA,đèn LED tròn,92
+2024-04-27,Khoa Hoàng Bùi,phòng kinh doanh,L534DL,đèn LED tròn,41
+2024-10-04,Thành Nguyễn,phòng kinh doanh,HBNNA,đèn LED tròn,3
+2024-05-16,Bà Vi Đặng,phòng R&D,O7JGUF,đèn LED tròn,55
+2025-04-09,Bác Châu Đặng,phòng kỹ thuật,7FYJZ,đèn LED âm trần,30
+2024-08-10,Chi Đặng,phòng kỹ thuật,DLTWJ,đèn LED âm trần,19
+2024-03-04,Lâm Trần,phòng kinh doanh,E1FYAS,đèn cảm ứng,46
+2024-04-07,Chị Bảo Hoàng,phòng nhân sự,LS7OM9,đèn bàn học,37
+2024-01-23,Châu Nguyễn,phòng kinh doanh,TADBU,đèn cảm ứng,50
+2024-04-01,Quý ông Hưng Đặng,phòng nhân sự,3CK9D,đèn LED tròn,53
+2024-04-17,Bảo Mai,phòng R&D,2OHOV,đèn LED âm trần,65
+2024-07-30,Hạnh Hoàng,phòng R&D,1BAMJ7,đèn LED tròn,70
+2025-02-14,Hưng Nguyễn,phòng kỹ thuật,FQ4TWA,đèn cảm ứng,78
+2024-04-13,Hưng Đặng,phòng kỹ thuật,8OL7NM,đèn cảm ứng,35
+2024-06-24,Trọng Tấn Nguyễn,phòng kỹ thuật,5O68MK,đèn LED tròn,9
+2025-02-14,Quý cô Hương Vũ,phòng R&D,H6VUE,đèn cảm ứng,48
+2024-02-26,Cô Dương Mai,phòng nhân sự,27JJ6,đèn cảm ứng,17
+2024-07-19,Quý cô Xuân Nguyễn,phòng R&D,TXZ39Q,đèn LED âm trần,15
+2024-03-27,Quý ông Phúc Bùi,phòng kỹ thuật,6X68W7,đèn LED tròn,36
+2025-04-05,Khoa Thế Lê,phòng nhân sự,M8LY1,đèn cảm ứng,96
+2024-02-24,Nhật Phạm,phòng R&D,ENAWD,đèn bàn học,56
+2024-01-23,Chị Linh Hoàng,phòng nhân sự,EN10IJ,đèn LED âm trần,20
+2025-04-01,Tùng Mai,phòng kỹ thuật,SP70E,đèn LED âm trần,13
+2024-01-22,Nhật Phạm,phòng R&D,C4K1U,đèn LED âm trần,25
+2024-12-29,Hạnh Vũ,phòng kỹ thuật,FCNVP,đèn LED tròn,17
+2024-10-09,Châu Trần,phòng nhân sự,EGWPFN,đèn LED tròn,93
+2024-03-19,Vũ Dương,phòng nhân sự,VL33OO,đèn bàn học,3
+2024-04-03,Kim Thế Vũ,phòng nhân sự,QZVY74,đèn LED âm trần,35
+2024-06-18,Lâm Hữu Đặng,phòng kỹ thuật,MF3RX3,đèn bàn học,63
+2024-11-09,Chị Phương Nguyễn,phòng R&D,GYT384,đèn cảm ứng,52
+2025-03-28,Xuân Nguyễn,phòng R&D,T6TIYS,đèn LED âm trần,9
+2024-07-07,Dương Phạm,phòng nhân sự,T0TR4,đèn cảm ứng,46
+2024-09-04,Mai Hoàng,phòng kỹ thuật,EDFPKW,đèn LED tròn,48
+2025-02-28,Nhật Tấn Trần,phòng R&D,XIUSB8,đèn LED tròn,7
+2024-05-28,Quý cô Nhật Bùi,phòng kinh doanh,T5YD0,đèn cảm ứng,28
+2024-07-29,Quý cô Nhật Phạm,phòng kỹ thuật,AM8KN7,đèn LED tròn,1
+2024-12-04,Anh Mai,phòng nhân sự,0B7N0Q,đèn LED âm trần,70
+2025-03-23,Vũ Đặng,phòng R&D,JEVJ3,đèn LED tròn,78
+2024-06-05,Phương Bùi,phòng kinh doanh,8S35YC,đèn LED tròn,8
+2024-11-08,Hải Dương,phòng kỹ thuật,LERW4W,đèn LED âm trần,42
+2024-01-20,Minh Hải Phạm,phòng kỹ thuật,Q2ZXC,đèn LED tròn,30
+2024-03-08,Bảo Trần,phòng kỹ thuật,EZB2S,đèn LED âm trần,91
+2024-02-26,Châu Lê,phòng nhân sự,T2ICZ,đèn LED tròn,2
+2024-10-14,Thảo Nguyễn,phòng kinh doanh,18Z5A,đèn cảm ứng,27
+2024-02-16,Cô Chi Nguyễn,phòng kỹ thuật,TGPIIE,đèn LED tròn,31
+2024-02-12,Linh Bùi,phòng R&D,Q4QN6V,đèn LED tròn,48
+2024-01-10,Ngọc Hoàng,phòng kỹ thuật,6X92FZ,đèn bàn học,67
+2024-06-09,Duyên Trần,phòng R&D,CNG705,đèn cảm ứng,72
+2024-04-18,Nhật Hải Phạm,phòng R&D,880VRH,đèn cảm ứng,86
+2024-11-01,Nhật Tấn Bùi,phòng kỹ thuật,DCAJ4,đèn cảm ứng,35
+2024-04-11,Hương Phạm,phòng kỹ thuật,TIDVM,đèn LED tròn,58
+2024-12-08,Cô Hạnh Mai,phòng nhân sự,GSTOB,đèn bàn học,6
+2024-08-24,Cô Bảo Bùi,phòng nhân sự,6GNET0,đèn LED tròn,10
+2024-05-05,Ông Huy Vũ,phòng kỹ thuật,C72PY6,đèn LED tròn,90
+2024-12-02,Chị Nhật Bùi,phòng R&D,ZHVH7,đèn cảm ứng,11
+2024-10-27,Ánh Hoàng,phòng kinh doanh,B3EZ9,đèn bàn học,7
+2024-12-07,Quý cô Hải Mai,phòng nhân sự,8H1E8,đèn LED tròn,10
+2024-03-01,Yến Lê,phòng nhân sự,161HX,đèn LED tròn,38
+2024-09-30,Cô Thảo Hoàng,phòng R&D,IK3H9,đèn LED âm trần,29
+2024-09-28,Ông Tú Vũ,phòng R&D,85NLO,đèn LED tròn,20
+2024-05-13,Duyên Mai,phòng kinh doanh,OZ4SO,đèn LED tròn,90
+2024-10-16,Vi Đặng,phòng kinh doanh,SLHX45,đèn bàn học,49
+2024-10-20,Ông Khoa Lê,phòng R&D,Q311O9,đèn LED tròn,70
+2024-02-20,Phương Vũ,phòng R&D,BSPCH,đèn LED tròn,37
+2024-10-17,Bà Kim Nguyễn,phòng kinh doanh,BO1W8W,đèn cảm ứng,97
+2024-08-15,Anh Nhiên Bùi,phòng kinh doanh,OY3DYF,đèn cảm ứng,64
+2025-02-17,Quang Xuân Vũ,phòng kinh doanh,725AP,đèn LED âm trần,53
+2024-09-25,Khoa Mai Lê,phòng nhân sự,6YCZC1,đèn LED tròn,29
+2024-08-07,Quý cô Hồng Hoàng,phòng R&D,T159BN,đèn LED tròn,48
+2024-12-30,Lâm Đặng,phòng kinh doanh,59YC7,đèn LED âm trần,55
+2024-04-11,Mai Dương,phòng R&D,IPBQS,đèn LED âm trần,93
+2024-12-19,Minh Vũ,phòng kinh doanh,2N2LA4,đèn LED tròn,80
+2024-11-29,Cô Thảo Mai,phòng kỹ thuật,YHL6MX,đèn LED âm trần,48
+2024-08-08,Tú Mai Vũ,phòng kinh doanh,Y4BHD,đèn LED tròn,34
+2024-02-28,Bà Ngọc Hoàng,phòng kỹ thuật,753QV,đèn LED âm trần,84
+2024-08-09,Bà Kim Phạm,phòng R&D,UILI9,đèn cảm ứng,14
+2024-03-24,Linh Trần,phòng nhân sự,MJY6D,đèn bàn học,23
+2025-01-17,Duyên Vũ,phòng R&D,ZJSQLH,đèn LED âm trần,9
+2024-09-04,Bà Lâm Mai,phòng kỹ thuật,AOU57G,đèn cảm ứng,74
+2024-07-06,Thành Phú Hoàng,phòng nhân sự,C0F3J,đèn LED âm trần,21
+2025-01-01,Hưng Quang Phạm,phòng kỹ thuật,EV4UA,đèn LED tròn,73
+2024-01-07,Bà Vi Hoàng,phòng kỹ thuật,K5HXG,đèn LED tròn,62
+2024-11-13,Vân Trần,phòng nhân sự,JQ0HH5,đèn cảm ứng,80
+2024-10-24,Bà Hạnh Nguyễn,phòng kỹ thuật,9ODP4,đèn cảm ứng,55
+2024-09-29,Bảo Mai Bảo Nguyễn,phòng R&D,NGUAVD,đèn bàn học,98
+2024-12-04,Hà Lê,phòng kinh doanh,ERPF6C,đèn bàn học,6
+2024-11-07,Hà Vũ,phòng R&D,ZIV606,đèn cảm ứng,21
+2024-01-24,Phương Dương,phòng kinh doanh,N7E2D,đèn LED âm trần,33
+2025-02-11,Kim Dương,phòng R&D,XMCHU1,đèn LED tròn,34
+2025-03-20,Hà Xuân Bùi,phòng kinh doanh,53GSM,đèn LED tròn,70
+2024-10-04,Bảo Hải Hoàng,phòng kỹ thuật,PYJA7C,đèn cảm ứng,45
+2024-05-01,Chị Ngọc Trần,phòng R&D,FXE2WZ,đèn LED âm trần,19
+2024-06-21,Ông Trung Trần,phòng kinh doanh,QVAZ7X,đèn LED tròn,4
+2024-02-08,Hưng Tấn Mai,phòng nhân sự,0CU74,đèn cảm ứng,6
+2024-04-09,Chị Mai Đặng,phòng kỹ thuật,TZP5S,đèn cảm ứng,45
+2024-03-29,Linh Trần,phòng R&D,6A6TY,đèn bàn học,28
+2025-02-28,Huy Hoàng,phòng nhân sự,G9VNJ3,đèn LED âm trần,55
+2024-04-03,Thành Đặng,phòng kinh doanh,VGQEC,đèn cảm ứng,62
+2024-01-10,An Hải Lê,phòng kỹ thuật,OJAMZ2,đèn LED tròn,91
+2024-07-20,Vũ Mai Bùi,phòng nhân sự,2FB5K7,đèn bàn học,83
+2024-10-02,Quý cô An Dương,phòng kỹ thuật,2O0S5W,đèn bàn học,4
+2024-03-24,Quý cô Nhật Trần,phòng kinh doanh,K4PERZ,đèn LED tròn,28
+2024-08-18,Ánh Mai,phòng kỹ thuật,1RJFYT,đèn LED âm trần,39
+2024-11-14,Ánh Vũ,phòng nhân sự,JDRLMD,đèn cảm ứng,45
+2024-05-10,Tùng Trần,phòng R&D,KGEF45,đèn cảm ứng,39
+2024-11-14,Mai Bùi,phòng kỹ thuật,D5PBZ,đèn LED tròn,45
+2025-02-15,Tùng Đức Trần,phòng kỹ thuật,CWHY8,đèn cảm ứng,12
+2024-06-15,Minh Trí Trần,phòng R&D,Z7T020,đèn bàn học,83
+2024-11-30,Lâm Đặng,phòng nhân sự,2N68ER,đèn LED tròn,71
+2024-03-22,Bà Dương Đặng,phòng kinh doanh,WACAM,đèn LED tròn,56
+2024-02-07,Anh Châu Mai,phòng kỹ thuật,UZLYTX,đèn cảm ứng,42
+2024-11-14,Nam Đức Hoàng,phòng kỹ thuật,8NJAY,đèn cảm ứng,99
+2025-02-27,Mai Lê,phòng R&D,OWJ20S,đèn bàn học,53
+2025-01-13,Bác Dũng Đặng,phòng kinh doanh,PF0D1H,đèn LED âm trần,5
+2024-05-19,Duyên Đặng,phòng R&D,24O40,đèn LED tròn,76
+2024-09-12,Cô Khoa Mai,phòng kỹ thuật,UZFBM,đèn cảm ứng,72
+2025-02-24,Chị Thảo Dương,phòng kỹ thuật,OJE33H,đèn bàn học,67
+2025-01-11,Quý ông Khoa Mai,phòng kinh doanh,TOR3W9,đèn LED tròn,73
+2024-09-10,Cô Vi Lê,phòng kỹ thuật,883PMX,đèn LED âm trần,75
+2024-10-07,Cô Vân Phạm,phòng nhân sự,7XOUSD,đèn LED âm trần,79
+2024-04-08,Quý ông Quang Trần,phòng nhân sự,IW0IB,đèn LED âm trần,4
+2024-08-28,Cô Thành Bùi,phòng kinh doanh,T64NE,đèn LED âm trần,38
+2024-07-04,Khoa Mai Mai,phòng kỹ thuật,GG7P1,đèn LED tròn,10
+2024-01-15,Thành Quang Nguyễn,phòng kinh doanh,HGW1U0,đèn LED âm trần,44
+2024-12-27,Ông Trọng Phạm,phòng R&D,KEPBA0,đèn cảm ứng,77
+2024-08-06,An Mai,phòng kỹ thuật,VLMO3,đèn LED âm trần,39
+2024-07-29,Anh Trọng Dương,phòng R&D,EMDCM3,đèn cảm ứng,75
+2024-08-10,Bác Quang Bùi,phòng kinh doanh,PVGFC,đèn LED âm trần,14
+2024-06-26,Trọng Mai Trần,phòng kỹ thuật,RA69DN,đèn cảm ứng,31
+2025-01-31,Cô Xuân Mai,phòng kỹ thuật,7NSX6,đèn bàn học,89
+2025-02-04,Quý cô Ánh Phạm,phòng kỹ thuật,BK0ZWX,đèn bàn học,94
+2024-01-12,Ông Trọng Mai,phòng kỹ thuật,NKCDDA,đèn LED tròn,75
+2024-08-03,Bảo Mai,phòng nhân sự,BH4OG,đèn LED tròn,45
+2025-03-26,Huy Lê,phòng R&D,P04419,đèn LED tròn,9
+2024-09-23,Hưng Trần,phòng nhân sự,LYYSGB,đèn LED âm trần,33
+2024-03-03,Dũng Văn Mai,phòng kinh doanh,YK35L,đèn LED tròn,100
+2024-10-05,Chị Thảo Phạm,phòng R&D,LS6VO,đèn bàn học,23
+2024-11-17,Hương Đặng,phòng kỹ thuật,WNJNTB,đèn bàn học,99
+2024-08-17,Nhật Quang Hoàng,phòng R&D,ZQKM33,đèn LED tròn,61
+2024-06-02,Châu Hải Phạm,phòng kinh doanh,X3QPS4,đèn LED âm trần,96
+2024-09-17,Ông Tùng Hoàng,phòng kinh doanh,RC6UC,đèn bàn học,29
+2024-02-05,Quang Đức Bùi,phòng kỹ thuật,BI6ZPH,đèn cảm ứng,38
+2024-06-12,Hà Nguyễn,phòng kỹ thuật,N684G,đèn cảm ứng,79
+2024-02-17,Bà Lâm Hoàng,phòng kỹ thuật,SHAZ7V,đèn LED tròn,39
+2024-12-30,Dũng Đặng,phòng R&D,2CG6I,đèn LED tròn,25
+2025-02-22,Chị Kim Dương,phòng kinh doanh,40MLRE,đèn bàn học,76
+2024-07-12,Chị Hải Nguyễn,phòng nhân sự,5ODHKZ,đèn cảm ứng,60
+2024-06-14,Nhật Đặng,phòng kinh doanh,MRMQO,đèn LED tròn,57
+2024-07-04,Vi Bùi,phòng kinh doanh,V9LKC,đèn bàn học,28
+2025-01-30,Vũ Bùi,phòng nhân sự,A2TFI,đèn LED âm trần,7
+2024-07-16,Nhiên Quang Lê,phòng nhân sự,JC2PDT,đèn LED tròn,73
+2024-09-14,Khoa Nguyễn,phòng kinh doanh,1H9OEV,đèn LED âm trần,4
+2024-02-20,Khoa Đức Nguyễn,phòng kinh doanh,M83IL0,đèn LED tròn,14
+2025-04-09,Hà Đức Trần,phòng nhân sự,YWL3OS,đèn cảm ứng,66
+2025-02-22,Quý cô Bảo Phạm,phòng kỹ thuật,WO63H,đèn LED âm trần,69
+2024-08-06,Phương Bùi,phòng kinh doanh,9GJY6T,đèn cảm ứng,89
+2024-11-02,Bác Anh Vũ,phòng nhân sự,2BRHWW,đèn LED âm trần,76
+2024-12-16,Dũng Nguyễn,phòng nhân sự,NR4E68,đèn LED âm trần,65
+2024-01-12,Vũ Bảo Lê,phòng nhân sự,NOQU3R,đèn LED âm trần,20
+2024-09-30,Thảo Đặng,phòng kinh doanh,XO6QF8,đèn cảm ứng,72
+2024-09-14,Minh Dương,phòng nhân sự,LV69X,đèn LED âm trần,77
+2024-05-18,Bà Mai Phạm,phòng kinh doanh,3LBNWH,đèn LED tròn,72
+2024-02-27,Cô Lan Nguyễn,phòng kinh doanh,SAH7R,đèn bàn học,91
+2024-05-09,Thành Vũ,phòng kỹ thuật,V5VBUL,đèn LED tròn,35
+2024-12-05,Chị Nhật Bùi,phòng nhân sự,CJE69,đèn LED âm trần,46
+2024-06-02,Ông Huy Vũ,phòng R&D,AUVIWT,đèn LED âm trần,37
+2024-03-15,Bà An Hoàng,phòng R&D,JLFVH4,đèn LED âm trần,32
+2025-02-11,Minh Hoàng Lê,phòng R&D,7XX32,đèn LED tròn,11

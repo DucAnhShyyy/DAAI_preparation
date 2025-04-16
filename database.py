@@ -8,6 +8,7 @@ import decimal
 import numpy as np
 from collections import defaultdict
 from typing import List, Dict
+import json
 load_dotenv()
 
 class Database:
@@ -225,373 +226,507 @@ class Database:
         finally:
             self.close()
             
-#     def get_industries_list(self) -> list[dict]:
-#         """Get list of industries.
-#         Returns:
-#             list[dict]: List of industries with industry_code_lv2 and industry_name_lv2
-#             e.g: [{"industry_code_lv2": "1000", "industry_name_lv2": "Ngành nông nghiệp"},
-#                   {"industry_code_lv2": "2000", "industry_name_lv2": "Ngành công nghiệp"}]
-#         """
-#         self.cursor.execute("""
-#             SELECT DISTINCT industry_code_lv2, industry_name_lv2 FROM vn100_listing_by_industry
-#         """)
-#         results = self.cursor.fetchall()
-#         return [{"industry_code_lv2": row[0], "industry_name_lv2": row[1]} for row in results]
+    def get_distinct_values(self, table:str, column: str) -> list: 
+        """
+        Get distinct values of a column in a table.
+        
+        Args:
+            table (str): Name of the table.
+            column (str): Column name to retrieve distinct values from.
 
-#     def get_symbols_by_industry(self, industry_code_lv2: str) -> list[str]:
-#         """Get list of symbols by industry.
-#         Args:
-#             industry_code_lv2 (str): Industry code of the industry
-#         Returns:
-#             list[str]: List of symbols
-#             e.g: ["VCB", "BID", "CTG"]
-#         """
-#         self.cursor.execute("""
-#             SELECT symbol FROM vn100_listing_by_industry WHERE industry_code_lv2 = %s
-#         """, (industry_code_lv2,))
-#         return [row[0] for row in self.cursor.fetchall()]
+        Returns:
+            list: A list of unique values found in the specified column.
+        """
+        self.cursor.execute(f"SELECT DISTINCT {column} FROM {table}")
+        return [row[0] for row in self.cursor.fetchall()]
+
+
+    def get_total(self, table: str, value_col: str) -> float:
+        """
+        Get the total sum of a numeric column in a table.
+
+        Args:
+            table (str): Name of the table.
+            value_col (str): Name of the column to sum.
+
+        Returns:
+            float: The total sum of the specified column.
+        """        
+        self.cursor.execute(f"SELECT SUM({value_col}) FROM {table}")
+        return self.cursor.fetchone()[0]
+
+
+    def get_count(self, table: str) -> int:
+        """
+        Count total number of records in a table.
+
+        Args:
+            table (str): Name of the table.
+
+        Returns:
+            int: Total number of rows in the table.   
+        """
+        self.cursor.excute(f"SELECT COUNT(*) FROM {table}")
+        return self.cursor.fetchone()[0]
+
+
+    def get_total_by_group(self, table: str, group_col: str, value_col: str) -> list:
+        """
+        Get total value grouped by a specified column.
+
+        Args:
+            table (str): Name of the table.
+            group_col (str): Column to group by (e.g. 'region', 'department').
+            value_col (str): Column to aggregate using SUM.
+
+        Returns:
+            list[tuple]: List of (group_value, total) pairs sorted by total descending.
+            e.g: [("North", 5000), ("South", 3000)]
+        """
+        self.cursor.execute(f"""
+            SELECT {group_col}, SUM({value_col}) AS total
+            FROM {table}
+            GROUP BY {group_col}
+            ORDER BY total DESC
+        """)
+        return self.cursor.fetchall()
+
+
+    def get_avg_by_group(self, table: str, group_col: str, value_col: str) -> list:
+        """
+        Get average value grouped by a specified column.
+
+        Args:
+            table (str): Name of the table.
+            group_col (str): Column to group by (e.g. 'product_name').
+            value_col (str): Column to aggregate using AVG.
+
+        Returns:
+            list[tuple]: List of (group_value, average) pairs sorted by average descending.
+            e.g: [("Product A", 105.4), ("Product B", 89.2)]
+        """
+        self.cursor.execute(f"""
+            SELECT {group_col}, AVG({value_col}) AS avg_value
+            FROM {table}
+            GROUP BY {group_col}
+            ORDER BY avg_value DESC
+        """)
+        return self.cursor.fetchall()
+
     
-#     def get_financial_data(self, symbol: str) -> pd.DataFrame:
-#         """Get financial data by symbol: income statement, balance sheet, cash flow statement and yearly stock price
-#         Pay attention to percentage values, they may be stored as decimal values (e.g: 15% is stored as 0.15)
-#         Args:
-#             symbol (str): Symbol of the company
-#         Returns:
-#             dataframe: Financial data
-#         """
-#         self.cursor.execute("""
-#             SELECT * FROM financial_data WHERE symbol = %s
-#         """, (symbol,))
-#         results = self.cursor.fetchall()
-#         df = pd.DataFrame(results, columns=[i[0] for i in self.cursor.description])
-#         # remove id column
-#         df = df.drop(columns=['id'])
-#         return df
+    def get_total_by_month(self, table: str, date_col: str, value_col: str) -> list:
+        """
+        Get total value grouped by month (from a date column).
+
+        Args:
+            table (str): Name of the table.
+            date_col (str): Column containing date values.
+            value_col (str): Column to aggregate using SUM.
+
+        Returns:
+            list[tuple]: List of (month, total) pairs in chronological order.
+            e.g: [("2024-01", 1200), ("2024-02", 1800)]
+        """
+        self.cursor.execute(f"""
+            SELECT DATE_FORMAT({date_col}, '%Y-%m') AS month, SUM({value_col}) AS total
+            FROM {table}
+            GROUP BY month
+            ORDER BY month
+        """)
+        return self.cursor.fetchall()
 
 
-#     def get_best_symbols_by_industry(self, industry_code_lv2: str, num_stocks: int = 5, missing_threshold: float = 0.5) -> List[str]:
-#         """
-#         Get list of best stocks by industry based on a composite score.
-        
-#         Handles missing values by using median imputation and removes metrics with excessive missing data.
-        
-#         Args:
-#             industry_code_lv2 (str): Industry code of the industry
-#             num_stocks (int): Number of stocks to return
-#             missing_threshold (float): Threshold for missing data ratio to exclude a metric (0 to 1)
-#         Returns:
-#             list[str]: List of symbols
-#         """
-#         try:
-#             # Get symbols for the industry
-#             symbols = self.get_symbols_by_industry(industry_code_lv2)
-#             if not symbols:
-#                 return []
+    def get_entity_trend(self, table: str, entity_col: str, entity_value: str, date_col: str, value_col: str) -> list:
+        """
+        Get monthly trend of total value for a specific entity (e.g. employee, product).
 
-#             quoted_symbols = [f"'{symbol}'" for symbol in symbols]
+        Args:
+            table (str): Name of the table.
+            entity_col (str): Column to filter by (e.g. 'employee_name').
+            entity_value (str): Value of the entity to track.
+            date_col (str): Date column to group by month.
+            value_col (str): Column to sum.
 
-#             # Define the metrics and their directions
-#             metrics = {
-#                 'return_on_equity_percent': 'higher',
-#                 'net_profit_margin_percent': 'higher',
-#                 'revenue_growth_percent': 'higher',
-#                 'debt_to_equity': 'lower',
-#                 'total_volume': 'higher'
-#             }
+        Returns:
+            list[tuple]: List of (month, total) for the specified entity.
+            e.g: [("2024-01", 300), ("2024-02", 500)]
+        """
+        self.cursor.execute(f"""
+            SELECT DATE_FORMAT({date_col}, '%Y-%m') AS month, SUM({value_col}) AS total
+            FROM {table}
+            WHERE {entity_col} = %s
+            GROUP BY month
+            ORDER BY month
+        """, (entity_value,))
+        return self.cursor.fetchall()
 
-#             # Query the financial data - only get the latest year for each symbol
-#             query = f"""
-#                 SELECT f1.symbol, f1.return_on_equity_percent, f1.net_profit_margin_percent, 
-#                     f1.revenue_growth_percent, f1.total_liabilities_billion_vnd, f1.owner_equity_billion_vnd,
-#                     f1.yearly_close_price_vnd, f1.yearly_volume, f1.year_report
-#                 FROM financial_data f1
-#                 INNER JOIN (
-#                     SELECT symbol, MAX(year_report) as max_year
-#                     FROM financial_data
-#                     WHERE symbol IN ({', '.join(quoted_symbols)})
-#                     GROUP BY symbol
-#                 ) f2 ON f1.symbol = f2.symbol AND f1.year_report = f2.max_year
-#             """
 
-#             self.cursor.execute(query)
-#             results = self.cursor.fetchall()
-#             if not results:
-#                 return []
+    def compare_plan_vs_actual(self, plan_table: str, actual_table: str, match_col: str, value_col: str) -> list:
+        """
+        Compare planned vs actual values for a common attribute (e.g. product_name).
 
-#             # Convert results to a list of dictionaries
-#             columns = ['symbol', 'return_on_equity_percent', 'net_profit_margin_percent', 
-#                     'revenue_growth_percent', 'total_liabilities_billion_vnd', 'owner_equity_billion_vnd',
-#                     'yearly_close_price_vnd', 'yearly_volume', 'year_report']
-#             data = []
-#             for row in results:
-#                 converted_row = [float(val) if isinstance(val, decimal.Decimal) else val for val in row]
-#                 company_data = dict(zip(columns, converted_row))
-#                 data.append(company_data)
+        Args:
+            plan_table (str): Table containing planned values.
+            actual_table (str): Table containing actual values.
+            match_col (str): Column used to join the two tables (e.g. 'product_name').
+            value_col (str): Column to compare (e.g. 'quantity').
 
-#             # Calculate derived metrics
-#             for company in data:
-#                 total_liabilities = company['total_liabilities_billion_vnd']
-#                 owner_equity = company['owner_equity_billion_vnd']
-#                 company['debt_to_equity'] = total_liabilities / owner_equity if owner_equity and owner_equity != 0 and total_liabilities is not None else None
+        Returns:
+            list[tuple]: List of (item, planned, actual, difference) sorted by difference.
+            e.g: [("Product A", 1000, 800, -200)]
+        """
+        self.cursor.execute(f"""
+            SELECT 
+                p.{match_col},
+                SUM(p.{value_col}) AS planned,
+                SUM(a.{value_col}) AS actual,
+                SUM(a.{value_col}) - SUM(p.{value_col}) AS difference
+            FROM {plan_table} p
+            JOIN {actual_table} a ON p.{match_col} = a.{match_col}
+            GROUP BY p.{match_col}
+            ORDER BY difference DESC
+        """)
+        return self.cursor.fetchall()
 
-#                 price = company['yearly_close_price_vnd']
-#                 volume = company['yearly_volume']
-#                 company['total_volume'] = price * volume if price is not None and volume is not None else None
 
-#             # Step 1: Check missing data ratio and filter metrics
-#             valid_metrics = {}
-#             for metric in metrics:
-#                 values = [c.get(metric) for c in data if c.get(metric) is not None]
-#                 missing_ratio = 1 - len(values) / len(data) if data else 1
-#                 if missing_ratio <= missing_threshold:
-#                     valid_metrics[metric] = metrics[metric]
-#                 else:
-#                     print(f"Warning: Metric {metric} has {missing_ratio:.2%} missing values, excluded from scoring.")
-#             if not valid_metrics:
-#                 return []
+    def get_monthly_growth(self, table: str, date_col: str, value_col: str) -> list:
+        """
+        Calculate monthly growth rate based on summed values.
 
-#             # Step 2: Calculate statistics and impute missing values with median
-#             metric_stats: Dict[str, tuple] = {}
-#             for metric in valid_metrics:
-#                 values = [c.get(metric) for c in data if c.get(metric) is not None]
-#                 if values:
-#                     min_val = min(values)
-#                     max_val = max(values)
-#                     median_val = np.median(values)
-#                     variance = np.var(values) if len(values) > 1 else 0
-#                     metric_stats[metric] = (min_val, max_val, median_val, variance)
-#                 else:
-#                     metric_stats[metric] = (0, 1, 0.5, 0)  # Default if no data
+        Args:
+            table (str): Name of the table.
+            date_col (str): Date column to group by month.
+            value_col (str): Column to aggregate using SUM.
 
-#             # Step 3: Adjust weights based on variance
-#             total_variance = sum(stats[3] for stats in metric_stats.values())
-#             metric_weights = {
-#                 metric: stats[3] / total_variance if total_variance > 0 else 1 / len(valid_metrics)
-#                 for metric, stats in metric_stats.items()
-#             }
-#             weight_sum = sum(metric_weights.values())
-#             if weight_sum > 0:
-#                 metric_weights = {k: v / weight_sum for k, v in metric_weights.items()}
+        Returns:
+            list[tuple]: List of (month, total, previous_total, growth_rate) for each month.
+            e.g: [("2024-02", 1200, 1000, 20.0)]
+        """
+        self.cursor.execute(f"""
+            SELECT 
+                month,
+                total,
+                LAG(total) OVER (ORDER BY month) AS prev_total,
+                ROUND((total - LAG(total) OVER (ORDER BY month)) / LAG(total) OVER (ORDER BY month) * 100, 2) AS growth_rate
+            FROM (
+                SELECT DATE_FORMAT({date_col}, '%Y-%m') AS month, SUM({value_col}) AS total
+                FROM {table}
+                GROUP BY month
+            ) AS subquery
+        """)
+        return self.cursor.fetchall()  
 
-#             # Step 4: Handle outliers for debt_to_equity
-#             debt_values = [c.get('debt_to_equity') for c in data if c.get('debt_to_equity') is not None]
-#             if debt_values:
-#                 debt_p75 = np.percentile(debt_values, 75)
-#                 for company in data:
-#                     debt = company.get('debt_to_equity')
-#                     if debt is not None and debt > debt_p75 * 1.5:
-#                         company['debt_to_equity_adjusted'] = max(0, 1 - (debt - debt_p75) / debt_p75)
-#                     else:
-#                         company['debt_to_equity_adjusted'] = 1.0 if debt is not None else None
 
-#             # Step 5: Normalize and calculate scores
-#             for company in data:
-#                 company_score = 0
-#                 total_weight = 0
-#                 for metric in valid_metrics:
-#                     value = company.get(metric if metric != 'debt_to_equity' else 'debt_to_equity_adjusted')
-#                     if value is None:
-#                         # Impute with median normalized value
-#                         _, _, median_val, _ = metric_stats[metric]
-#                         min_val, max_val, _, _ = metric_stats[metric]
-#                         if max_val == min_val:
-#                             company[f"{metric}_normalized"] = 1.0
-#                         else:
-#                             if valid_metrics[metric] == 'higher':
-#                                 company[f"{metric}_normalized"] = (median_val - min_val) / (max_val - min_val)
-#                             else:
-#                                 company[f"{metric}_normalized"] = (max_val - median_val) / (max_val - min_val)
-#                     else:
-#                         min_val, max_val, _, _ = metric_stats[metric]
-#                         if max_val == min_val:
-#                             company[f"{metric}_normalized"] = 1.0
-#                         else:
-#                             if valid_metrics[metric] == 'higher':
-#                                 company[f"{metric}_normalized"] = (value - min_val) / (max_val - min_val)
-#                             else:
-#                                 company[f"{metric}_normalized"] = (max_val - value) / (max_val - min_val)
+    def get_best_employees_by_score(self, kpi_table: str, salein_table: str, top_n: int = 5) -> List[Dict]:
+        """
+        Calculate a composite score for employees based on average KPI and total quantity.
 
-#                     normalized_value = company[f"{metric}_normalized"]
-#                     weight = metric_weights[metric]
-#                     company_score += normalized_value * weight
-#                     total_weight += weight
+        Args:
+            kpi_table (str): Name of the KPI table (columns: employee_name, kpi_score).
+            salein_table (str): Name of the actual sales table (columns: employee_name, quantity).
+            top_n (int): Number of top employees to return.
 
-#                 company['composite_score'] = company_score / total_weight if total_weight > 0 else 0
+        Returns:
+            list[dict]: List of employees with their average KPI, total quantity, and composite score.
+            Example:
+                [{"employee_name": "A", "avg_kpi": 85.5, "quantity": 1200, "score": 91.3}]
+        """
+        # Join both tables on employee_name, then calculate weighted score
+        self.cursor.execute(f"""
+            SELECT 
+                k.employee_name,
+                AVG(k.kpi_score) AS avg_kpi,
+                SUM(s.quantity) AS total_quantity,
+                ROUND(0.6 * AVG(k.kpi_score) + 0.4 * SUM(s.quantity), 2) AS composite_score
+            FROM {kpi_table} k
+            JOIN {salein_table} s ON k.employee_name = s.employee_name
+            GROUP BY k.employee_name
+            ORDER BY composite_score DESC
+            LIMIT %s
+        """, (top_n,))
+        return [
+            {"employee_name": row[0], "avg_kpi": row[1], "quantity": row[2], "score": row[3]}
+            for row in self.cursor.fetchall()
+        ]
 
-#             # Step 6: Sort and return top companies
-#             sorted_companies = sorted(data, key=lambda x: x.get('composite_score', 0), reverse=True)
+    def get_best_products_by_region(self, table: str, top_n: int = 5) -> List[Dict]:
+        """
+        Find the most prominent products across regions based on quantity and regional coverage.
 
-#             # Debug output
-#             print(f"\nTop {num_stocks} companies in industry {industry_code_lv2}:")
-#             for i, company in enumerate(sorted_companies[:num_stocks]):
-#                 print(f"{i+1}. {company['symbol']} (Year: {company['year_report']}) - Score: {company['composite_score']:.2f}")
-#                 for metric in valid_metrics:
-#                     print(f"   {metric}: {company.get(metric):.2f}, Normalized: {company.get(f'{metric}_normalized'):.2f}, Weight: {metric_weights[metric]:.2f}")
-#                 print()
+        Args:
+            table (str): Table name (columns: product_name, province, quantity).
+            top_n (int): Number of top products to return.
 
-#             return [company['symbol'] for company in sorted_companies[:num_stocks]]
+        Returns:
+            list[dict]: List of products with number of provinces, total quantity, and score.
+            Example:
+                [{"product_name": "X", "provinces": 8, "quantity": 3200, "score": 1604.0}]
+        """
+        # Count distinct provinces and sum quantity, then compute composite score
+        self.cursor.execute(f"""
+            SELECT 
+                product_name,
+                COUNT(DISTINCT province) AS province_coverage,
+                SUM(quantity) AS total_quantity,
+                ROUND(0.5 * COUNT(DISTINCT province) + 0.5 * SUM(quantity), 2) AS composite_score
+            FROM {table}
+            GROUP BY product_name
+            ORDER BY composite_score DESC
+            LIMIT %s
+        """, (top_n,))
+        return [
+            {"product_name": row[0], "provinces": row[1], "quantity": row[2], "score": row[3]}
+            for row in self.cursor.fetchall()
+        ]
 
-#         except Error as e:
-#             print(f"Error getting best stocks by industry: {e}")
-#             return []
+    def get_best_departments_by_metrics(self, salein_table: str, kpi_table: str, top_n: int = 5) -> List[Dict]:
+        """
+        Compare department performance based on total quantity and average KPI.
 
-# @tool
-# def get_financial_data_tool(symbol: str) -> str:
-#     """Get financial data by symbol: income statement, balance sheet, cash flow statement and yearly stock price
-#     Pay attention to percentage values, they may be stored as decimal values (e.g: 15% is stored as 0.15)
-#     Args:
-#         symbol (str): Symbol of the company
-#     Returns:
-#         str: a string representation of the financial data in csv format
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         financial_data = db.get_financial_data(symbol)
-#         return financial_data.to_csv(index=False)
-#     except Error as e:
-#         print(f"Error getting financial data: {e}")
-#         return "Error getting financial data"
-#     finally:
-#         db.close()
+        Args:
+            salein_table (str): Table containing sales data (columns: department, quantity).
+            kpi_table (str): Table containing KPI data (columns: region, kpi_score).
+            top_n (int): Number of top departments to return.
 
-# @tool
-# def get_industries_list_tool() -> list[dict]:
-#     """Get list of industries.
-#     Pay attention that the input industry name may be not the exact name, try to find the matched industry name in the list
-#     Returns:
-#         list[dict]: List of industries with industry_code_lv2 and industry_name_lv2
-#         e.g: [{"industry_code_lv2": "1000", "industry_name_lv2": "Ngành nông nghiệp"},
-#               {"industry_code_lv2": "2000", "industry_name_lv2": "Ngành công nghiệp"}]
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         industries = db.get_industries_list()
-#         return industries
-#     except Error as e:
-#         print(f"Error getting industries list: {e}")
-#         return []
-#     finally:
-#         db.close()
+        Returns:
+            list[dict]: List of departments with quantity, KPI average, and score.
+            Example:
+                [{"department": "North", "quantity": 1500, "avg_kpi": 92.3, "score": 1196.2}]
+        """
+        # Match department (salein) with region (KPI), then calculate average KPI and total quantity
+        self.cursor.execute(f"""
+            SELECT 
+                s.department,
+                SUM(s.quantity) AS total_quantity,
+                AVG(k.kpi_score) AS avg_kpi,
+                ROUND(0.5 * SUM(s.quantity) + 0.5 * AVG(k.kpi_score), 2) AS composite_score
+            FROM {salein_table} s
+            JOIN {kpi_table} k ON s.department = k.region
+            GROUP BY s.department
+            ORDER BY composite_score DESC
+            LIMIT %s
+        """, (top_n,))
+        return [
+            {"department": row[0], "quantity": row[1], "avg_kpi": row[2], "score": row[3]}
+            for row in self.cursor.fetchall()
+        ]        
 
-# @tool
-# def get_symbols_by_industry_tool(industry_code_lv2: str) -> list[str]:
-#     """Get list of symbols by industry.
-#     Args:
-#         industry_code_lv2 (str): Industry code of the industry
-#     Returns:
-#         list[str]: List of symbols
-#         e.g: ["VCB", "BID", "CTG"]
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         symbols = db.get_symbols_by_industry(industry_code_lv2)
-#         return symbols
-#     except Error as e:
-#         print(f"Error getting symbols by industry: {e}")
-#         return []
-#     finally:
-#         db.close()
-
-# @tool
-# def get_all_symbols_tool() -> list[str]:
-#     """Get list of all symbols in the database.
-#     Returns:
-#         list[str]: List of all symbols
-#         e.g: ["VCB", "BID", "CTG", ...]
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         db.cursor.execute("SELECT symbol FROM vn100_listing")
-#         symbols = [row[0] for row in db.cursor.fetchall()]
-#         return symbols
-#     except Error as e:
-#         print(f"Error getting all symbols: {e}")
-#         return []
-#     finally:
-#         db.close()
-
-# @tool
-# def get_company_info_tool(symbol: str) -> dict:
-#     """Get company information by symbol.
-#     Args:
-#         symbol (str): Symbol of the company
-#     Returns:
-#         dict: Company information including industry and organization name
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         db.cursor.execute("""
-#             SELECT symbol, organ_name, industry_name_lv2, industry_code_lv2 
-#             FROM vn100_listing_by_industry 
-#             WHERE symbol = %s
-#         """, (symbol,))
-#         result = db.cursor.fetchone()
-#         if result:
-#             return {
-#                 "symbol": result[0],
-#                 "organ_name": result[1],
-#                 "industry_name_lv2": result[2],
-#                 "industry_code_lv2": result[3]
-#             }
-#         return {}
-#     except Error as e:
-#         print(f"Error getting company info: {e}")
-#         return {}
-#     finally:
-#         db.close()
-
-# @tool
-# def get_best_symbols_by_industry_tool(industry_code_lv2: str, num_stocks: int = 5) -> list[str]:
-#     """Get list of best stocks by industry based on a composite score, with 50% weight on total trading volume (price * volume).
-#     Args:
-#         industry_code_lv2 (str): Industry code of the industry
-#         num_stocks (int): Number of stocks to return
-#     Returns:
-#         list[str]: List of symbols
-#     """
-#     try:
-#         db = Database()
-#         db.connect()
-#         return db.get_best_symbols_by_industry(industry_code_lv2, num_stocks)
-#     except Error as e:
-#         print(f"Error getting best stocks by industry: {e}")
-#         return []
-#     finally:
-#         db.close()
-
-def main():
-    # Create tables and insert data into the database
+@tool
+def get_distinct_values_tool(table: str, column: str) -> str:
+    """
+    Tool to retrieve distinct values from a column in a given table.
+    """
     db = Database()
-    db.create_tables()  
-
+    db.connect()
     try:
-        db.connect()
-        
-        # Check if the tables have been created by querying the table information
-        print("\n==============================================\n")
-        print("List of tables in the database:")
-        db.cursor.execute("SHOW TABLES")
-        tables = db.cursor.fetchall()
-        for table in tables:
-            print(table[0])  
-        
-        # Check if data has been inserted into the tables (check with the salein_class table)
-        print("\n==============================================\n")
-        print("Checking data in the salein_class table:")
-        db.cursor.execute("SELECT * FROM salein_class LIMIT 5")
-        data = db.cursor.fetchall()
-        for row in data:
-            print(row)
-
-    except Error as e:
-        print(f"Error connecting to MySQL: {e}")
+        result = db.get_distinct_values(table, column)
+        return json.dumps(result)
     finally:
         db.close()
 
+@tool
+def get_total_tool(table: str, value_col: str) -> float:
+    """
+    Tool to calculate the total sum of a numeric column in a table.
+    """
+    db = Database()
+    db.connect()
+    try:
+        return db.get_total(table, value_col)
+    finally:
+        db.close()
+
+@tool
+def get_count_tool(table: str) -> int:
+    """
+    Tool to count total number of rows in a table.
+    """
+    db = Database()
+    db.connect()
+    try:
+        return db.get_count(table)
+    finally:
+        db.close()
+
+@tool
+def get_total_by_group_tool(table: str, group_col: str, value_col: str) -> str:
+    """
+    Tool to group by a column and calculate total values.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_total_by_group(table, group_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_avg_by_group_tool(table: str, group_col: str, value_col: str) -> str:
+    """
+    Tool to group by a column and calculate average values.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_avg_by_group(table, group_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_total_by_month_tool(table: str, date_col: str, value_col: str) -> str:
+    """
+    Tool to calculate total value per month from a date column.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_total_by_month(table, date_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_entity_trend_tool(table: str, entity_col: str, entity_value: str, date_col: str, value_col: str) -> str:
+    """
+    Tool to get trend of values by month for a specific entity.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_entity_trend(table, entity_col, entity_value, date_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def compare_plan_vs_actual_tool(plan_table: str, actual_table: str, match_col: str, value_col: str) -> str:
+    """
+    Tool to compare planned and actual values and return the difference.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.compare_plan_vs_actual(plan_table, actual_table, match_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_monthly_growth_tool(table: str, date_col: str, value_col: str) -> str:
+    """
+    Tool to calculate monthly growth rate based on summed values.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_monthly_growth(table, date_col, value_col)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_best_employees_by_score_tool(kpi_table: str, salein_table: str, top_n: int = 5) -> str:
+    """
+    Tool to calculate composite score for employees based on KPI and quantity.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_best_employees_by_score(kpi_table, salein_table, top_n)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_best_products_by_region_tool(table: str, top_n: int = 5) -> str:
+    """
+    Tool to rank products by province coverage and quantity.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_best_products_by_region(table, top_n)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+@tool
+def get_best_departments_by_metrics_tool(salein_table: str, kpi_table: str, top_n: int = 5) -> str:
+    """
+    Tool to rank departments by composite score using sales and KPI.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_best_departments_by_metrics(salein_table, kpi_table, top_n)
+        return json.dumps(result)
+    finally:
+        db.close()
+
+
+def main():
+    db = Database()
+    # db.create_tables()
+    try:
+        db.connect()
+
+        print("\n📌 DISTINCT VALUES IN COLUMN:")
+        regions = db.get_distinct_values("kpi_thuc_xuat", "region")
+        print("Regions:", regions)
+
+        print("\n📌 TOTAL KPI:")
+        total_kpi = db.get_total("kpi_thuc_xuat", "kpi_score")
+        print("Total KPI Score:", total_kpi)
+
+        print("\n📌 RECORD COUNT:")
+        row_count = db.get_count("salein_thuc_xuat")
+        print("Rows in salein_thuc_xuat:", row_count)
+
+        print("\n📌 TOTAL BY GROUP:")
+        quantity_by_province = db.get_total_by_group("salein_thuc_xuat", "province", "quantity")
+        print("Quantity by province:", quantity_by_province)
+
+        print("\n📌 AVERAGE KPI BY REGION:")
+        avg_kpi = db.get_avg_by_group("kpi_thuc_xuat", "region", "kpi_score")
+        print("Avg KPI per region:", avg_kpi)
+
+        print("\n📌 TOTAL BY MONTH:")
+        total_monthly = db.get_total_by_month("salein_thuc_xuat", "date", "quantity")
+        print("Monthly totals:", total_monthly)
+
+        print("\n📌 EMPLOYEE TREND (example for 'Nguyen Van A'):")
+        trend = db.get_entity_trend("salein_thuc_xuat", "employee_name", "Nguyen Van A", "date", "quantity")
+        print("Trend for 'Nguyen Van A':", trend)
+
+        print("\n📌 COMPARE PLAN VS ACTUAL:")
+        comparison = db.compare_plan_vs_actual("salein_class", "salein_thuc_xuat", "product_name", "quantity")
+        print("Plan vs Actual:", comparison)
+
+        print("\n📌 MONTHLY GROWTH:")
+        growth = db.get_monthly_growth("salein_thuc_xuat", "date", "quantity")
+        print("Monthly Growth:", growth)
+
+        print("\n📌 TOP EMPLOYEES BY KPI + QUANTITY:")
+        top_employees = db.get_best_employees_by_score("kpi_thuc_xuat", "salein_thuc_xuat", top_n=5)
+        print(json.dumps(top_employees, indent=4))
+
+        print("\n📌 TOP PRODUCTS BY REGION + QUANTITY:")
+        top_products = db.get_best_products_by_region("salein_thuc_xuat", top_n=5)
+        print(json.dumps(top_products, indent=4))
+
+        print("\n📌 TOP DEPARTMENTS BY KPI + QUANTITY:")
+        top_departments = db.get_best_departments_by_metrics("salein_class", "kpi_thuc_xuat", top_n=5)
+        print(json.dumps(top_departments, indent=4))
+
+    except Error as e:
+        print(f"❌ MySQL Error: {e}")
+
+    finally:
+        db.close()
+
+
 if __name__ == "__main__":
     main()
+
