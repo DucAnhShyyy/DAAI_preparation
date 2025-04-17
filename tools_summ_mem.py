@@ -1,13 +1,20 @@
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
+from langchain_google_genai import ChatGoogleGenerativeAI
 from typing import List, Optional
 import os
 import asyncio
 import colorama
 from colorama import Fore
-import utils
-TOOL_CALLING_MODEL = os.getenv('CLAUDE_3_5_SONNET')
+from utils import *
+from dotenv import load_dotenv
+
+load_dotenv()
+TOOL_CALLING_MODEL = "gemini-2.0-flash"
+google_key = os.getenv("GEMINI_API_KEY")
+if not google_key:
+    raise ValueError("Missing GEMINI_API_KEY environment variable.")
 
 OPEN_AI_MODELS = ["gpt-4o", "gpt-4o-mini", "o3-mini"]
 ANTHROPIC_AI_MODELS = [
@@ -17,6 +24,7 @@ ANTHROPIC_AI_MODELS = [
     os.getenv('CLAUDE_3_OPUS'),
     os.getenv('CLAUDE_3_HAIKU'),
 ]
+
 
 DEFAULT_SYSTEM_PROMPT = """You are a helpful assistant."""
 
@@ -33,10 +41,13 @@ class ToolsCallingAgentWithMem:
             tools: List of tools to make available to the LLM
         """
         # Initialize the LLM
-        if model_name in OPEN_AI_MODELS:
+        
+        if model_name == "gemini-2.0-flash":
+            self.llm = ChatGoogleGenerativeAI(model=model_name, temperature=0, google_api_key=google_key, credentials=None)
+        elif model_name in OPEN_AI_MODELS:
             self.llm = ChatOpenAI(model=model_name)
         elif model_name in ANTHROPIC_AI_MODELS:
-            self.llm = ChatAnthropic(model=model_name)
+           self.llm = ChatAnthropic(model=model_name)
             
         # Set system prompt
         if system_prompt is None:
@@ -121,7 +132,7 @@ async def run_interactive_chat():
     agent = ToolsCallingAgentWithMem(
         model_name=TOOL_CALLING_MODEL,
         tools=SALE_TOOLS,
-        system_prompt=kpi_system_prompt()
+        system_prompt=sale_system_prompt()
     )
 
     print(Fore.CYAN + "\n" + "="*50)
