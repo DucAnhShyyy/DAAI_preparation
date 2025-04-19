@@ -1,0 +1,33 @@
+[
+    {
+      "question": "Doanh thu toàn Công ty theo từng tháng trong năm 2024?",
+      "description": "Tổng doanh thu toàn công ty theo từng tháng trong năm 2024",
+      "table": "salein_thucxuat",
+      "sql": "SELECT DATE_FORMAT(Date, '%Y-%m') AS Month, SUM(SaleIn) AS Total_SaleIn FROM salein_thucxuat WHERE YEAR(Date) = 2024 GROUP BY DATE_FORMAT(Date, '%Y-%m') ORDER BY Month;"
+    },
+    {
+      "question": "Doanh thu của các phòng ban năm 2024?",
+      "description": "Doanh thu theo phòng BH1,BH2 và Phòng xuất khẩu",
+      "table": "salein_thucxuat",
+      "sql": "SELECT Department,SUM(SaleIn) AS Total_SaleInFROM salein_thucxuaWHERE YEAR(Date) = 2024 AND Department IN ('BH1', 'BH2', 'PXK') GROUP BY Department;"
+    },
+    {
+      "question": "So sánh thực xuất của 3 vùng thuộc BH1 từng tháng trong năm 2024?",
+      "description": "Doanh thu theo ngày trong năm 2024",
+      "table": "",
+      "sql": "SELECT Organization,DATE_FORMAT(Date, '%Y-%m') AS Month,SUM(Deliver) AS Total_Deliver FROM kpi_thucxuat WHERE YEAR(Date) = 2024 AND Department = 'BH1' and Organization in ('TV01','TV02','TV03') GROUP BY Organization, DATE_FORMAT(Date, '%Y-%m') ORDER BY Organization, Month;"
+    },
+    {
+        "question": "Doanh thu cùng kỳ theo Vùng của BH1 (ngày lấy báo cáo 1/2/2025)?",
+        "description": "Lấy dữ liệu DT/TX theo Vùng của BH1 ngày 1/2/2024",
+        "table": "Doanh thu: salein_class", 
+        "sql": "-- Doanh thu SELECT Organization,SUM(SaleIn) AS Total_SaleIn FROM  salein_class WHERE Date = DATE_SUB('2025-02-01', INTERVAL 1 YEAR) and Organization in ('TV01','TV02','TV03') AND Department = 'BH1' GROUP BY Organization ORDER BY Organization;"
+    },
+    {
+       "question": "Thực xuất cùng kỳ theo Vùng của BH1 (ngày lấy báo cáo 1/2/2025)?", 
+       "description": "Lấy dữ liệu DT/TX theo Vùng của BH1 ngày 1/2/2024",
+       "table": "Thực xuất: kpi_thucxuat",
+       "sql": "-- Thực xuất--  SELECT Organization,SUM(Deliver) AS Total_DeliverFROM kpi_thucxuat WHERE Date = DATE_SUB('2025-02-01', INTERVAL 1 YEAR) and Organization in ('TV01','TV02','TV03') AND Department = 'BH1' GROUP BY Organization ORDER BY Organization;"
+  }
+]
+  
