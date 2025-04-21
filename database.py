@@ -266,7 +266,7 @@ class Database:
         Returns:
             int: Total number of rows in the table.   
         """
-        self.cursor.excute(f"SELECT COUNT(*) FROM {table}")
+        self.cursor.execute(f"SELECT COUNT(*) FROM {table}")
         return self.cursor.fetchone()[0]
 
 
@@ -445,9 +445,15 @@ class Database:
             LIMIT %s
         """, (top_n,))
         return [
-            {"employee_name": row[0], "avg_kpi": row[1], "quantity": row[2], "score": row[3]}
+            {
+                "employee_name": row[0],
+                "avg_kpi": float(row[1]),
+                "quantity": float(row[2]),
+                "score": float(row[3])
+            }
             for row in self.cursor.fetchall()
         ]
+
 
     def get_best_products_by_region(self, table: str, top_n: int = 5) -> List[Dict]:
         """
@@ -475,41 +481,106 @@ class Database:
             LIMIT %s
         """, (top_n,))
         return [
-            {"product_name": row[0], "provinces": row[1], "quantity": row[2], "score": row[3]}
+            {
+                "product_name": row[0],
+                "provinces": int(row[1]),
+                "quantity": float(row[2]),
+                "score": float(row[3])
+            }
             for row in self.cursor.fetchall()
         ]
 
-    def get_best_departments_by_metrics(self, salein_table: str, kpi_table: str, top_n: int = 5) -> List[Dict]:
+    def get_deliver_by_region_per_month(self, regions: List[str], department: str, year: int) -> List[dict]:
         """
-        Compare department performance based on total quantity and average KPI.
-
-        Args:
-            salein_table (str): Table containing sales data (columns: department, quantity).
-            kpi_table (str): Table containing KPI data (columns: region, kpi_score).
-            top_n (int): Number of top departments to return.
-
-        Returns:
-            list[dict]: List of departments with quantity, KPI average, and score.
-            Example:
-                [{"department": "North", "quantity": 1500, "avg_kpi": 92.3, "score": 1196.2}]
+        Get total deliver value by region per month for a specific department and year.
         """
-        # Match department (salein) with region (KPI), then calculate average KPI and total quantity
-        self.cursor.execute(f"""
+        placeholders = ','.join(['%s'] * len(regions))
+        query = f"""
             SELECT 
-                s.department,
-                SUM(s.quantity) AS total_quantity,
-                AVG(k.kpi_score) AS avg_kpi,
-                ROUND(0.5 * SUM(s.quantity) + 0.5 * AVG(k.kpi_score), 2) AS composite_score
-            FROM {salein_table} s
-            JOIN {kpi_table} k ON s.department = k.region
-            GROUP BY s.department
-            ORDER BY composite_score DESC
-            LIMIT %s
-        """, (top_n,))
-        return [
-            {"department": row[0], "quantity": row[1], "avg_kpi": row[2], "score": row[3]}
-            for row in self.cursor.fetchall()
-        ]        
+                Organization,
+                DATE_FORMAT(Date, '%%Y-%%m') AS Month,
+                SUM(Deliver) AS Total_Deliver
+            FROM kpi_thuc_xuat
+            WHERE YEAR(Date) = %s AND Department = %s AND Organization IN ({placeholders})
+            GROUP BY Organization, Month
+            ORDER BY Organization, Month
+        """
+        params = [year, department] + regions
+        self.cursor.execute(query, params)
+        rows = self.cursor.fetchall()
+        return [{"organization": r[0], "month": r[1], "total_deliver": float(r[2])} for r in rows]
+
+    def get_plan_vs_actual_same_day(self, date: str, department: str, regions: List[str]) -> List[dict]:
+        """
+        Compare planned vs actual values for a given date, department, and regions.
+        """
+        placeholders = ','.join(['%s'] * len(regions))
+
+        self.cursor.execute(f"""
+            SELECT Organization, SUM(Deliver)
+            FROM kpi_thuc_xuat
+            WHERE Date = %s AND Department = %s AND Organization IN ({placeholders})
+            GROUP BY Organization
+        """, [date, department] + regions)
+        actual = {r[0]: float(r[1]) for r in self.cursor.fetchall()}
+
+        self.cursor.execute(f"""
+            SELECT Organization, SUM(SaleIn)
+            FROM salein_class
+            WHERE Date = %s AND Department = %s AND Organization IN ({placeholders})
+            GROUP BY Organization
+        """, [date, department] + regions)
+        plan = {r[0]: float(r[1]) for r in self.cursor.fetchall()}
+
+        all_keys = set(actual) | set(plan)
+        return [{
+            "organization": org,
+            "planned": plan.get(org, 0),
+            "actual": actual.get(org, 0),
+            "difference": actual.get(org, 0) - plan.get(org, 0)
+        } for org in all_keys]
+
+    def get_completion_rate_by_department_per_month(self, year: int) -> List[dict]:
+        """
+        Get monthly completion rate (actual / planned) per department.
+        """
+        self.cursor.execute(f"""
+            SELECT s.Department, DATE_FORMAT(s.Date, '%%Y-%%m') AS Month,
+                ROUND(SUM(t.SaleIn) / SUM(s.SaleIn) * 100, 2) AS Completion_Rate
+            FROM salein_class s
+            JOIN salein_thuc_xuat t ON s.Department = t.Department AND DATE(s.Date) = DATE(t.Date)
+            WHERE YEAR(s.Date) = %s
+            GROUP BY s.Department, Month
+        """, (year,))
+        rows = self.cursor.fetchall()
+        return [{"department": r[0], "month": r[1], "completion_rate": float(r[2])} for r in rows]
+
+    def get_avg_kpi_by_month(self, year: int) -> List[dict]:
+        """
+        Get average KPI score per month for a given year.
+        """
+        self.cursor.execute(f"""
+            SELECT DATE_FORMAT(Date, '%%Y-%%m') AS Month, ROUND(AVG(kpi_score), 2)
+            FROM kpi_thuc_xuat
+            WHERE YEAR(Date) = %s
+            GROUP BY Month
+        """, (year,))
+        return [{"month": r[0], "avg_kpi": float(r[1])} for r in self.cursor.fetchall()]
+
+    def get_salein_comparison_by_region_year(self, years: List[int]) -> List[dict]:
+        """
+        Compare sale-in performance by region across multiple years.
+        """
+        placeholders = ','.join(['%s'] * len(years))
+        self.cursor.execute(f"""
+            SELECT Organization, YEAR(Date), SUM(SaleIn)
+            FROM salein_thuc_xuat
+            WHERE YEAR(Date) IN ({placeholders})
+            GROUP BY Organization, YEAR(Date)
+            ORDER BY Organization, YEAR(Date)
+        """, years)
+        return [{"organization": r[0], "year": r[1], "total_salein": float(r[2])} for r in self.cursor.fetchall()]
+
 
 @tool
 def get_distinct_values_tool(table: str, column: str) -> str:
@@ -653,22 +724,75 @@ def get_best_products_by_region_tool(table: str, top_n: int = 5) -> str:
         db.close()
 
 @tool
-def get_best_departments_by_metrics_tool(salein_table: str, kpi_table: str, top_n: int = 5) -> str:
+def get_deliver_by_region_per_month_tool(regions: List[str], department: str, year: int) -> str:
     """
-    Tool to rank departments by composite score using sales and KPI.
+    Tool: Get total delivery by region per month for a department and year.
     """
     db = Database()
     db.connect()
     try:
-        result = db.get_best_departments_by_metrics(salein_table, kpi_table, top_n)
-        return json.dumps(result)
+        result = db.get_deliver_by_region_per_month(regions, department, year)
+        return json.dumps(result, ensure_ascii=False, indent=2)
     finally:
         db.close()
 
+@tool
+def get_plan_vs_actual_same_day_tool(date: str, department: str, regions: List[str]) -> str:
+    """
+    Tool: Compare planned vs actual delivery for a specific date.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_plan_vs_actual_same_day(date, department, regions)
+        return json.dumps(result, ensure_ascii=False, indent=2)
+    finally:
+        db.close()
+
+@tool
+def get_completion_rate_by_department_per_month_tool(year: int) -> str:
+    """
+    Tool: Calculate completion rate per department per month in a given year.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_completion_rate_by_department_per_month(year)
+        return json.dumps(result, ensure_ascii=False, indent=2)
+    finally:
+        db.close()
+
+@tool
+def get_avg_kpi_by_month_tool(year: int) -> str:
+    """
+    Tool: Get average KPI score per month in a given year.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_avg_kpi_by_month(year)
+        return json.dumps(result, ensure_ascii=False, indent=2)
+    finally:
+        db.close()
+
+@tool
+def get_salein_comparison_by_region_year_tool(years: List[int]) -> str:
+    """
+    Tool: Compare total sale-in by region across selected years.
+    """
+    db = Database()
+    db.connect()
+    try:
+        result = db.get_salein_comparison_by_region_year(years)
+        return json.dumps(result, ensure_ascii=False, indent=2)
+    finally:
+        db.close()
 
 def main():
     db = Database()
-    # db.create_tables()
+    
+    db.create_tables()
+
     try:
         db.connect()
 
@@ -696,9 +820,9 @@ def main():
         total_monthly = db.get_total_by_month("salein_thuc_xuat", "date", "quantity")
         print("Monthly totals:", total_monthly)
 
-        print("\n📌 EMPLOYEE TREND (example for 'Nguyen Van A'):")
-        trend = db.get_entity_trend("salein_thuc_xuat", "employee_name", "Nguyen Van A", "date", "quantity")
-        print("Trend for 'Nguyen Van A':", trend)
+        print("\n📌 EMPLOYEE TREND (test name in your dataset):")
+        trend = db.get_entity_trend("salein_thuc_xuat", "employee_name", "Bảo Thế Nguyễn", "date", "quantity")
+        print("Trend for 'Bảo Thế Nguyễn':", trend)
 
         print("\n📌 COMPARE PLAN VS ACTUAL:")
         comparison = db.compare_plan_vs_actual("salein_class", "salein_thuc_xuat", "product_name", "quantity")
@@ -710,15 +834,31 @@ def main():
 
         print("\n📌 TOP EMPLOYEES BY KPI + QUANTITY:")
         top_employees = db.get_best_employees_by_score("kpi_thuc_xuat", "salein_thuc_xuat", top_n=5)
-        print(json.dumps(top_employees, indent=4))
+        print(json.dumps(top_employees, indent=4, ensure_ascii=False))
 
         print("\n📌 TOP PRODUCTS BY REGION + QUANTITY:")
         top_products = db.get_best_products_by_region("salein_thuc_xuat", top_n=5)
-        print(json.dumps(top_products, indent=4))
+        print(json.dumps(top_products, indent=4, ensure_ascii=False))
 
-        print("\n📌 TOP DEPARTMENTS BY KPI + QUANTITY:")
-        top_departments = db.get_best_departments_by_metrics("salein_class", "kpi_thuc_xuat", top_n=5)
-        print(json.dumps(top_departments, indent=4))
+        print("\n📌 DELIVERY BY REGION PER MONTH (BH1 - 2024):")
+        delivery_stats = db.get_deliver_by_region_per_month(["TV01", "TV02", "TV03"], "BH1", 2024)
+        print(json.dumps(delivery_stats, indent=4, ensure_ascii=False))
+
+        print("\n📌 PLAN VS ACTUAL SAME DAY (1/2/2024):")
+        plan_vs_actual = db.get_plan_vs_actual_same_day("2024-02-01", "BH1", ["TV01", "TV02", "TV03"])
+        print(json.dumps(plan_vs_actual, indent=4, ensure_ascii=False))
+
+        print("\n📌 COMPLETION RATE PER DEPARTMENT (2024):")
+        completion_rate = db.get_completion_rate_by_department_per_month(2024)
+        print(json.dumps(completion_rate, indent=4, ensure_ascii=False))
+
+        print("\n📌 AVG KPI PER MONTH (2024):")
+        avg_kpi_month = db.get_avg_kpi_by_month(2024)
+        print(json.dumps(avg_kpi_month, indent=4, ensure_ascii=False))
+
+        print("\n📌 COMPARE SALEIN BY REGION BY YEAR:")
+        salein_years = db.get_salein_comparison_by_region_year([2023, 2024])
+        print(json.dumps(salein_years, indent=4, ensure_ascii=False))
 
     except Error as e:
         print(f"❌ MySQL Error: {e}")

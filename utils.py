@@ -12,7 +12,7 @@ from tools.sale_tools import (
     get_monthly_growth_tool,
     get_best_employees_by_score_tool,
     get_best_products_by_region_tool,
-    get_best_departments_by_metrics_tool
+    # get_best_departments_by_metrics_tool
 )
 
 def sale_system_prompt():
@@ -52,7 +52,11 @@ SALE_TOOLS = [
     get_monthly_growth_tool,
     get_best_employees_by_score_tool,
     get_best_products_by_region_tool,
-    get_best_departments_by_metrics_tool,
+    get_deliver_by_region_per_month_tool,
+    get_plan_vs_actual_same_day_tool,
+    get_completion_rate_by_department_per_month_tool,
+    get_avg_kpi_by_month_tool,
+    get_salein_comparison_by_region_year_tool,
     TavilySearchResults(max_results=3)
 ]
 
@@ -68,6 +72,10 @@ MAP_TOOLS_2_READABLE_NAME = {
     "get_monthly_growth_tool": "Tăng trưởng hàng tháng",
     "get_best_employees_by_score_tool": "Top nhân viên theo điểm tổng hợp",
     "get_best_products_by_region_tool": "Top sản phẩm theo khu vực",
-    "get_best_departments_by_metrics_tool": "Top phòng ban theo hiệu quả",
+    "get_deliver_by_region_per_month_tool": "Tổng xuất theo khu vực và tháng",
+    "get_plan_vs_actual_same_day_tool": "So sánh kế hoạch/thực tế cùng ngày",
+    "get_completion_rate_by_department_per_month_tool": "Tỉ lệ hoàn thành theo phòng ban mỗi tháng",
+    "get_avg_kpi_by_month_tool": "KPI trung bình theo tháng",
+    "get_salein_comparison_by_region_year_tool": "So sánh SaleIn giữa các năm theo khu vực",
     "tavily_search_results_json": "Tìm kiếm thông tin"
 }
