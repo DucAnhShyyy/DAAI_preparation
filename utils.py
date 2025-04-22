@@ -12,7 +12,11 @@ from tools.sale_tools import (
     get_monthly_growth_tool,
     get_best_employees_by_score_tool,
     get_best_products_by_region_tool,
-    # get_best_departments_by_metrics_tool
+    get_deliver_by_region_per_month_tool,
+    get_plan_vs_actual_same_day_tool,
+    get_completion_rate_by_department_per_month_tool,
+    get_avg_kpi_by_month_tool,
+    get_salein_comparison_by_region_year_tool,
 )
 
 def sale_system_prompt():

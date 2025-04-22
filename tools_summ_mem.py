@@ -11,10 +11,10 @@ from utils import *
 from dotenv import load_dotenv
 
 load_dotenv()
-TOOL_CALLING_MODEL = "gemini-2.0-flash"
-google_key = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv('GEMINI', 'gemini-2.0-flash')
+google_key = os.getenv("GOOGLE_API_KEY")
 if not google_key:
-    raise ValueError("Missing GEMINI_API_KEY environment variable.")
+    raise ValueError("Missing GOOGLE_API_KEY environment variable.")
 
 OPEN_AI_MODELS = ["gpt-4o", "gpt-4o-mini", "o3-mini"]
 ANTHROPIC_AI_MODELS = [
@@ -24,7 +24,7 @@ ANTHROPIC_AI_MODELS = [
     os.getenv('CLAUDE_3_OPUS'),
     os.getenv('CLAUDE_3_HAIKU'),
 ]
-
+TOOL_CALLING_MODEL = GEMINI_MODEL
 
 DEFAULT_SYSTEM_PROMPT = """You are a helpful assistant."""
 
@@ -81,7 +81,7 @@ class ToolsCallingAgentWithMem:
         self.messages.append(HumanMessage(content=user_message))
         
         count_added_messages = 0
-        # Get initial response from LLM
+        # initial response from LLM
         response = self.llm_with_tools.invoke(self.messages)
         self.messages.append(response)
         count_added_messages += 1
